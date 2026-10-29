@@ -1,0 +1,4920 @@
+{
+  "dataset_identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
+  "scope": "Planned public groups only; offline raw/hidden supplement excluded",
+  "files": [
+    {
+      "path": "data/frozen_graph/data_hashes.json",
+      "group": "processed",
+      "bytes": 1924009,
+      "sha256": "1d09dedec9b7e872abfa0fb3939e0fc5486a3f6d734b1aee3a3c9ff9a00cc377"
+    },
+    {
+      "path": "data/frozen_graph/families/f10000/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "232e562fb378d9465555940825bcedd6122fc1743ad3f80fa2cf8860e1485257"
+    },
+    {
+      "path": "data/frozen_graph/families/f10000/visible.npz",
+      "group": "processed",
+      "bytes": 904600,
+      "sha256": "0139e1c8b1b9ff1b666bbabf0552dc62992b58ee1e0ba86c555ecef340e20bb0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10001/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "cc3750b5110c11d416683320ee5d5f417173df49d72bcf5405bf40445ad254ac"
+    },
+    {
+      "path": "data/frozen_graph/families/f10001/visible.npz",
+      "group": "processed",
+      "bytes": 885412,
+      "sha256": "710dc445b5f7705a07f8e893840182cdc9f58f0435374c863c6fcf65f5d641e1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10002/metadata.npz",
+      "group": "processed",
+      "bytes": 3285,
+      "sha256": "ebff833f9e7d5e27448905884ce10f1bbcf806a6fa8d469022800652f38026e1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10002/visible.npz",
+      "group": "processed",
+      "bytes": 905655,
+      "sha256": "d4b7a6da17e063a62a378cf243e440ab53ec7586d0660980ac4346b1d8e66e5d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10003/metadata.npz",
+      "group": "processed",
+      "bytes": 3372,
+      "sha256": "dc7da84c1943caa96fc143605947c99857bc56d2d83e5b3edb5345cd4e463d16"
+    },
+    {
+      "path": "data/frozen_graph/families/f10003/visible.npz",
+      "group": "processed",
+      "bytes": 918616,
+      "sha256": "6bbc6e5e3309700e3ba17ace3a6441d3b43b744a044b0da67175c8a556ea3bdd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10004/metadata.npz",
+      "group": "processed",
+      "bytes": 3309,
+      "sha256": "e212b7b487e2e739734f0872059f8ca9fa6ac727041edb430b42d6045f4636b1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10004/visible.npz",
+      "group": "processed",
+      "bytes": 904142,
+      "sha256": "720c25e2fce65037e0c42884e5d447434c37bd88a7efcd3ae5e1aaa578ab5d77"
+    },
+    {
+      "path": "data/frozen_graph/families/f10005/metadata.npz",
+      "group": "processed",
+      "bytes": 3340,
+      "sha256": "6b648ef134ae94fd547a4e0782cb338e24c6cb84712c04087aa7c7cb0206753f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10005/visible.npz",
+      "group": "processed",
+      "bytes": 916976,
+      "sha256": "b471858481591bfbc0e8cbc12d86f9fbdbbf7c5c90c6bf603f0ff56947fe9662"
+    },
+    {
+      "path": "data/frozen_graph/families/f10006/metadata.npz",
+      "group": "processed",
+      "bytes": 3295,
+      "sha256": "5fa32be39dc8929c67c367d6ede4ecf0a57a8d0fb19881abf022ec83e1dca606"
+    },
+    {
+      "path": "data/frozen_graph/families/f10006/visible.npz",
+      "group": "processed",
+      "bytes": 926248,
+      "sha256": "d77d7c846ffef61081d9b3b71a41b3c900ad704e858f89fd857edda8b8f6dd85"
+    },
+    {
+      "path": "data/frozen_graph/families/f10007/metadata.npz",
+      "group": "processed",
+      "bytes": 3335,
+      "sha256": "ecfe69bb82e59226bbac7daf15ea040b1c3ee59c34a527fa2ce2700f0528ea07"
+    },
+    {
+      "path": "data/frozen_graph/families/f10007/visible.npz",
+      "group": "processed",
+      "bytes": 901229,
+      "sha256": "3a754b1ecd92488f32ee146122e9bf1b2782b638585df31151e82c4c1614d9a9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10008/metadata.npz",
+      "group": "processed",
+      "bytes": 3264,
+      "sha256": "a0e82fb6c2b64a91125c288afd9c089dd1438d01ffdd00744f944393b978a59f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10008/visible.npz",
+      "group": "processed",
+      "bytes": 891762,
+      "sha256": "7b610478be42d4326738098a4ab5cf96170c3c82cf0133532df7787be2ce5e7c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10009/metadata.npz",
+      "group": "processed",
+      "bytes": 3315,
+      "sha256": "9c79bc1ac8308ccd400b6722e95730815b2d380ebf9cf48ae64f27a735cd31d1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10009/visible.npz",
+      "group": "processed",
+      "bytes": 895520,
+      "sha256": "0f07e7809fb598d6f727de07e7f93203ad1ee96feec0b9d074a4b1b7d1bd3687"
+    },
+    {
+      "path": "data/frozen_graph/families/f10010/metadata.npz",
+      "group": "processed",
+      "bytes": 3199,
+      "sha256": "73c90b2bdac4fc4e45809f090c4d507d4b8d05c46ac4195162dba8c977072813"
+    },
+    {
+      "path": "data/frozen_graph/families/f10010/visible.npz",
+      "group": "processed",
+      "bytes": 838417,
+      "sha256": "02c42710fd9976bc90073b60267ee8cb5569de75b565f9dc13284f67f5c05628"
+    },
+    {
+      "path": "data/frozen_graph/families/f10011/metadata.npz",
+      "group": "processed",
+      "bytes": 3324,
+      "sha256": "224e6bef6f6a876c8855568b51a7f180745cb978ac7408d9b2876a09945e2793"
+    },
+    {
+      "path": "data/frozen_graph/families/f10011/visible.npz",
+      "group": "processed",
+      "bytes": 901672,
+      "sha256": "0c0228dbf68f215f9664749e4a71d8699eb6ca260db66f2b7f9fdb47a3ce17ed"
+    },
+    {
+      "path": "data/frozen_graph/families/f10012/metadata.npz",
+      "group": "processed",
+      "bytes": 3319,
+      "sha256": "219d1b6c8be80682d435d56c386c1325865544768eff7b4ac95e9e7e2e278db1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10012/visible.npz",
+      "group": "processed",
+      "bytes": 910943,
+      "sha256": "f24bf5ffa982dec95c047d01744df737c783c4da900cf2ad0b31880a4fc75db0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10013/metadata.npz",
+      "group": "processed",
+      "bytes": 3181,
+      "sha256": "dcd3f1b0b37a94bf398b3bfc2929c7b3ffbde68e9aefa636de5ed53cef625693"
+    },
+    {
+      "path": "data/frozen_graph/families/f10013/visible.npz",
+      "group": "processed",
+      "bytes": 879121,
+      "sha256": "4082e6317804cf7a2c91a0cf7ed4c67996e13a3cbf7fedc7acaa2a909207373d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10014/metadata.npz",
+      "group": "processed",
+      "bytes": 3234,
+      "sha256": "06fd2f9cbd8f4ea3cf4e37fc716ad672b1d920bf12b9af8f654dafbf629f8e2f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10014/visible.npz",
+      "group": "processed",
+      "bytes": 839702,
+      "sha256": "0d43189ea58134596a43170ab5200554d42f58c9ee468c81d82a0f3b1050fc00"
+    },
+    {
+      "path": "data/frozen_graph/families/f10015/metadata.npz",
+      "group": "processed",
+      "bytes": 3261,
+      "sha256": "ea4561730685b1b837f0bbed6eb203d6385749b1a12a2fcaed8c2035375d56f3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10015/visible.npz",
+      "group": "processed",
+      "bytes": 879560,
+      "sha256": "23a6f5729574454cbf57c70db067b9fcf74104c584372e5a20e6cf133476f39b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10016/metadata.npz",
+      "group": "processed",
+      "bytes": 3310,
+      "sha256": "8c9258011b0f75d4b48290d9a694e3644813110d21104428aadab037cb948c11"
+    },
+    {
+      "path": "data/frozen_graph/families/f10016/visible.npz",
+      "group": "processed",
+      "bytes": 932777,
+      "sha256": "7591110cc2652b1e147cb572abcaaba78cd7b2ecd53c5b2dbd598d2fc894e414"
+    },
+    {
+      "path": "data/frozen_graph/families/f10017/metadata.npz",
+      "group": "processed",
+      "bytes": 3272,
+      "sha256": "73021232604f106c94adacd664017a17fc57cc973bc3c5aef129f2366788e3e1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10017/visible.npz",
+      "group": "processed",
+      "bytes": 849547,
+      "sha256": "61598f0a894023cf4d199fd2df5d0e65081df7613970f0bd4644b195d10e24d7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10018/metadata.npz",
+      "group": "processed",
+      "bytes": 3230,
+      "sha256": "50d547d9c2b49932759ffe6a504bf022e4b6ded2365a5288ccf5957861a77ba6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10018/visible.npz",
+      "group": "processed",
+      "bytes": 879970,
+      "sha256": "38c3e45063b41ad84cccedfb8c86456f10ad17a75ba80b4130fe33db984d16ee"
+    },
+    {
+      "path": "data/frozen_graph/families/f10019/metadata.npz",
+      "group": "processed",
+      "bytes": 3277,
+      "sha256": "9484399f11052a70ee6a58a99cb7b9eeac29dcd2cfb0beb296883312606e4fb9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10019/visible.npz",
+      "group": "processed",
+      "bytes": 867667,
+      "sha256": "6b746d37059f322c3c0b67ad3938ad6f4dc03126c9d00a4bbe960d39a6181c0c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10020/metadata.npz",
+      "group": "processed",
+      "bytes": 3244,
+      "sha256": "89cd164f4963d3d0e82a41216073291233ae28eba653a5be58d6f14156592320"
+    },
+    {
+      "path": "data/frozen_graph/families/f10020/visible.npz",
+      "group": "processed",
+      "bytes": 875536,
+      "sha256": "be1f3118a1149b0e25d855c60ef7076e7f3aba29d4f85179fb05dbdf51bdce8f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10021/metadata.npz",
+      "group": "processed",
+      "bytes": 3357,
+      "sha256": "191f105a0ecb50c30ae8fcb7420ac9b690db4fd168a5d01fc70e0b70245295e1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10021/visible.npz",
+      "group": "processed",
+      "bytes": 917011,
+      "sha256": "2f4a07b1242a2467a738bdcbffa8f054a457066f3e42c5b43cd4bbea1e980006"
+    },
+    {
+      "path": "data/frozen_graph/families/f10022/metadata.npz",
+      "group": "processed",
+      "bytes": 3353,
+      "sha256": "50afa2c87c4e9ed23c1d4e6b59dae9ea4a0b088175c02d59f713ec640f418a41"
+    },
+    {
+      "path": "data/frozen_graph/families/f10022/visible.npz",
+      "group": "processed",
+      "bytes": 930716,
+      "sha256": "f5076aecff765955239c8555799f08ac92f52bc0d9bae6df5a3e4786fdf7eba5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10023/metadata.npz",
+      "group": "processed",
+      "bytes": 3314,
+      "sha256": "28e378b2f6294ad36216e8d97a20560a05d0d58571896f8d83a3ba430529055e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10023/visible.npz",
+      "group": "processed",
+      "bytes": 917823,
+      "sha256": "d70223ce732bc4c296294e3d4efc8438890bd17bee84e067778d76f28d088ab9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10024/metadata.npz",
+      "group": "processed",
+      "bytes": 3280,
+      "sha256": "c0c9a166df417f2a2adf409f4a7dcb9a34ff49c673bec0dd2fc6f34e334fd0eb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10024/visible.npz",
+      "group": "processed",
+      "bytes": 871639,
+      "sha256": "80ded1ae6bcd405f516891e1e31529484cc1a7c871ea0f658f4b099711bdab11"
+    },
+    {
+      "path": "data/frozen_graph/families/f10025/metadata.npz",
+      "group": "processed",
+      "bytes": 3287,
+      "sha256": "6e9310d18b7a4e219495d6c55833346242a83eeeca7a00af18df59d3b8c07323"
+    },
+    {
+      "path": "data/frozen_graph/families/f10025/visible.npz",
+      "group": "processed",
+      "bytes": 892648,
+      "sha256": "e74092d50f0b44fbd1a574e7ecb5a0fe6a67227fea2307b1a420b9c623165483"
+    },
+    {
+      "path": "data/frozen_graph/families/f10026/metadata.npz",
+      "group": "processed",
+      "bytes": 3287,
+      "sha256": "f19f2bf85d0be481ae8fc8a9cd42f85cf4bdc127b5ed4188cca9158d7660bd70"
+    },
+    {
+      "path": "data/frozen_graph/families/f10026/visible.npz",
+      "group": "processed",
+      "bytes": 917327,
+      "sha256": "46af6504ea57cdd1c51838b2ed29ec86b4fd5bfe287662c84c350670d2b6f2c5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10027/metadata.npz",
+      "group": "processed",
+      "bytes": 3401,
+      "sha256": "7de9fe5ef1ce196e4a10b17690cc6ec7c178656732495d2670a6e8631118a50f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10027/visible.npz",
+      "group": "processed",
+      "bytes": 930421,
+      "sha256": "9a3c0983449e6cc3c9a72243548804eef0c151f6baed3f9545ed2f8d3b10c7d8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10028/metadata.npz",
+      "group": "processed",
+      "bytes": 3306,
+      "sha256": "d2439031d31639ff5c07cc7def82c499c15c5369511a870df22386be7215889b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10028/visible.npz",
+      "group": "processed",
+      "bytes": 895449,
+      "sha256": "56a2fc280d5a23d6c3200ecd636adaeb0f43d0cc212c7d71b785f587a860a122"
+    },
+    {
+      "path": "data/frozen_graph/families/f10029/metadata.npz",
+      "group": "processed",
+      "bytes": 3295,
+      "sha256": "e04b5b7259b511c432c6bc75b0bd9e2d905b6337e7e93f51570b1f792db9e67f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10029/visible.npz",
+      "group": "processed",
+      "bytes": 876877,
+      "sha256": "8e5861a9a9aae1cb548c1ce9a61733781bca705fc41450d3da954f64e399cf6e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10030/metadata.npz",
+      "group": "processed",
+      "bytes": 3328,
+      "sha256": "8e4af318740a184817fca4cc0d94bd05207ac40f83629eadd203d15842846b0d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10030/visible.npz",
+      "group": "processed",
+      "bytes": 910766,
+      "sha256": "4f46a7ed3e3a9bd565188603e6654abc3177821e164a82833fbe20c8214b1d75"
+    },
+    {
+      "path": "data/frozen_graph/families/f10031/metadata.npz",
+      "group": "processed",
+      "bytes": 3329,
+      "sha256": "e74da6a4983cfcda70da56e772ea82c5052a239ad07c39aac22fd79473033016"
+    },
+    {
+      "path": "data/frozen_graph/families/f10031/visible.npz",
+      "group": "processed",
+      "bytes": 907912,
+      "sha256": "35c541f237abf72566e23a329869bc9d3aa1fd4c807b71908de3c3772bab236e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10032/metadata.npz",
+      "group": "processed",
+      "bytes": 3123,
+      "sha256": "35d255b7338e2b981d5556bacd8e69ded6422f422ce597dfbe80f7b7727e8b8b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10032/visible.npz",
+      "group": "processed",
+      "bytes": 802210,
+      "sha256": "02883b26b5051ecef50660d3dfd61f78ef688f0add547922ec6aa6ed302afee2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10033/metadata.npz",
+      "group": "processed",
+      "bytes": 3328,
+      "sha256": "c70b87984dda27f924999c0c7a81688651e056271564107432c4226bdcb36027"
+    },
+    {
+      "path": "data/frozen_graph/families/f10033/visible.npz",
+      "group": "processed",
+      "bytes": 922659,
+      "sha256": "0e3af442c651185625c65a80c37c42f54904f20171da5ad8cc9d02d611f20c5b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10034/metadata.npz",
+      "group": "processed",
+      "bytes": 3457,
+      "sha256": "6bd4246d00dee0eb3434b94f16a3dd8360dcf36f1cc401083c7d27024bcda507"
+    },
+    {
+      "path": "data/frozen_graph/families/f10034/visible.npz",
+      "group": "processed",
+      "bytes": 966081,
+      "sha256": "2a0842902911a4920f220ed501647ac8facf6f557472d276cb1ad1ed12ea2e8e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10035/metadata.npz",
+      "group": "processed",
+      "bytes": 3313,
+      "sha256": "2287a2af4c9b5323c8b4d047b4997fd78683f88660df111cfbf2eba5b5f3e628"
+    },
+    {
+      "path": "data/frozen_graph/families/f10035/visible.npz",
+      "group": "processed",
+      "bytes": 899119,
+      "sha256": "9d4e36f8d70f3a75642e30f9d28a9e412b9c676b9981fd25beb552816d85d9bb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10036/metadata.npz",
+      "group": "processed",
+      "bytes": 3329,
+      "sha256": "34026383e0f6983c03360695f6bcf2fd1fc9ff71f78dee61ae58aa668990dad8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10036/visible.npz",
+      "group": "processed",
+      "bytes": 933986,
+      "sha256": "f181d7c8417f3fedad641d87a8f83469f6962b986b505f1c2127ca8ca11d2af9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10037/metadata.npz",
+      "group": "processed",
+      "bytes": 3241,
+      "sha256": "5dc5c0203a295879ef027b25c2251b8d8f29143b3f21a4756361df623da67846"
+    },
+    {
+      "path": "data/frozen_graph/families/f10037/visible.npz",
+      "group": "processed",
+      "bytes": 877114,
+      "sha256": "da421aa12fd03688577dcc5f526a5051fa815da98980c6dd26ed429932d8733b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10038/metadata.npz",
+      "group": "processed",
+      "bytes": 3311,
+      "sha256": "20619a755a0725d2a4c1234a2efc57212c2b6c40dfa8327a25b02500686053f3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10038/visible.npz",
+      "group": "processed",
+      "bytes": 891238,
+      "sha256": "111d70a9bd465d047bb89338267e70baea969da26a26cab09a9e17e4818ba847"
+    },
+    {
+      "path": "data/frozen_graph/families/f10039/metadata.npz",
+      "group": "processed",
+      "bytes": 3413,
+      "sha256": "ff2b69e90a5413488d66155dbb34ae7af0dfde0e9953d4c1958f0f421d7cd84d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10039/visible.npz",
+      "group": "processed",
+      "bytes": 940143,
+      "sha256": "122e8ff32fcf7f6766886c78e8620aaea7e8adc57feae0ee6ce922f4552f04e3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10040/metadata.npz",
+      "group": "processed",
+      "bytes": 3368,
+      "sha256": "2c344602e819b2f609ab7f6625fb88f3f2f0a4600eed9302b15f535d72badc7d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10040/visible.npz",
+      "group": "processed",
+      "bytes": 957682,
+      "sha256": "2d320d11beacc803ee8bd6e66189ea85329c6ce92919765ac8b04e84ff36ed4b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10041/metadata.npz",
+      "group": "processed",
+      "bytes": 3330,
+      "sha256": "d265c597a1853cf733309712bd38500b4aad1f1271e5199856e63a573d3b0838"
+    },
+    {
+      "path": "data/frozen_graph/families/f10041/visible.npz",
+      "group": "processed",
+      "bytes": 927372,
+      "sha256": "2a534527f4ab7d80423901a8077dcb3b56890d0bc7e28cf2afde99d431f10e45"
+    },
+    {
+      "path": "data/frozen_graph/families/f10042/metadata.npz",
+      "group": "processed",
+      "bytes": 3338,
+      "sha256": "79e622a4df96c47555ea16a3e1065385d083a46499d30ef77e8cf5907aefc79d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10042/visible.npz",
+      "group": "processed",
+      "bytes": 917209,
+      "sha256": "9f1746df784d5ce4dab566d6eb986e0b17de6251ae9e4bdf02235bbb5513045f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10043/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "dfb8228479471978132f4e1813384928cf8612eeb0d933440c4b4dd46e4fce20"
+    },
+    {
+      "path": "data/frozen_graph/families/f10043/visible.npz",
+      "group": "processed",
+      "bytes": 908625,
+      "sha256": "0ca4bbdeb20333c20359da13f1aa19738c983b7e5459c947c4e997ead7a17c9f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10044/metadata.npz",
+      "group": "processed",
+      "bytes": 3258,
+      "sha256": "9fe4738aa8c77c40974939639a26a2dc1d29011207264d2b1972a46ff9f7c22d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10044/visible.npz",
+      "group": "processed",
+      "bytes": 852280,
+      "sha256": "d4116450a246638ade9a1957b04d804e50ed3ef45396e5b12787da7fcd6644b5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10045/metadata.npz",
+      "group": "processed",
+      "bytes": 3327,
+      "sha256": "4d2fce877662f74fe7d6810727663e8d0a69b37d89119e0cf83c6336672b3291"
+    },
+    {
+      "path": "data/frozen_graph/families/f10045/visible.npz",
+      "group": "processed",
+      "bytes": 911658,
+      "sha256": "d63f0b3fe785d2ef232ff6a3cb2ad9bcaf558485d7387ad93d578e6fdab9ebcf"
+    },
+    {
+      "path": "data/frozen_graph/families/f10046/metadata.npz",
+      "group": "processed",
+      "bytes": 3231,
+      "sha256": "5afb0ff2dde75134c4b363d6c607c1f496e635f1b37cf984dd539a8b1894466b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10046/visible.npz",
+      "group": "processed",
+      "bytes": 855490,
+      "sha256": "348174486d9c09603474e9ecabfd0fa11b6f6c9b9b5bbfe29d655f47e598805c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10047/metadata.npz",
+      "group": "processed",
+      "bytes": 3319,
+      "sha256": "7bdac109983dda2eaf3828f6e122b4e89ce1a1bb3b31eb4f289318f04a286710"
+    },
+    {
+      "path": "data/frozen_graph/families/f10047/visible.npz",
+      "group": "processed",
+      "bytes": 908843,
+      "sha256": "7caf503e803fb92bf32f73aec6055d953f05575dc7d2065cf8dad5ee08c83f46"
+    },
+    {
+      "path": "data/frozen_graph/families/f10048/metadata.npz",
+      "group": "processed",
+      "bytes": 3241,
+      "sha256": "431412442813f463f08cdb0cd15ce5c323337dcc58156969a6feb93b81143834"
+    },
+    {
+      "path": "data/frozen_graph/families/f10048/visible.npz",
+      "group": "processed",
+      "bytes": 848337,
+      "sha256": "98a27dd71bb796e58e98357260947f4c960f3c7554e5671166bdb986cec9feed"
+    },
+    {
+      "path": "data/frozen_graph/families/f10049/metadata.npz",
+      "group": "processed",
+      "bytes": 3235,
+      "sha256": "a0f5a2e49b6f97cb0f718f77a02de1b5f98a6f210dfb6b274a990fc21ca5d5cb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10049/visible.npz",
+      "group": "processed",
+      "bytes": 868111,
+      "sha256": "ae220f44e569168b83d42e7fc85a2b0cd694e4c2f766a2d87c055a41d466ca71"
+    },
+    {
+      "path": "data/frozen_graph/families/f10050/metadata.npz",
+      "group": "processed",
+      "bytes": 3282,
+      "sha256": "1f6892901fb151807d0369e29c89ee01d172c60d45f19cbc6e212b9289e5ba8f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10050/visible.npz",
+      "group": "processed",
+      "bytes": 910617,
+      "sha256": "fa124556642a9fe4f2044cce987fee1d6ea62e4c3a2ff665d17f1f94943154bd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10051/metadata.npz",
+      "group": "processed",
+      "bytes": 3276,
+      "sha256": "ad2c6b9cf052db14b8ff98126c06b49000724a3604d596afb77004ae1c284b96"
+    },
+    {
+      "path": "data/frozen_graph/families/f10051/visible.npz",
+      "group": "processed",
+      "bytes": 900811,
+      "sha256": "a616242c2b2e5bd82559825d139c9826f9917153cb958ba5e4cbb9a18b3c08ed"
+    },
+    {
+      "path": "data/frozen_graph/families/f10052/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "a0d0918a880da03ec61a0e5bf21205601f608d314d4138870255eabf8e1eac16"
+    },
+    {
+      "path": "data/frozen_graph/families/f10052/visible.npz",
+      "group": "processed",
+      "bytes": 879930,
+      "sha256": "f6bd3f59eeb80a75ddf9466a4f2961c8b9b829d8db4fca318148bd05addb9741"
+    },
+    {
+      "path": "data/frozen_graph/families/f10053/metadata.npz",
+      "group": "processed",
+      "bytes": 3319,
+      "sha256": "dc354df8ff36690ade570aec05c8f0a752bf8001886a53e8a24b498e400f32ee"
+    },
+    {
+      "path": "data/frozen_graph/families/f10053/visible.npz",
+      "group": "processed",
+      "bytes": 910743,
+      "sha256": "796819730932861e8eea624b1fd91115f4786de294ddcafe6bcf856b37d0a77e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10054/metadata.npz",
+      "group": "processed",
+      "bytes": 3277,
+      "sha256": "54c564d9c664fe1b431ef87b853b4f8d8f81b47396e4fb5377f5e636b2cf8e6f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10054/visible.npz",
+      "group": "processed",
+      "bytes": 908131,
+      "sha256": "753405910a214ace66a58bce0751acbbc7d3f4daac5298dda2bbe488adc1de19"
+    },
+    {
+      "path": "data/frozen_graph/families/f10055/metadata.npz",
+      "group": "processed",
+      "bytes": 3340,
+      "sha256": "6d9ae9a699c83072a9e00af1b1ebd8885f675742d4cb9786dd221f7084915955"
+    },
+    {
+      "path": "data/frozen_graph/families/f10055/visible.npz",
+      "group": "processed",
+      "bytes": 898647,
+      "sha256": "8966f1ebc992a1628f8babaf2c52a454d730b80834bba07abcff068db155a887"
+    },
+    {
+      "path": "data/frozen_graph/families/f10056/metadata.npz",
+      "group": "processed",
+      "bytes": 3355,
+      "sha256": "2df66db11c3ce3186bffa6c13dea8a7a875ec2af4d5eaa7e9446ea571b6f070d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10056/visible.npz",
+      "group": "processed",
+      "bytes": 906254,
+      "sha256": "de919d8abc3d942ad86e771a5e9f1794cf20c91e9b5e4008b35995b5ceaca17e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10057/metadata.npz",
+      "group": "processed",
+      "bytes": 3274,
+      "sha256": "b1dfa4436ac1f80e94192f444a240d437d545ddfc08b920ed76664451547acd2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10057/visible.npz",
+      "group": "processed",
+      "bytes": 890322,
+      "sha256": "4102cc0c9a9e0894308d616f4de1cf346c47b48fa57fb824e1991e8a7a339b1d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10058/metadata.npz",
+      "group": "processed",
+      "bytes": 3386,
+      "sha256": "1e7d2bae34f0fb335b5c5f9e7eb5c9307fcd51cced0f45eaf22f439adb596c57"
+    },
+    {
+      "path": "data/frozen_graph/families/f10058/visible.npz",
+      "group": "processed",
+      "bytes": 945640,
+      "sha256": "9d438b0418456f47717497da49a4acacc274b41484a9336b0fc02771ebbf6778"
+    },
+    {
+      "path": "data/frozen_graph/families/f10059/metadata.npz",
+      "group": "processed",
+      "bytes": 3400,
+      "sha256": "50b4f379585858d9510f5e4ba7f7c4cb3779707b9be12ba15a264757695134aa"
+    },
+    {
+      "path": "data/frozen_graph/families/f10059/visible.npz",
+      "group": "processed",
+      "bytes": 971680,
+      "sha256": "c1d98d970f8865497f4e5dda3c5c80d2884f22d148327d99bc25eb38195f8637"
+    },
+    {
+      "path": "data/frozen_graph/families/f10060/metadata.npz",
+      "group": "processed",
+      "bytes": 3388,
+      "sha256": "c87a9c967acaa26474ea151d29a8688ab2b0e197f43c838b4535d67a373cdda1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10060/visible.npz",
+      "group": "processed",
+      "bytes": 921089,
+      "sha256": "d65c1bc3d76558909e4083dbd7eb052f7c3122dda40589e87455678bc7b6c6c5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10061/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "3e97253fae87e7bf8c5e51dd2af07cd892db95a84aab7680b565ccf051d6b6de"
+    },
+    {
+      "path": "data/frozen_graph/families/f10061/visible.npz",
+      "group": "processed",
+      "bytes": 912684,
+      "sha256": "59d3d160d59dd32cf5ccc5e8822a8f19f7ef819a4285835e9d05fb6d23bb0486"
+    },
+    {
+      "path": "data/frozen_graph/families/f10062/metadata.npz",
+      "group": "processed",
+      "bytes": 3272,
+      "sha256": "9dc9bc60551fc4146ef555980e38b21c7df70b807bcc75241ffd56de1eca3d1e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10062/visible.npz",
+      "group": "processed",
+      "bytes": 919531,
+      "sha256": "facb383d7a498e8e518d82f93bdae4df5ac8a26110fd5833975cc0cea9ccd945"
+    },
+    {
+      "path": "data/frozen_graph/families/f10063/metadata.npz",
+      "group": "processed",
+      "bytes": 3311,
+      "sha256": "18a3eec539cc76c9348cb7da4705121dbaf7808891e8b776f76ae8dccd7b94ae"
+    },
+    {
+      "path": "data/frozen_graph/families/f10063/visible.npz",
+      "group": "processed",
+      "bytes": 921549,
+      "sha256": "f423b100d1ba71b7e9353137baadb2be91530a7b8395b86c1439bf7da8372cdc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10064/metadata.npz",
+      "group": "processed",
+      "bytes": 3325,
+      "sha256": "99b5c139886d942e1132e857674797ea3449ab98249af675b9307ba038bce20d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10064/visible.npz",
+      "group": "processed",
+      "bytes": 910618,
+      "sha256": "da1c6aab2223a8db0aae04a75e9d91fed0375161329dcfd55a7bdf91a9cd1822"
+    },
+    {
+      "path": "data/frozen_graph/families/f10065/metadata.npz",
+      "group": "processed",
+      "bytes": 3238,
+      "sha256": "a0dc82381205421796a17cba348702dcdb2cf7e44706a34daf8caa648ba2dfa4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10065/visible.npz",
+      "group": "processed",
+      "bytes": 863556,
+      "sha256": "b0bebea532d399af8a8bc998c72f41a30777e53bd828f4abd8546569057e3352"
+    },
+    {
+      "path": "data/frozen_graph/families/f10066/metadata.npz",
+      "group": "processed",
+      "bytes": 3281,
+      "sha256": "e4af2a93d383e4b861ccbcacf8ba2d70229ee19dc798bb6a7e9ed98e539db9ec"
+    },
+    {
+      "path": "data/frozen_graph/families/f10066/visible.npz",
+      "group": "processed",
+      "bytes": 887048,
+      "sha256": "f827f6a18a1309c9f60fd7954999262e3c3b7333491037bf81063dc384ab55d6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10067/metadata.npz",
+      "group": "processed",
+      "bytes": 3383,
+      "sha256": "9608eab2e00cf16697a1c64ef5959a6b0beb19b30d27a9e16bf678ffe12d4a78"
+    },
+    {
+      "path": "data/frozen_graph/families/f10067/visible.npz",
+      "group": "processed",
+      "bytes": 936515,
+      "sha256": "df3bc059ef1be636c1ef396d0ca607e75d582f70aa00193198fcd26e37edf02e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10068/metadata.npz",
+      "group": "processed",
+      "bytes": 3219,
+      "sha256": "2325d605d4c1a3b60d7897271d44334cd7e3fef570c4b9e92f636c742ab68fbd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10068/visible.npz",
+      "group": "processed",
+      "bytes": 855347,
+      "sha256": "ed876845d263b3d5a620accfda5fa360002d630507ce19b520e3bc7ff85377af"
+    },
+    {
+      "path": "data/frozen_graph/families/f10069/metadata.npz",
+      "group": "processed",
+      "bytes": 3313,
+      "sha256": "ce08ede9f7a6189880e7b830e8ff348283871bd7fa071ae45576e9a6a5e85a24"
+    },
+    {
+      "path": "data/frozen_graph/families/f10069/visible.npz",
+      "group": "processed",
+      "bytes": 903782,
+      "sha256": "8b78a5e6ffb53d2ecaf0c1dd4db165d17d1626646f842b3a75a89f7aa1e03382"
+    },
+    {
+      "path": "data/frozen_graph/families/f10070/metadata.npz",
+      "group": "processed",
+      "bytes": 3295,
+      "sha256": "0a8c0c89bddcca18babfb86deb76e1afa63833f5ae41cd702c7df35f5a50bd1e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10070/visible.npz",
+      "group": "processed",
+      "bytes": 912206,
+      "sha256": "d9f55f25fb5192abcadaee2b1b46d8efe6ca896d027d1139ffafe6cb7676de5d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10071/metadata.npz",
+      "group": "processed",
+      "bytes": 3280,
+      "sha256": "b2e3188f69e7b4c39c9ebeaf4f98934711996589ff2878d54b773ba20d4976d8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10071/visible.npz",
+      "group": "processed",
+      "bytes": 874863,
+      "sha256": "77542431c70b8351512cafe990d556c83d791833738b5dc97c618586f961e787"
+    },
+    {
+      "path": "data/frozen_graph/families/f10072/metadata.npz",
+      "group": "processed",
+      "bytes": 3367,
+      "sha256": "66568f7094afc6520d2c1b26d63d62c7933184b9318e414bb367b2e9c88a92f4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10072/visible.npz",
+      "group": "processed",
+      "bytes": 950382,
+      "sha256": "9602b1f9d303c44eef6115d9949f5dade763f866358116e659690842d1a8a94f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10073/metadata.npz",
+      "group": "processed",
+      "bytes": 3208,
+      "sha256": "05b5e46c2f7e02e43ec2e954f7d6326c63658f680771ef0f42ab28990e6edc5b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10073/visible.npz",
+      "group": "processed",
+      "bytes": 859418,
+      "sha256": "116811acb3219dad4a06b0471c3d0a4e264a11bdef9483dc95a48ee9462cf2b0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10074/metadata.npz",
+      "group": "processed",
+      "bytes": 3390,
+      "sha256": "0301ac3dd55657fd9a94a53a04fff2261ca57869504088edc9166eb4201ca357"
+    },
+    {
+      "path": "data/frozen_graph/families/f10074/visible.npz",
+      "group": "processed",
+      "bytes": 949827,
+      "sha256": "ec900f571af373625995e656968be6b938b61a5bbab4cc559444aa344c6952e6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10075/metadata.npz",
+      "group": "processed",
+      "bytes": 3261,
+      "sha256": "169c86348538d23f041ff9d337406af62dea1853137223e36e05ab5b4fbf5736"
+    },
+    {
+      "path": "data/frozen_graph/families/f10075/visible.npz",
+      "group": "processed",
+      "bytes": 876639,
+      "sha256": "12fc15ca482bcea0ced9afa550b88d3dcb38927c638809ecaf7563437a18d1f0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10076/metadata.npz",
+      "group": "processed",
+      "bytes": 3198,
+      "sha256": "677e7e84c7f6da7f93ef2eddde69f7599c576dc31cf257769ed37438b4b0dce3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10076/visible.npz",
+      "group": "processed",
+      "bytes": 856736,
+      "sha256": "26b889a496afb39964d7d0e4108ca978776943a7db9f2d4eb45536c62a4e0d9d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10077/metadata.npz",
+      "group": "processed",
+      "bytes": 3433,
+      "sha256": "20c2627d2797aea5f3b3f5faef0f79b86f6d8cd3aa3a3fa326c22306a1f311e5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10077/visible.npz",
+      "group": "processed",
+      "bytes": 923316,
+      "sha256": "2cb77bdeac18f95f19e436a1bc49727f9ddcdd32f910cc083f0dcb701b36440b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10078/metadata.npz",
+      "group": "processed",
+      "bytes": 3294,
+      "sha256": "88f4a7ac9113662ed357f0a5d9dae3abb747d7e74b9e5485667adc8cc5423b2f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10078/visible.npz",
+      "group": "processed",
+      "bytes": 889490,
+      "sha256": "20303e711b88c3a15752f403c8d5b651b8c17bc5a311537eddd349d719fccf38"
+    },
+    {
+      "path": "data/frozen_graph/families/f10079/metadata.npz",
+      "group": "processed",
+      "bytes": 3276,
+      "sha256": "7a19b21218547f15c59a3914434b60aff698cc266ad742e0289281407e0d2232"
+    },
+    {
+      "path": "data/frozen_graph/families/f10079/visible.npz",
+      "group": "processed",
+      "bytes": 884818,
+      "sha256": "8c9e04c3794091660e68275a8ae9f1666b35940a4448c6cf6344b25a0bca0174"
+    },
+    {
+      "path": "data/frozen_graph/families/f10080/metadata.npz",
+      "group": "processed",
+      "bytes": 3304,
+      "sha256": "884a68748d3996c0187ceb8684b625f142583842cd49a7231c413f926d2e10fe"
+    },
+    {
+      "path": "data/frozen_graph/families/f10080/visible.npz",
+      "group": "processed",
+      "bytes": 904396,
+      "sha256": "fa299a460ca2e968c9e8debc44d6726717e29782df39b9e5bccad63a6555ab32"
+    },
+    {
+      "path": "data/frozen_graph/families/f10081/metadata.npz",
+      "group": "processed",
+      "bytes": 3230,
+      "sha256": "e5d330c7616304c2288e60833e5306af5a84e99b342ab8f18d56a660ec56b591"
+    },
+    {
+      "path": "data/frozen_graph/families/f10081/visible.npz",
+      "group": "processed",
+      "bytes": 876287,
+      "sha256": "6b5e015a6266da1c99f8c8783b4e3f02e40d526153725908f00e4e854cf9dbfe"
+    },
+    {
+      "path": "data/frozen_graph/families/f10082/metadata.npz",
+      "group": "processed",
+      "bytes": 3167,
+      "sha256": "c4754b8c8ece241401fcf7f657d3c3bb9efef6b08d60b6c5881197e6358165cc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10082/visible.npz",
+      "group": "processed",
+      "bytes": 805980,
+      "sha256": "0ae2f291c08d8ea5ebeb45d5300fc5887b8ef9139ec6593e36ea8a4bb2ada96c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10083/metadata.npz",
+      "group": "processed",
+      "bytes": 3320,
+      "sha256": "12e6d226deae2f32dbe63ab7a3aa9afde49fd1506bbe7ed31487f017f27dffb0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10083/visible.npz",
+      "group": "processed",
+      "bytes": 875285,
+      "sha256": "2065b56bc657f748ba67cac18c1cc5364d73edf8c5ea52604e5c55eec25c2957"
+    },
+    {
+      "path": "data/frozen_graph/families/f10084/metadata.npz",
+      "group": "processed",
+      "bytes": 3299,
+      "sha256": "7427ff07c6bf527eb566d9afb2f2a499eef1e3bfedb3ad07f17a7084b6b65889"
+    },
+    {
+      "path": "data/frozen_graph/families/f10084/visible.npz",
+      "group": "processed",
+      "bytes": 881642,
+      "sha256": "dc7412ff0887d6160c5f59e8a274464d75219ebcf11c91aabc4575e96bf844fd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10085/metadata.npz",
+      "group": "processed",
+      "bytes": 3346,
+      "sha256": "63763ccfba60cef711234918bcda29d912e1b3a8d85fb75b16039700cafb46f7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10085/visible.npz",
+      "group": "processed",
+      "bytes": 902527,
+      "sha256": "ee3841be93fdd8e4f1d9670fdcf1be1c5156e3578a6f6cb4bcdf963253b290f2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10086/metadata.npz",
+      "group": "processed",
+      "bytes": 3346,
+      "sha256": "b5fd151d74210fcd7747685860f680416f96472822b828f5d8b3641dd1364fd1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10086/visible.npz",
+      "group": "processed",
+      "bytes": 931853,
+      "sha256": "8dc5427920f00b168d7cfa15aa36fed13698cbcc92ee7dd50dccf4a3a136f432"
+    },
+    {
+      "path": "data/frozen_graph/families/f10087/metadata.npz",
+      "group": "processed",
+      "bytes": 3174,
+      "sha256": "e6c66873d4fc275546289b181a0f65a388ee3db08bbe0c28cfbfd08d51b88799"
+    },
+    {
+      "path": "data/frozen_graph/families/f10087/visible.npz",
+      "group": "processed",
+      "bytes": 858362,
+      "sha256": "ce5051097ddba4a189c8794412a3c61826d821d9567d4db1d90c574d47f89a9c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10088/metadata.npz",
+      "group": "processed",
+      "bytes": 3288,
+      "sha256": "b529606e9e7c972324a3ded5dac85a5f266b0c3968be6e030e94e9b3d5a3fa86"
+    },
+    {
+      "path": "data/frozen_graph/families/f10088/visible.npz",
+      "group": "processed",
+      "bytes": 893946,
+      "sha256": "5f5f69a71f4efe4bed5bd17d1b49f4e2b27eecf2bfffe65efc1f646b1a1cf27e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10089/metadata.npz",
+      "group": "processed",
+      "bytes": 3381,
+      "sha256": "78b7a6100c644f465bb6aa6102c6f98066270c31df7d6ff259b608f1392f7bd6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10089/visible.npz",
+      "group": "processed",
+      "bytes": 928487,
+      "sha256": "da712e8cdb705bdc12fc5db4f93db0f33804d3417d210ebb52ab6b33e2f06736"
+    },
+    {
+      "path": "data/frozen_graph/families/f10090/metadata.npz",
+      "group": "processed",
+      "bytes": 3290,
+      "sha256": "b84a0623dc571e52b5b158f5a03b135dfaca395506a1dd6d12fcadb776578eea"
+    },
+    {
+      "path": "data/frozen_graph/families/f10090/visible.npz",
+      "group": "processed",
+      "bytes": 894735,
+      "sha256": "392b32ab0407d19eddf71408f8069616a2177efe250c71570bf9f12205897198"
+    },
+    {
+      "path": "data/frozen_graph/families/f10091/metadata.npz",
+      "group": "processed",
+      "bytes": 3300,
+      "sha256": "480d17fc0c431ad5e87d5d7b74e71e7a6f56a8a9690eefc55e401cc0cd1f0cad"
+    },
+    {
+      "path": "data/frozen_graph/families/f10091/visible.npz",
+      "group": "processed",
+      "bytes": 911349,
+      "sha256": "0fd9acbdfa386046786c2088bf7322485e64bb89844a191ac1bb331094f12a2c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10092/metadata.npz",
+      "group": "processed",
+      "bytes": 3347,
+      "sha256": "8a6e96c376dde90b896bfe6cd3e47169059986a5187063c4966322856ef6ad3d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10092/visible.npz",
+      "group": "processed",
+      "bytes": 936895,
+      "sha256": "fc688bcd626407e9f87c28dd042f5874add0cdf2e1591d1848afa9cf93b22803"
+    },
+    {
+      "path": "data/frozen_graph/families/f10093/metadata.npz",
+      "group": "processed",
+      "bytes": 3213,
+      "sha256": "42ba3ab2a834b46146540c24ab7e76343a6884317565e89833be0b05e829d7a2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10093/visible.npz",
+      "group": "processed",
+      "bytes": 851943,
+      "sha256": "4dc56636e6f63fb920c5b5fd54793387a8241f5437dbf1804be274ef79c01b36"
+    },
+    {
+      "path": "data/frozen_graph/families/f10094/metadata.npz",
+      "group": "processed",
+      "bytes": 3372,
+      "sha256": "f3a1089da522cf044d25ea7fc895c24a8d47478294404bb4017be09dba37888b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10094/visible.npz",
+      "group": "processed",
+      "bytes": 947073,
+      "sha256": "e7f577513a5247e4d64f0192e0b67a5d8516c69f52ddc24170fd263daa0665d3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10095/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "4fc0686ccea533a73ba7380453eb74b074e72b9b6fb71727663baa0074f0ec30"
+    },
+    {
+      "path": "data/frozen_graph/families/f10095/visible.npz",
+      "group": "processed",
+      "bytes": 918052,
+      "sha256": "81ad4108ae63806772c816ad6887a92c86b29f2ee152f1e7cdf4910a115e9d0e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10096/metadata.npz",
+      "group": "processed",
+      "bytes": 3298,
+      "sha256": "6edc251999a390671e941fcd5a56f5837126916dd72405b0742f359a70a415e5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10096/visible.npz",
+      "group": "processed",
+      "bytes": 893865,
+      "sha256": "1b08cf198664cd9a9aaa8a4dc0197a15f65fb21a18cc71f5a70928801829ecb3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10097/metadata.npz",
+      "group": "processed",
+      "bytes": 3303,
+      "sha256": "ad80352f729a904ae97bf9da8c17c6a3613242f4ce1de3ad4224c0fba6ae1db8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10097/visible.npz",
+      "group": "processed",
+      "bytes": 916429,
+      "sha256": "e56b3e9cdccfd3ae566426eaa9cbff910a53bf76783cb22367b4a1b49d5b9017"
+    },
+    {
+      "path": "data/frozen_graph/families/f10098/metadata.npz",
+      "group": "processed",
+      "bytes": 3318,
+      "sha256": "1f7865df91bbb37ba2c6ddf51921aadd61f66705203456c8a42a78a7e5109776"
+    },
+    {
+      "path": "data/frozen_graph/families/f10098/visible.npz",
+      "group": "processed",
+      "bytes": 926690,
+      "sha256": "18559ebd1561889c16a3c5a677cd6f7f7113c734d9f9460113e43311859839b6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10099/metadata.npz",
+      "group": "processed",
+      "bytes": 3321,
+      "sha256": "2501a38bc355d5a945158dc903c28dfc22a5db01a2da3e9729f4129906d62b0c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10099/visible.npz",
+      "group": "processed",
+      "bytes": 908870,
+      "sha256": "c09a650d781d3d7c11056f28cd4c5ee565b4b43f146eb023d4514bda0a416425"
+    },
+    {
+      "path": "data/frozen_graph/families/f10100/metadata.npz",
+      "group": "processed",
+      "bytes": 3423,
+      "sha256": "dee02e5980409ba455590bc9c32e9bcc4349d2dce4703607ba675346df5f29f0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10100/visible.npz",
+      "group": "processed",
+      "bytes": 1003471,
+      "sha256": "5e6e5c372ee8600d767ecabe5d8dd42ccc2b5956953cc9366b94e548351fcb78"
+    },
+    {
+      "path": "data/frozen_graph/families/f10101/metadata.npz",
+      "group": "processed",
+      "bytes": 3340,
+      "sha256": "f62d9689c3f863b69079c740132065f1aa3e4284c5032e1575dcf005ca7cd376"
+    },
+    {
+      "path": "data/frozen_graph/families/f10101/visible.npz",
+      "group": "processed",
+      "bytes": 934169,
+      "sha256": "ef20463a3070ac3f57e8fb7909355f6954f14c9aff7c7bbd88ba1c0e4a88cde0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10102/metadata.npz",
+      "group": "processed",
+      "bytes": 3283,
+      "sha256": "bed1c66c27c96928427c51e19bc7e0f354f21a87ee7be773e0a7f5cc1fba5857"
+    },
+    {
+      "path": "data/frozen_graph/families/f10102/visible.npz",
+      "group": "processed",
+      "bytes": 925650,
+      "sha256": "b7a66921b76373c071a8f8a25b446b5b43763778aa42d6c16b9f30ea44390092"
+    },
+    {
+      "path": "data/frozen_graph/families/f10103/metadata.npz",
+      "group": "processed",
+      "bytes": 3281,
+      "sha256": "b27797c9872c5ce89114b411a56677a773391afafdab2a30fb013e780afbcc4e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10103/visible.npz",
+      "group": "processed",
+      "bytes": 881364,
+      "sha256": "590b1569acf195594d22df640a2effc5b72e16336521bfd824e099025949ac88"
+    },
+    {
+      "path": "data/frozen_graph/families/f10104/metadata.npz",
+      "group": "processed",
+      "bytes": 3174,
+      "sha256": "8f6fc61a5252f4af4d31d7165c8543fb728dbb982a16063ebb6379f4b9aab8be"
+    },
+    {
+      "path": "data/frozen_graph/families/f10104/visible.npz",
+      "group": "processed",
+      "bytes": 835983,
+      "sha256": "28114db4bc90437e9e51e8d3f575617c94ced73998291bed2bc521abf5203e51"
+    },
+    {
+      "path": "data/frozen_graph/families/f10105/metadata.npz",
+      "group": "processed",
+      "bytes": 3333,
+      "sha256": "c5bf2d45402308e962b15cc4432070972f5e1e690518978346468004de43e553"
+    },
+    {
+      "path": "data/frozen_graph/families/f10105/visible.npz",
+      "group": "processed",
+      "bytes": 897957,
+      "sha256": "cac54fec346bfaee67fc646432b691ac0e5fb5fb0307f0b26e8949e45e916ca7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10106/metadata.npz",
+      "group": "processed",
+      "bytes": 3326,
+      "sha256": "98cf945afa3c321e4e3dd9da7ab8262b84b866d8706dbf9817482c3723cb1560"
+    },
+    {
+      "path": "data/frozen_graph/families/f10106/visible.npz",
+      "group": "processed",
+      "bytes": 901283,
+      "sha256": "bab754e4af824fe59f9d96a5cb18b540f027c9a87911f562e796bfa1477a04e3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10107/metadata.npz",
+      "group": "processed",
+      "bytes": 3324,
+      "sha256": "a90bede6b9544fe253277b1e5f30f8ee905418b87d555ec5c5d7aeea4e2124a6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10107/visible.npz",
+      "group": "processed",
+      "bytes": 901576,
+      "sha256": "fe60d2316087373170ec1376d9d6792858997d9719f1c34fa8094cc23a6dc444"
+    },
+    {
+      "path": "data/frozen_graph/families/f10108/metadata.npz",
+      "group": "processed",
+      "bytes": 3207,
+      "sha256": "e53f1bc4fffc19584cb40984a8cdcc91084fa5399240603ae453ca17ec2a3603"
+    },
+    {
+      "path": "data/frozen_graph/families/f10108/visible.npz",
+      "group": "processed",
+      "bytes": 856223,
+      "sha256": "fa97ed8c4ef5a4a1b0e28eba602429905fc651414dcfefcd5604129559a64a01"
+    },
+    {
+      "path": "data/frozen_graph/families/f10109/metadata.npz",
+      "group": "processed",
+      "bytes": 3168,
+      "sha256": "b4eaae47519d37da883eab799c3972cf644681e0b9a5ae96eee3f1f0d3803cde"
+    },
+    {
+      "path": "data/frozen_graph/families/f10109/visible.npz",
+      "group": "processed",
+      "bytes": 828005,
+      "sha256": "389d99a9d88019a606e745550f0ef6be98a7666ba56f7f19930eb426cc4295aa"
+    },
+    {
+      "path": "data/frozen_graph/families/f10110/metadata.npz",
+      "group": "processed",
+      "bytes": 3226,
+      "sha256": "6a2e288d196366d44b93e7939e8d940f7dfac1712f004543941f96d96b6b57be"
+    },
+    {
+      "path": "data/frozen_graph/families/f10110/visible.npz",
+      "group": "processed",
+      "bytes": 897246,
+      "sha256": "b071cc94191dd751ff46917b827abdef0e1dbefd5ac1728d1961c429af7220fd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10111/metadata.npz",
+      "group": "processed",
+      "bytes": 3322,
+      "sha256": "ca97af4f1db7b18d561e48d5784b2d0d72ca170765857af301d097f90dad5cda"
+    },
+    {
+      "path": "data/frozen_graph/families/f10111/visible.npz",
+      "group": "processed",
+      "bytes": 884895,
+      "sha256": "2a83822e4d8039e16306d10879cdb84e51e8b01a8124daa91ea6cc694505f1da"
+    },
+    {
+      "path": "data/frozen_graph/families/f10112/metadata.npz",
+      "group": "processed",
+      "bytes": 3266,
+      "sha256": "072beebd20bd1104960b8a16e235530743e4a1982934e714eca46e4e64a27c0a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10112/visible.npz",
+      "group": "processed",
+      "bytes": 856715,
+      "sha256": "5b525bb071c60e6a3b8563513ff9f22e42629761c92525f6f0d17fa2b1e426df"
+    },
+    {
+      "path": "data/frozen_graph/families/f10113/metadata.npz",
+      "group": "processed",
+      "bytes": 3388,
+      "sha256": "6a009e5532ce65950da4dc719c543a65a972b3a57098aff3560f365d360f4645"
+    },
+    {
+      "path": "data/frozen_graph/families/f10113/visible.npz",
+      "group": "processed",
+      "bytes": 949412,
+      "sha256": "74c95f74967d7975b14b361ec0ca8bbd066b5d1ccf89e90c46a66ecaad0d1f29"
+    },
+    {
+      "path": "data/frozen_graph/families/f10114/metadata.npz",
+      "group": "processed",
+      "bytes": 3279,
+      "sha256": "0c79c57ea42e3255ca112da666c7116645026580259e8358038de8b2d1579601"
+    },
+    {
+      "path": "data/frozen_graph/families/f10114/visible.npz",
+      "group": "processed",
+      "bytes": 909480,
+      "sha256": "1519e38aaf5dc9c4d4fbe0597e7c4c04d4c952115b00eca3f1baf5b779ee2ff5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10115/metadata.npz",
+      "group": "processed",
+      "bytes": 3213,
+      "sha256": "7cdd15c47e5d989a1dcced932abbc85c079f4722621943328794869ebbc8459c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10115/visible.npz",
+      "group": "processed",
+      "bytes": 837666,
+      "sha256": "b600ab99104532e28a84737d62b614e7cc949fd7702fa97644f3aa7238750b5f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10116/metadata.npz",
+      "group": "processed",
+      "bytes": 3348,
+      "sha256": "be64ab6921c37c7bb4d84b30f2d7dae78c7dd5d6a3a0d5ef19605e7c2eae7ef4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10116/visible.npz",
+      "group": "processed",
+      "bytes": 916605,
+      "sha256": "2a0e6868e2cdc9cfec1d733ded79a25e42518e7f06a35a4cf4c093ccc510c338"
+    },
+    {
+      "path": "data/frozen_graph/families/f10117/metadata.npz",
+      "group": "processed",
+      "bytes": 3307,
+      "sha256": "1e88dff370ae0dee1705399c3a31e28bb5c0688dc43da5d27afa56ca9d6937ad"
+    },
+    {
+      "path": "data/frozen_graph/families/f10117/visible.npz",
+      "group": "processed",
+      "bytes": 874394,
+      "sha256": "c6d1aa15a7e2077d4bbaf962da1f2cdb256bf634b7e01b63f4ea103965e24943"
+    },
+    {
+      "path": "data/frozen_graph/families/f10118/metadata.npz",
+      "group": "processed",
+      "bytes": 3356,
+      "sha256": "5460af9439fd1466be54998778d8f258d0c3a0dff3c7613bdfa4bee48abf2539"
+    },
+    {
+      "path": "data/frozen_graph/families/f10118/visible.npz",
+      "group": "processed",
+      "bytes": 943899,
+      "sha256": "006813ee600d97878ffce8e76d80015c525864582412878f33187aefa4ad18e4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10119/metadata.npz",
+      "group": "processed",
+      "bytes": 3296,
+      "sha256": "f6190d9980b2de880cb193fc14e80e8267ba2a41776ef1bc343e7a2506033cb8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10119/visible.npz",
+      "group": "processed",
+      "bytes": 927982,
+      "sha256": "974fa9de951f9973a5dab8382cd6eed9022e088e91301364d93ab1d74270dc71"
+    },
+    {
+      "path": "data/frozen_graph/families/f10120/metadata.npz",
+      "group": "processed",
+      "bytes": 3319,
+      "sha256": "b86591f5a6d0a3ac328ea017c36bf5755a153f0d6b8525824ccedc2f7f7f76ca"
+    },
+    {
+      "path": "data/frozen_graph/families/f10120/visible.npz",
+      "group": "processed",
+      "bytes": 880019,
+      "sha256": "d1330fb0be62c4ded21e07f4891e1d33b56f5bc873aa1262902dfce013a2c61b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10121/metadata.npz",
+      "group": "processed",
+      "bytes": 3293,
+      "sha256": "628ccb20a36e3e36e1dfdeb378b3fe0db4aac8be18a8174c0d7715577917fa38"
+    },
+    {
+      "path": "data/frozen_graph/families/f10121/visible.npz",
+      "group": "processed",
+      "bytes": 911729,
+      "sha256": "817e83687667d1cfb82a6e5d7711b8e9868dccbbfd82ede534dc8ea93b24873b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10122/metadata.npz",
+      "group": "processed",
+      "bytes": 3300,
+      "sha256": "abaa25ec416ee7cb98f067b63f95b3aaadccf05c649606517853954c498a33ae"
+    },
+    {
+      "path": "data/frozen_graph/families/f10122/visible.npz",
+      "group": "processed",
+      "bytes": 914670,
+      "sha256": "200ad271329bbc8215451c8aeeca83cfee7f135e9fa614f254859a978b75e94a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10123/metadata.npz",
+      "group": "processed",
+      "bytes": 3302,
+      "sha256": "37600f2403645783b063ed1dade7261a9a0c20850624d821af9dc5e73650022d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10123/visible.npz",
+      "group": "processed",
+      "bytes": 901843,
+      "sha256": "fd575f4ec10ef837a46651c57f62f7354d1f05984f68000e4de0f5c4a9b1921f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10124/metadata.npz",
+      "group": "processed",
+      "bytes": 3306,
+      "sha256": "dc68f47c07e9ab21624f29b490877a7f2425eac6ee2e37765541dc649d58771a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10124/visible.npz",
+      "group": "processed",
+      "bytes": 928064,
+      "sha256": "860ab5283b0b15a4b180446f861e73e72b286c15b3dd2f3f10e7be91f7507e87"
+    },
+    {
+      "path": "data/frozen_graph/families/f10125/metadata.npz",
+      "group": "processed",
+      "bytes": 3368,
+      "sha256": "83617fefa7fab9c51457f6068532241e0720a4a688cb701f2a2cc65dd1661b53"
+    },
+    {
+      "path": "data/frozen_graph/families/f10125/visible.npz",
+      "group": "processed",
+      "bytes": 934355,
+      "sha256": "8b08df6fb4db1d7f18dc7ba23601765825b689548ef458b9e765ce4e133a7c9a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10126/metadata.npz",
+      "group": "processed",
+      "bytes": 3259,
+      "sha256": "b1860edf7853f19fab3d9ffc3e9dacc5780a29a753ff6134c6f89182564f8380"
+    },
+    {
+      "path": "data/frozen_graph/families/f10126/visible.npz",
+      "group": "processed",
+      "bytes": 883615,
+      "sha256": "a20859fa95d51107e30d28769a0bdb507f58252c9b9e4cf32cdfc7e624eeaace"
+    },
+    {
+      "path": "data/frozen_graph/families/f10127/metadata.npz",
+      "group": "processed",
+      "bytes": 3375,
+      "sha256": "e6bb0d928e01433e5e99f1d48170568ec22e4130db2843f5b687949f2be9710a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10127/visible.npz",
+      "group": "processed",
+      "bytes": 954887,
+      "sha256": "898ad01e73b4c6d4196c7530e07e7c2219935ca707be374beb7be2150f4a4b29"
+    },
+    {
+      "path": "data/frozen_graph/families/f10128/metadata.npz",
+      "group": "processed",
+      "bytes": 3332,
+      "sha256": "d44d6f91aab14dc272c391eae2f79da2bc14cd6a7bb4579c8f6570eb2c988e46"
+    },
+    {
+      "path": "data/frozen_graph/families/f10128/visible.npz",
+      "group": "processed",
+      "bytes": 910494,
+      "sha256": "785ce0daaaa88e71c5db0315f4976ac10689355d5e4c8abd930151ae05ac0b47"
+    },
+    {
+      "path": "data/frozen_graph/families/f10129/metadata.npz",
+      "group": "processed",
+      "bytes": 3336,
+      "sha256": "441d11675692971c6cd7f3292f32487201509a5cbf9746d16af6ac6a63ae2954"
+    },
+    {
+      "path": "data/frozen_graph/families/f10129/visible.npz",
+      "group": "processed",
+      "bytes": 919560,
+      "sha256": "88242051bf7b84cf3de3f48d8a6b595efbbb204db132ac118326cc4407d8611e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10130/metadata.npz",
+      "group": "processed",
+      "bytes": 3329,
+      "sha256": "79d04af6dc41ef24220800f999c6d5113cae9e183c975d1d1eaca4b32a383788"
+    },
+    {
+      "path": "data/frozen_graph/families/f10130/visible.npz",
+      "group": "processed",
+      "bytes": 899761,
+      "sha256": "447464eb28f2816ebc63c9475ae1eb43095925b026672bdb64e2a92cf9472dbe"
+    },
+    {
+      "path": "data/frozen_graph/families/f10131/metadata.npz",
+      "group": "processed",
+      "bytes": 3362,
+      "sha256": "353dc7c8373d5c5c8a29d95013b65a5a90d1a15e12a581d4f81b10c9bcd0ed44"
+    },
+    {
+      "path": "data/frozen_graph/families/f10131/visible.npz",
+      "group": "processed",
+      "bytes": 906579,
+      "sha256": "4384a544b582092f5765b840a15b4e53851786f426981be0b78aebb38bcad465"
+    },
+    {
+      "path": "data/frozen_graph/families/f10132/metadata.npz",
+      "group": "processed",
+      "bytes": 3226,
+      "sha256": "632dd4930904f680fa861fc23ff84259006d9e7cdfdd4387a7adeec253736f6d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10132/visible.npz",
+      "group": "processed",
+      "bytes": 852980,
+      "sha256": "11e9db384aa52efaa4eff98a859e59d5f026a4a374de91a7564abd9c3eba8362"
+    },
+    {
+      "path": "data/frozen_graph/families/f10133/metadata.npz",
+      "group": "processed",
+      "bytes": 3261,
+      "sha256": "cf4afddd2ec39533497973716057e0e7410a1504d0787a9db61a9beb4443c64b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10133/visible.npz",
+      "group": "processed",
+      "bytes": 902269,
+      "sha256": "de5c95a8d3d20918c8cf00f60f6c42d74a7195a457ad9743b18a47e42e992fc8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10134/metadata.npz",
+      "group": "processed",
+      "bytes": 3257,
+      "sha256": "9c00deab230a050442e7cedc21f9b23ed1cd1219f0fd98e3333842d3ca52905f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10134/visible.npz",
+      "group": "processed",
+      "bytes": 904477,
+      "sha256": "1a32a8b19e373a964810daf56d2214ff4a92bcab6da10917f71ee91739468137"
+    },
+    {
+      "path": "data/frozen_graph/families/f10135/metadata.npz",
+      "group": "processed",
+      "bytes": 3155,
+      "sha256": "f117e364a51b6946c87bb125d7f9741a2145a92033c1515144eb4ef128b48b0d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10135/visible.npz",
+      "group": "processed",
+      "bytes": 857654,
+      "sha256": "d2aa322031b7e54037f35caf46c74ce37f0d1a49819822309294c7e80c1f0c90"
+    },
+    {
+      "path": "data/frozen_graph/families/f10136/metadata.npz",
+      "group": "processed",
+      "bytes": 3189,
+      "sha256": "53cda1ecc3decd7c4dc3ee75dcfe5c801144fd4a9bc52f83401f503dceace95b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10136/visible.npz",
+      "group": "processed",
+      "bytes": 848106,
+      "sha256": "cde5056c54ae74b5fe270c042377b5db62a2b20486c66ca6c95162386220a217"
+    },
+    {
+      "path": "data/frozen_graph/families/f10137/metadata.npz",
+      "group": "processed",
+      "bytes": 3317,
+      "sha256": "50adefb297973626b82ab2820f294eac59b8d9945e89f92cf9d3227958e6ba47"
+    },
+    {
+      "path": "data/frozen_graph/families/f10137/visible.npz",
+      "group": "processed",
+      "bytes": 898209,
+      "sha256": "5c93c40feb9031ba9707e46f6433fb30c5e42bbb2020e52697d7f7d654a4ee67"
+    },
+    {
+      "path": "data/frozen_graph/families/f10138/metadata.npz",
+      "group": "processed",
+      "bytes": 3316,
+      "sha256": "2df94071cdd492a4d40f0364c3d9e92d272a233f5774344e91778e57c83c84b1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10138/visible.npz",
+      "group": "processed",
+      "bytes": 913052,
+      "sha256": "13f80d0534b860333a944d85c2328d4ce0018061826818fccc643e283be85729"
+    },
+    {
+      "path": "data/frozen_graph/families/f10139/metadata.npz",
+      "group": "processed",
+      "bytes": 3351,
+      "sha256": "c9bf60921a10b77b880b3a76561fddde25157f9f59efea6ce8dde876bfb0a5fb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10139/visible.npz",
+      "group": "processed",
+      "bytes": 940935,
+      "sha256": "9f3c5e71c1888a04fbd4d5116112effe468e396e2889cbdd38d9c496e7ddd39f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10140/metadata.npz",
+      "group": "processed",
+      "bytes": 3390,
+      "sha256": "7a31ae1e53b6df7ad7a3731626ada3ef2dfe8f93ed63b13c1ce5f863a0a08c2c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10140/visible.npz",
+      "group": "processed",
+      "bytes": 966826,
+      "sha256": "4d751416682079a5783a076b7b63b9cb9da6677b058c48e344e134b069b00a1a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10141/metadata.npz",
+      "group": "processed",
+      "bytes": 3335,
+      "sha256": "ef818ac1a762ae32852ac64c4c0bc82bdc261b7d84a59aa99860d84b53ceb49e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10141/visible.npz",
+      "group": "processed",
+      "bytes": 894063,
+      "sha256": "09b63dea828c4b7c4121e7d8aaa44be2d200f562ad0d2973e0b6e93463698a86"
+    },
+    {
+      "path": "data/frozen_graph/families/f10142/metadata.npz",
+      "group": "processed",
+      "bytes": 3206,
+      "sha256": "a6c779c525e79058ceca5b3d4c86279afc4d0cdf02ce7256ed28d11645cc1046"
+    },
+    {
+      "path": "data/frozen_graph/families/f10142/visible.npz",
+      "group": "processed",
+      "bytes": 874606,
+      "sha256": "04c3e1a111bc81159b161a5bf1d73a69fd1abc036e6162971a59275525744759"
+    },
+    {
+      "path": "data/frozen_graph/families/f10143/metadata.npz",
+      "group": "processed",
+      "bytes": 3307,
+      "sha256": "7617682aa5437afe6f6432962f3c040f25a28c5d126c6a36a29dc13787dea7ea"
+    },
+    {
+      "path": "data/frozen_graph/families/f10143/visible.npz",
+      "group": "processed",
+      "bytes": 915799,
+      "sha256": "5b0491a6b09d0a9edacde0f5b4898354b66807c95f517e047c8f61038c87f1a2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10144/metadata.npz",
+      "group": "processed",
+      "bytes": 3253,
+      "sha256": "51b03754a239f085b011408748513ac68942c5fdfd60f365680e079ab088df51"
+    },
+    {
+      "path": "data/frozen_graph/families/f10144/visible.npz",
+      "group": "processed",
+      "bytes": 864020,
+      "sha256": "d95d85303c40baae3e800755905c0f829c09740fad0284de3fdbe10d226a9390"
+    },
+    {
+      "path": "data/frozen_graph/families/f10145/metadata.npz",
+      "group": "processed",
+      "bytes": 3316,
+      "sha256": "15de88ae105f91cc31b75c88ae83cfa0316825bd5a06ee436dc83a173bac8cb7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10145/visible.npz",
+      "group": "processed",
+      "bytes": 909039,
+      "sha256": "f0f538caab75fa751f2fa47b29c22bff8096d9889b4170e63add8b81e9b56029"
+    },
+    {
+      "path": "data/frozen_graph/families/f10146/metadata.npz",
+      "group": "processed",
+      "bytes": 3294,
+      "sha256": "0861e02a563584ee0087e25536e5cb3d3aa3a786859f60e665be5545d8139cb1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10146/visible.npz",
+      "group": "processed",
+      "bytes": 909675,
+      "sha256": "16bdad7bfa4b2da064e34f003587175a75335090fd01f84709a3e3d329e69b06"
+    },
+    {
+      "path": "data/frozen_graph/families/f10147/metadata.npz",
+      "group": "processed",
+      "bytes": 3382,
+      "sha256": "20b5b6a3cbd8edf156d33279723807c9d400867d1e7dfc87ee552538ba9631e9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10147/visible.npz",
+      "group": "processed",
+      "bytes": 911047,
+      "sha256": "f66bc62ba2674f03d0cf9d489c2871804db00b152f05342a4f4da2e812976a11"
+    },
+    {
+      "path": "data/frozen_graph/families/f10148/metadata.npz",
+      "group": "processed",
+      "bytes": 3348,
+      "sha256": "4a7915368faa6117708e817803907ea1f6cc0cc19ffe2044e5dd70945335b2e4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10148/visible.npz",
+      "group": "processed",
+      "bytes": 922961,
+      "sha256": "c1036fe5b522acb7e30a422c9e89114afffac69e6d78538afe7974e3df28647f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10149/metadata.npz",
+      "group": "processed",
+      "bytes": 3255,
+      "sha256": "5631ed911413c575e3145dc6107d099e97115168214a94581d66bda4d102e497"
+    },
+    {
+      "path": "data/frozen_graph/families/f10149/visible.npz",
+      "group": "processed",
+      "bytes": 869401,
+      "sha256": "b77975bc080011c82a819ba1b7e9c0409795d6cc0f7c5a9d61929d8a18efeec7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10150/metadata.npz",
+      "group": "processed",
+      "bytes": 3285,
+      "sha256": "bef41e2dee2726dbb8dcf76bd103dce6b49ce1f46ccd488cfe67664c43a3477e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10150/visible.npz",
+      "group": "processed",
+      "bytes": 897665,
+      "sha256": "ddf6a4d52aae24f29cb543ec98836bfcb4ca7218ef337923e0982b6f8c3cf968"
+    },
+    {
+      "path": "data/frozen_graph/families/f10151/metadata.npz",
+      "group": "processed",
+      "bytes": 3348,
+      "sha256": "f03c2212ab983fed8bbefa87bd795499eef71ca38d5e7bcd3b2750d5be31fdd8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10151/visible.npz",
+      "group": "processed",
+      "bytes": 915455,
+      "sha256": "d5614406b6caf3ccb56974b481d63f95d6d09148d301f83d57c91fd063ae009d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10152/metadata.npz",
+      "group": "processed",
+      "bytes": 3284,
+      "sha256": "dbdb49784887cca1c76b204553716bd07464935bc6955c8ea90d98936a333da6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10152/visible.npz",
+      "group": "processed",
+      "bytes": 907902,
+      "sha256": "57b12c41627b33e91a239d918a47105225994117ed83fcefd97741ddc69e045f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10153/metadata.npz",
+      "group": "processed",
+      "bytes": 3250,
+      "sha256": "a6ab61a31fb1b19cc1cfe64ef2226e2982f30de5290b04d493303a22c5c5041a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10153/visible.npz",
+      "group": "processed",
+      "bytes": 847189,
+      "sha256": "3c34070b328d61c15098df898efba4f032e63c34ac76f046857eedca86957094"
+    },
+    {
+      "path": "data/frozen_graph/families/f10154/metadata.npz",
+      "group": "processed",
+      "bytes": 3366,
+      "sha256": "b286f86a8bca04602f5aa752e9f9e18022ea91297d4e253ad5dd592893d05746"
+    },
+    {
+      "path": "data/frozen_graph/families/f10154/visible.npz",
+      "group": "processed",
+      "bytes": 904182,
+      "sha256": "2975ab7e85e35d6a296170589f76cf8f3a247860dfcf9b571bc6c92af70403d1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10155/metadata.npz",
+      "group": "processed",
+      "bytes": 3306,
+      "sha256": "5e6bd6bf47e537ed88414684cbb8c6aa750a571a00fb3b9b8ddb9cc21d55bcf4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10155/visible.npz",
+      "group": "processed",
+      "bytes": 912851,
+      "sha256": "48bffe01fb572eed7510ecdd42023abbda99dc77af5d31ab56e96b859e82301a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10156/metadata.npz",
+      "group": "processed",
+      "bytes": 3362,
+      "sha256": "ec88fc7773b55a81af34e0b0c3a031a72addbcff6cb43774a3bac9cb7fd776f0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10156/visible.npz",
+      "group": "processed",
+      "bytes": 948993,
+      "sha256": "65402d8a2215b40ec17d8b2284bb369247a22f69754d8a19230deef266b6e4bc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10157/metadata.npz",
+      "group": "processed",
+      "bytes": 3291,
+      "sha256": "1b01a6c7b022163e506f890a96dd5cfe3d7c2ce18f5da29d5b4200ca2021f66e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10157/visible.npz",
+      "group": "processed",
+      "bytes": 874480,
+      "sha256": "30f19e90f7cc82db2469629277da4cc345094698058d1242cf52ed552a85af42"
+    },
+    {
+      "path": "data/frozen_graph/families/f10158/metadata.npz",
+      "group": "processed",
+      "bytes": 3289,
+      "sha256": "a8e0ed47bda86514c0955e973d070605dfae2969cde3bcec4ecfd127b6c0043c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10158/visible.npz",
+      "group": "processed",
+      "bytes": 858147,
+      "sha256": "b000cd8b7cc31ae7ab7acff9ab2f30ab20b552c21ac031012d04d0eb5ace2f65"
+    },
+    {
+      "path": "data/frozen_graph/families/f10159/metadata.npz",
+      "group": "processed",
+      "bytes": 3337,
+      "sha256": "436358d3fdf0b8a69ba6ff3ed1bb2d4f7444821fe892ba19b3a372122d4382fc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10159/visible.npz",
+      "group": "processed",
+      "bytes": 907939,
+      "sha256": "5e805f687122676cbeb9b46ff1b4957bd0751907d5b7852da20373dda8bddc22"
+    },
+    {
+      "path": "data/frozen_graph/families/f10160/metadata.npz",
+      "group": "processed",
+      "bytes": 3452,
+      "sha256": "d810a9c7a4d1adcbb51543cfcff0e995a0bc23c93d438b48e2a0340886a593a6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10160/visible.npz",
+      "group": "processed",
+      "bytes": 974346,
+      "sha256": "6fa79bafd0927785202c37d3ef6a2535f244e245505553f8817ece96e232e4e5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10161/metadata.npz",
+      "group": "processed",
+      "bytes": 3263,
+      "sha256": "9900f45af6f716ac95bac35a3cafeb2474d3988a148b747a651e0aef46831154"
+    },
+    {
+      "path": "data/frozen_graph/families/f10161/visible.npz",
+      "group": "processed",
+      "bytes": 862103,
+      "sha256": "fdcbfd78e7a92ee7a92a1ab593a2b62d846d74d87fd9d786e6d41b87459f52b9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10162/metadata.npz",
+      "group": "processed",
+      "bytes": 3302,
+      "sha256": "a63051e6a1678c3f5b29db5a860f7aff4a8cd7bc47c0031ce61dfbb2a22ff617"
+    },
+    {
+      "path": "data/frozen_graph/families/f10162/visible.npz",
+      "group": "processed",
+      "bytes": 919615,
+      "sha256": "15f49459de9a77a90d01be2e614027699f6dc5020f3ad93afd75a550f02a0255"
+    },
+    {
+      "path": "data/frozen_graph/families/f10163/metadata.npz",
+      "group": "processed",
+      "bytes": 3178,
+      "sha256": "6ddbb918c5749ccbe81ea84f932251e87ae93e0d7d5610f61562e8b31070c9c4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10163/visible.npz",
+      "group": "processed",
+      "bytes": 850984,
+      "sha256": "b75fa1fa226976fc93727dfbccd794a087adecfc8dc784dda240f99e46611c45"
+    },
+    {
+      "path": "data/frozen_graph/families/f10164/metadata.npz",
+      "group": "processed",
+      "bytes": 3299,
+      "sha256": "7b1d4c635f08e355b6b2565638c60c351baf350ed92a5f9930efcb2dd00501df"
+    },
+    {
+      "path": "data/frozen_graph/families/f10164/visible.npz",
+      "group": "processed",
+      "bytes": 903459,
+      "sha256": "fe153af2cf3e2abb2adc4d990d25af0f42c519562f7165c5d052df3a179d3530"
+    },
+    {
+      "path": "data/frozen_graph/families/f10165/metadata.npz",
+      "group": "processed",
+      "bytes": 3362,
+      "sha256": "4e918901a43febdac55749428d147f784b60a91639cf54382901f8e633e0e275"
+    },
+    {
+      "path": "data/frozen_graph/families/f10165/visible.npz",
+      "group": "processed",
+      "bytes": 957498,
+      "sha256": "30c2d2fec82bf3f7c31faecf157186aaf833aa67ecaa0910c2cd638be72f4d73"
+    },
+    {
+      "path": "data/frozen_graph/families/f10166/metadata.npz",
+      "group": "processed",
+      "bytes": 3347,
+      "sha256": "d8a78b56a7704b815c87869f4a511c4b5014ec4356de5fd4181da83be5f3fd3c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10166/visible.npz",
+      "group": "processed",
+      "bytes": 904817,
+      "sha256": "9e0ac9a874ae572a135890678639acafbb711332d933d2ab80f5b3de77f6d464"
+    },
+    {
+      "path": "data/frozen_graph/families/f10167/metadata.npz",
+      "group": "processed",
+      "bytes": 3299,
+      "sha256": "6cd36f7d915f001a738a8a7a321fe760ba87dbbfc5cbeed7ed282cfb603ff9ca"
+    },
+    {
+      "path": "data/frozen_graph/families/f10167/visible.npz",
+      "group": "processed",
+      "bytes": 896083,
+      "sha256": "79912baa997181bdfd2f4a2dfe49cc1d9cb9d630dae74fbb4af38a4cd84da90f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10168/metadata.npz",
+      "group": "processed",
+      "bytes": 3383,
+      "sha256": "1ea89f7bdd26d761d899d2f6f4931daabf5b690cfef80d54a98ec22f811f63ba"
+    },
+    {
+      "path": "data/frozen_graph/families/f10168/visible.npz",
+      "group": "processed",
+      "bytes": 920504,
+      "sha256": "0054dd4b3158b64c2e48dee2c71e539bfbc1fc56388594b533e7bac00e74f2af"
+    },
+    {
+      "path": "data/frozen_graph/families/f10169/metadata.npz",
+      "group": "processed",
+      "bytes": 3219,
+      "sha256": "a762959d597410531e45b0bcc20e330758f519a7c3d31d7574fdd219a2b11fb3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10169/visible.npz",
+      "group": "processed",
+      "bytes": 883595,
+      "sha256": "830b0eeb617e085bae949fc751541569fe77f34f34a2893e417bd8dd5cc13180"
+    },
+    {
+      "path": "data/frozen_graph/families/f10170/metadata.npz",
+      "group": "processed",
+      "bytes": 3315,
+      "sha256": "3a7bfc107729251004090ed53faa0d16f51dbfb57a47decb33d5679e310033a7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10170/visible.npz",
+      "group": "processed",
+      "bytes": 914402,
+      "sha256": "c7fc46c4fb0376d87dbb9aa602b2f0d2d5b94a095737c7f9088a7d754daee8b1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10171/metadata.npz",
+      "group": "processed",
+      "bytes": 3304,
+      "sha256": "e9a6c8a37b7f9b6851691b39e281b109341ce4a14d53258a8600143e95c5f307"
+    },
+    {
+      "path": "data/frozen_graph/families/f10171/visible.npz",
+      "group": "processed",
+      "bytes": 911082,
+      "sha256": "0ba381ca51d5e7b7e7a8f2c83cc656ad1c76e549e9b1a7c129056bf1c667244c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10172/metadata.npz",
+      "group": "processed",
+      "bytes": 3429,
+      "sha256": "af50d481a5ddb8fc048f408b0108d43b75c4e2f3ba9a3a7d5d94819613512509"
+    },
+    {
+      "path": "data/frozen_graph/families/f10172/visible.npz",
+      "group": "processed",
+      "bytes": 935562,
+      "sha256": "5f6dfc8ca620a9abe5a2bac23623bf2d080bbb348de76fa46185890097c23a5e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10173/metadata.npz",
+      "group": "processed",
+      "bytes": 3323,
+      "sha256": "aea289b17db9b0dfabf56cacef8afb260091204ae039f1d0a3db7da9f5b941f6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10173/visible.npz",
+      "group": "processed",
+      "bytes": 885674,
+      "sha256": "26e527388748c979911e7a2824008785b1e414bc8d55b286627c9bf6324bc72e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10174/metadata.npz",
+      "group": "processed",
+      "bytes": 3308,
+      "sha256": "1fe3fe2d9e4bc10edb4a0be8305506d801541824916e30ea5018badb8ec0601f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10174/visible.npz",
+      "group": "processed",
+      "bytes": 924033,
+      "sha256": "089de13793258fdb05091707fd58d742116f95c693e2194a58c296712d8a9606"
+    },
+    {
+      "path": "data/frozen_graph/families/f10175/metadata.npz",
+      "group": "processed",
+      "bytes": 3345,
+      "sha256": "ad8670b855e75fef1f68c572ce8dfabf59f02b88eb8c5ef61ae5e5f473e9c01d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10175/visible.npz",
+      "group": "processed",
+      "bytes": 950776,
+      "sha256": "1cfe97d7aece94558e464d62df51388f69366309e729ea6323f0bcc42c1fcd2a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10176/metadata.npz",
+      "group": "processed",
+      "bytes": 3206,
+      "sha256": "e22207a094c8db04665f845e5c149e8321b3bcae2d0135cfe818466737b3ca6c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10176/visible.npz",
+      "group": "processed",
+      "bytes": 858580,
+      "sha256": "9a3aa37a2df43d0c0d980a5d05f35f200570912aa8589fe6cae4688d7bac463f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10177/metadata.npz",
+      "group": "processed",
+      "bytes": 3310,
+      "sha256": "136e5135e7a7f56dc3864656534813a5691ff898a16c1f31dea6e4717ac18b06"
+    },
+    {
+      "path": "data/frozen_graph/families/f10177/visible.npz",
+      "group": "processed",
+      "bytes": 925534,
+      "sha256": "97f5622d966994393e6d80b97766f4ce4a5f3bce635b8bf4e41ca0d5e1e92369"
+    },
+    {
+      "path": "data/frozen_graph/families/f10178/metadata.npz",
+      "group": "processed",
+      "bytes": 3282,
+      "sha256": "132f017cb7a546d6eb2ffefb992c63874bd65de805ea8fea66870daa4526f7c5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10178/visible.npz",
+      "group": "processed",
+      "bytes": 863680,
+      "sha256": "3a04405b54d9ecead1fc710492502a4adefe4acdfa96fe1173093edbf68c43b5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10179/metadata.npz",
+      "group": "processed",
+      "bytes": 3275,
+      "sha256": "758351c654e125df21b06c83c4020348a65b4d0fd2a7ca38e0c2086d59baafc1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10179/visible.npz",
+      "group": "processed",
+      "bytes": 863575,
+      "sha256": "5566ed977a0592fe3c439f24ec3802fcde64e5d176ba2df5280ee1f8329369aa"
+    },
+    {
+      "path": "data/frozen_graph/families/f10180/metadata.npz",
+      "group": "processed",
+      "bytes": 3320,
+      "sha256": "334727fd66b3a0852d968bbf8c4f0fd0648093cb87dea646db12e5656eb5a8ce"
+    },
+    {
+      "path": "data/frozen_graph/families/f10180/visible.npz",
+      "group": "processed",
+      "bytes": 907125,
+      "sha256": "a92f32725b2bd7011ac694cb3c983a03fba47e3e2c4624fae4751f3dd197ddc9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10181/metadata.npz",
+      "group": "processed",
+      "bytes": 3373,
+      "sha256": "0d0ac7ecd948516080edbf84d9246730b495b1e6b367810d9eb9e3463529236f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10181/visible.npz",
+      "group": "processed",
+      "bytes": 948792,
+      "sha256": "c332e83f7693fa854511e6e42c4171806b26b1e8eab83d1efda52eeadde22e03"
+    },
+    {
+      "path": "data/frozen_graph/families/f10182/metadata.npz",
+      "group": "processed",
+      "bytes": 3335,
+      "sha256": "013614c2449212af8c627e0c6a07cc897b9e5b090557e7472b093e13781a3880"
+    },
+    {
+      "path": "data/frozen_graph/families/f10182/visible.npz",
+      "group": "processed",
+      "bytes": 911867,
+      "sha256": "ac50c7bfb5eda7b8b9cb2a18855b8d64990c9014edc3b0133108efa2de958dea"
+    },
+    {
+      "path": "data/frozen_graph/families/f10183/metadata.npz",
+      "group": "processed",
+      "bytes": 3325,
+      "sha256": "5ee0f2aa0a623ac3732f382879d2a5a46f70b063c697933c409d8d983e0cfc8b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10183/visible.npz",
+      "group": "processed",
+      "bytes": 878297,
+      "sha256": "235ff9e9cfad899f8daa46af35c169ecf9ac9743220d0b6c3133a218636925cd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10184/metadata.npz",
+      "group": "processed",
+      "bytes": 3353,
+      "sha256": "c873f1bccf1017b3efeacf7e821647678f08baf11ee5b218d9cf6d3fd1885ce5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10184/visible.npz",
+      "group": "processed",
+      "bytes": 933322,
+      "sha256": "a4bf6288398da5236f715ebd3311f3e5ecf24c85bd6a93f40050f1ea130fb305"
+    },
+    {
+      "path": "data/frozen_graph/families/f10185/metadata.npz",
+      "group": "processed",
+      "bytes": 3304,
+      "sha256": "3da52ca431c21e837a033aae2c954797fd35ddee28a3e3a09ef76d83659e97fb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10185/visible.npz",
+      "group": "processed",
+      "bytes": 881666,
+      "sha256": "c8ff0b6c8d67d8acdfb29f7a40cb92744efa9d49a4bb582e8c5078c380819ce1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10186/metadata.npz",
+      "group": "processed",
+      "bytes": 3268,
+      "sha256": "59c5a36350451dd4fa41664763a0978f19976b0e15d257079c50d8a0d7da190f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10186/visible.npz",
+      "group": "processed",
+      "bytes": 870562,
+      "sha256": "e62600793513b678005dced0f2393144e64b8e3a4975785889858d15eac78ab2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10187/metadata.npz",
+      "group": "processed",
+      "bytes": 3273,
+      "sha256": "7ee5534f08c3384ac60f01e57461a391c03dd3c1b074156a8adba970134991a7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10187/visible.npz",
+      "group": "processed",
+      "bytes": 885389,
+      "sha256": "b413e370ced5724a75d4bb06550396b060d3dd1514c17e66963708817fb23dd4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10188/metadata.npz",
+      "group": "processed",
+      "bytes": 3283,
+      "sha256": "af0b2aa449975ebbece70d112eff15fbf4e2d78296392875ae2611e98726cd60"
+    },
+    {
+      "path": "data/frozen_graph/families/f10188/visible.npz",
+      "group": "processed",
+      "bytes": 935226,
+      "sha256": "32c4970eee17cc869989990bc52041854cc5944ca8d18636c4d806bb35aa97fe"
+    },
+    {
+      "path": "data/frozen_graph/families/f10189/metadata.npz",
+      "group": "processed",
+      "bytes": 3223,
+      "sha256": "b72739a61e3ef77114f43b8cd55e37716498814ce80a5f75b16258e277009c72"
+    },
+    {
+      "path": "data/frozen_graph/families/f10189/visible.npz",
+      "group": "processed",
+      "bytes": 873961,
+      "sha256": "34e5725278aa1f2ef849d6c3671917417a78d5661fc8c1357a6361089d3c00af"
+    },
+    {
+      "path": "data/frozen_graph/families/f10190/metadata.npz",
+      "group": "processed",
+      "bytes": 3247,
+      "sha256": "0f5ab2ac74073ccbd56cfac40c8e8cb5a30e7286a273c91f3cf954a4f47b202c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10190/visible.npz",
+      "group": "processed",
+      "bytes": 874689,
+      "sha256": "bf6a30ab0524c44e3bedae74f401f3b6f412c34428829400d468521ec4f948ce"
+    },
+    {
+      "path": "data/frozen_graph/families/f10191/metadata.npz",
+      "group": "processed",
+      "bytes": 3260,
+      "sha256": "a61f325b073362295314723ccaad45686cd2ef5bab10900eee2b9e55e6fa373f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10191/visible.npz",
+      "group": "processed",
+      "bytes": 863288,
+      "sha256": "06777b9928b0d9f8d08d112b886fddd8ed3b2e257f74f221182f602a27b567a0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10192/metadata.npz",
+      "group": "processed",
+      "bytes": 3355,
+      "sha256": "d471a7ad928fff01931eb7c1d365f2b4a7aaffb3cbda5847c10b0eca012180c0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10192/visible.npz",
+      "group": "processed",
+      "bytes": 907264,
+      "sha256": "6361299bdb411f1d6fb623461b07bc69fca72de2c3d6fe1d2e336922b3442a96"
+    },
+    {
+      "path": "data/frozen_graph/families/f10193/metadata.npz",
+      "group": "processed",
+      "bytes": 3402,
+      "sha256": "ec77530d658726427214aae8677e88b1c9c1516fba3e4d01e761d8fae302399f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10193/visible.npz",
+      "group": "processed",
+      "bytes": 986850,
+      "sha256": "569fab3e6f9b5df0b783ebb70071839facac27f916de6f4d6ec938f94788109f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10194/metadata.npz",
+      "group": "processed",
+      "bytes": 3354,
+      "sha256": "de7d19eb4c22cd085cedcc6b82336ac61c7baa5ac3a31dec7dd625c1d216e905"
+    },
+    {
+      "path": "data/frozen_graph/families/f10194/visible.npz",
+      "group": "processed",
+      "bytes": 931291,
+      "sha256": "4eb1619db7bb579af7e972d903be08957524281426f644c97bf549369eb59fbd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10195/metadata.npz",
+      "group": "processed",
+      "bytes": 3404,
+      "sha256": "2cee29b09ab9162659312b0a4fac76aac012dba2b2895df20d4b0e69d22a7590"
+    },
+    {
+      "path": "data/frozen_graph/families/f10195/visible.npz",
+      "group": "processed",
+      "bytes": 941428,
+      "sha256": "b6d209c8225abc9b1e495d17dbe3b2ea10c4e9552333548140f7dacc496cc603"
+    },
+    {
+      "path": "data/frozen_graph/families/f10196/metadata.npz",
+      "group": "processed",
+      "bytes": 3322,
+      "sha256": "a478bd28512a414be039871721d9415782d49e7875bf274a482c6fdf9147a93a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10196/visible.npz",
+      "group": "processed",
+      "bytes": 929999,
+      "sha256": "a4b5f95799e58754e90431ee501a0bfb586bfcf0f8ae4db9dde67afa8d108fa7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10197/metadata.npz",
+      "group": "processed",
+      "bytes": 3224,
+      "sha256": "0622b3b0782b156f26339011b47729de4eebcff45d51f227a454bd50908015b1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10197/visible.npz",
+      "group": "processed",
+      "bytes": 846880,
+      "sha256": "47eb6c1c10c2f5c52d9a0ed6118367d63413ada504e4d6a10d589569fe737bdc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10198/metadata.npz",
+      "group": "processed",
+      "bytes": 3234,
+      "sha256": "d9cdefa9e12518329dd086caa355cd0da724ed70842e158a0805356bca1c5aff"
+    },
+    {
+      "path": "data/frozen_graph/families/f10198/visible.npz",
+      "group": "processed",
+      "bytes": 891470,
+      "sha256": "74a347c0066aa45db98c6e3fcdaee640b5c393233d24e99969688fb9ccc2196e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10199/metadata.npz",
+      "group": "processed",
+      "bytes": 3326,
+      "sha256": "350dd5a4264d8a87b02a5ea99ac790c01c84bf857d87665920db37bc48bdccf4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10199/visible.npz",
+      "group": "processed",
+      "bytes": 895515,
+      "sha256": "94fccf3e6c8d3c529da34830b040dfc07f3428f4cafdb54bafb70ed5f878f8db"
+    },
+    {
+      "path": "data/frozen_graph/families/f10200/metadata.npz",
+      "group": "processed",
+      "bytes": 3258,
+      "sha256": "a2623641d1d56420ab2350002ba87026b57bc7f9a356ff0f5ba3ae6c39997097"
+    },
+    {
+      "path": "data/frozen_graph/families/f10200/visible.npz",
+      "group": "processed",
+      "bytes": 907088,
+      "sha256": "cef207e7c334e59b388ba849907af026bb755852384127803bd92ae6f952cd97"
+    },
+    {
+      "path": "data/frozen_graph/families/f10201/metadata.npz",
+      "group": "processed",
+      "bytes": 3320,
+      "sha256": "daf05c56fd4dde85678956214ddee0dae48bd2eababfda31c1796d900067a512"
+    },
+    {
+      "path": "data/frozen_graph/families/f10201/visible.npz",
+      "group": "processed",
+      "bytes": 884712,
+      "sha256": "e5eb09fb7ce82e1d6575e0936ada2fe1908c1735337204000abb460c217ebf28"
+    },
+    {
+      "path": "data/frozen_graph/families/f10202/metadata.npz",
+      "group": "processed",
+      "bytes": 3292,
+      "sha256": "f1bdfee4cf9f34e89d7ba4019db4598d1d32ca2824ddd48e25dd5e576ca86e30"
+    },
+    {
+      "path": "data/frozen_graph/families/f10202/visible.npz",
+      "group": "processed",
+      "bytes": 903951,
+      "sha256": "e1dffefc00471cc84d8225a28e28d270d8faf086ba37b1b9a849ad310eefbe73"
+    },
+    {
+      "path": "data/frozen_graph/families/f10203/metadata.npz",
+      "group": "processed",
+      "bytes": 3238,
+      "sha256": "2b15e244a144c52115bac007b1301790dda70f04f20c2678fadf819955f87a98"
+    },
+    {
+      "path": "data/frozen_graph/families/f10203/visible.npz",
+      "group": "processed",
+      "bytes": 901217,
+      "sha256": "0673666b4b575686948f8998ed451a4adfc2cd58cea8c5060025a4a824222763"
+    },
+    {
+      "path": "data/frozen_graph/families/f10204/metadata.npz",
+      "group": "processed",
+      "bytes": 3256,
+      "sha256": "5cceb61224b158fcea1ef2222808d5201da42246d54fed98a9192d2f0513077d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10204/visible.npz",
+      "group": "processed",
+      "bytes": 870500,
+      "sha256": "a052bad32c68d783b4c1af7b57b59aa1a20b5019eabc26de88df4beaba560355"
+    },
+    {
+      "path": "data/frozen_graph/families/f10205/metadata.npz",
+      "group": "processed",
+      "bytes": 3205,
+      "sha256": "85ae58eeba88ad35a01b759c781059cda159b04acca9f9b45a59b5cdbebf1940"
+    },
+    {
+      "path": "data/frozen_graph/families/f10205/visible.npz",
+      "group": "processed",
+      "bytes": 845838,
+      "sha256": "1cf3ed8f12bee4927183badf2ba4140cf7f759e9fe6e6d746fd0d1c3dee05db8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10206/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "5e72c7f8261b8cbf81d43c70f905f65bdc2d096840098d94c01a3a0eed647fa8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10206/visible.npz",
+      "group": "processed",
+      "bytes": 916047,
+      "sha256": "9b99c7fc8b886df5bd870e8c0c1376c50a5cde8286213e3a32f3bdeab372ba15"
+    },
+    {
+      "path": "data/frozen_graph/families/f10207/metadata.npz",
+      "group": "processed",
+      "bytes": 3323,
+      "sha256": "f0450fb484da5cc142aad091cb4f7858e943a256b620b890c2f61f358b1bab02"
+    },
+    {
+      "path": "data/frozen_graph/families/f10207/visible.npz",
+      "group": "processed",
+      "bytes": 904018,
+      "sha256": "94994cedb979c99415cbc859a763ff5407406486b99b297b8cc377ab759ac765"
+    },
+    {
+      "path": "data/frozen_graph/families/f10208/metadata.npz",
+      "group": "processed",
+      "bytes": 3190,
+      "sha256": "ad777fa140c2f05b85a6b71a22f82f12dddefe73420115889626edfc458f35be"
+    },
+    {
+      "path": "data/frozen_graph/families/f10208/visible.npz",
+      "group": "processed",
+      "bytes": 876401,
+      "sha256": "9f648a866f3b4182abe9d228daa263ca2486f82a199adbdffb5396fd18abb848"
+    },
+    {
+      "path": "data/frozen_graph/families/f10209/metadata.npz",
+      "group": "processed",
+      "bytes": 3168,
+      "sha256": "884d98066379950e8c0be6152bff26d165c38c64115f58864f4a0b779812d71d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10209/visible.npz",
+      "group": "processed",
+      "bytes": 817809,
+      "sha256": "fdfcfb36ac24e1266147d2a606267e894d28784bc97350b5a85e716df3af23d5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10210/metadata.npz",
+      "group": "processed",
+      "bytes": 3139,
+      "sha256": "565fc0332a8c19e0e94cc44ba1add4ecd9bf7417578787e3b0e0b9fb295a47b0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10210/visible.npz",
+      "group": "processed",
+      "bytes": 821272,
+      "sha256": "f756e997638d23dfaae739f4d32e3810815ec74131d222357961d03844abc792"
+    },
+    {
+      "path": "data/frozen_graph/families/f10211/metadata.npz",
+      "group": "processed",
+      "bytes": 3225,
+      "sha256": "232a65936ca10922d1bb11a323ff7464617b0b02abf6cb8248a63309b3afa45f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10211/visible.npz",
+      "group": "processed",
+      "bytes": 848434,
+      "sha256": "4100d7079f788cc0935889527f6bab56945f3d02e9498ac2ceac66d97c0ed716"
+    },
+    {
+      "path": "data/frozen_graph/families/f10212/metadata.npz",
+      "group": "processed",
+      "bytes": 3203,
+      "sha256": "0d047214ae3b30cda3b8b9e223e439ec38150416277a2530aa8e53320c1ef1a7"
+    },
+    {
+      "path": "data/frozen_graph/families/f10212/visible.npz",
+      "group": "processed",
+      "bytes": 836907,
+      "sha256": "bbcad6ddbf2c74ef2d215a913c0b12e95e6145de8f88f3d5a7941cefcff450fc"
+    },
+    {
+      "path": "data/frozen_graph/families/f10213/metadata.npz",
+      "group": "processed",
+      "bytes": 3283,
+      "sha256": "5fcdee83acb5bfb4cfacf8db1dd1d790559260c40502f22f0e075454d51d7ed2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10213/visible.npz",
+      "group": "processed",
+      "bytes": 920055,
+      "sha256": "3d9a41ef0d0fe1af42a53b0dad2a81235998b04292972c6315a951f34b185002"
+    },
+    {
+      "path": "data/frozen_graph/families/f10214/metadata.npz",
+      "group": "processed",
+      "bytes": 3422,
+      "sha256": "46de3307dae395c5d1662449cbdd1ac1e4267c358b48fb3e3d8a6f903a9e7a68"
+    },
+    {
+      "path": "data/frozen_graph/families/f10214/visible.npz",
+      "group": "processed",
+      "bytes": 964470,
+      "sha256": "e7abb6afb57e569bcfb4de598450c5898035a4947f6583a3b2d88f493a3a083a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10215/metadata.npz",
+      "group": "processed",
+      "bytes": 3422,
+      "sha256": "4d37a76174ab7f8b4fd05161a35eb7caa01e85a0cc9a207c7fb84ef60d29b4ed"
+    },
+    {
+      "path": "data/frozen_graph/families/f10215/visible.npz",
+      "group": "processed",
+      "bytes": 988920,
+      "sha256": "a1b641deb47c7269cd3eea7febd7cd006ba4e1f08342655cfff7484df167f983"
+    },
+    {
+      "path": "data/frozen_graph/families/f10216/metadata.npz",
+      "group": "processed",
+      "bytes": 3233,
+      "sha256": "8e99073abc38cf16fb3055613b95afa06d23febb4684575c5aa102cbd24b4e52"
+    },
+    {
+      "path": "data/frozen_graph/families/f10216/visible.npz",
+      "group": "processed",
+      "bytes": 882331,
+      "sha256": "5f3d4c79fdb52045a5d2f32851aef66a658dbdfc5d118fea690e744628c59de1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10217/metadata.npz",
+      "group": "processed",
+      "bytes": 3348,
+      "sha256": "d713c76d9ff65b960e5f9ea158668965f43513db5828894200e2b8ee42c33597"
+    },
+    {
+      "path": "data/frozen_graph/families/f10217/visible.npz",
+      "group": "processed",
+      "bytes": 917690,
+      "sha256": "300b22dfc5f6aa2a596fe56eb97f0be79a8a8d9b3c25cd7f23c93c8e51c15e46"
+    },
+    {
+      "path": "data/frozen_graph/families/f10218/metadata.npz",
+      "group": "processed",
+      "bytes": 3317,
+      "sha256": "71dd57bd9c166f623530bcbfe69a8b1432f042f879303aa86cc79d2a363647ac"
+    },
+    {
+      "path": "data/frozen_graph/families/f10218/visible.npz",
+      "group": "processed",
+      "bytes": 934444,
+      "sha256": "4c427b5dee653eb79c586a6de6010f4247985fe038603e85cb9ae5d2728d51a1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10219/metadata.npz",
+      "group": "processed",
+      "bytes": 3328,
+      "sha256": "091abb8cb130738196aeb287f0b6e1ab2593dacd99bb794e61c9c1d8b14014c8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10219/visible.npz",
+      "group": "processed",
+      "bytes": 907384,
+      "sha256": "ca133895017c16468dfcdcb7b90e4b9d5ccabb461707b77eb0f2ce2e1b0a079c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10220/metadata.npz",
+      "group": "processed",
+      "bytes": 3205,
+      "sha256": "a1ea7cc8feefe6ab2fcba3d9f8f2d83b713a0e70fb3e1458456a8568d56c708a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10220/visible.npz",
+      "group": "processed",
+      "bytes": 845570,
+      "sha256": "661820dc6ebb33c000b39799e7f9d06720960b58f7d6693c38b86d421459d795"
+    },
+    {
+      "path": "data/frozen_graph/families/f10221/metadata.npz",
+      "group": "processed",
+      "bytes": 3359,
+      "sha256": "d73764de40667464cfdbb0c284b3f4fcebc6b8d807c7e3f0f991200fabcb4e9c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10221/visible.npz",
+      "group": "processed",
+      "bytes": 919090,
+      "sha256": "bf262f4aaff0b6ab5bbc8790a09807a9154a5c0a6e5f8498df1f2f2608746be5"
+    },
+    {
+      "path": "data/frozen_graph/families/f10222/metadata.npz",
+      "group": "processed",
+      "bytes": 3304,
+      "sha256": "796bd4dca9947c32fe32d0f7e0bbe628e07c30f71d52cfc74ef02dcb95f6554b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10222/visible.npz",
+      "group": "processed",
+      "bytes": 933775,
+      "sha256": "106392a4e17af5bccc409675bd74222f8f73ee69472a00c32d034f797be8fe62"
+    },
+    {
+      "path": "data/frozen_graph/families/f10223/metadata.npz",
+      "group": "processed",
+      "bytes": 3432,
+      "sha256": "ab1faf270b2350b1ca4f2f7317341033c3ba38b251702c4b5080803406f7d73f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10223/visible.npz",
+      "group": "processed",
+      "bytes": 951255,
+      "sha256": "10daed064ee10d3b9cfdf9b1f785dd2b59108821f3687b8709c3cffc190fab1f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10224/metadata.npz",
+      "group": "processed",
+      "bytes": 3171,
+      "sha256": "78ca1ecefcbf7e80f00c0d901cc3ce1f7c39d1ccd02a34d536efd41766c32dd6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10224/visible.npz",
+      "group": "processed",
+      "bytes": 870939,
+      "sha256": "2ffad6316900e28c80b565712a973316dec3d920ad0dfd1a33d342777f900a7c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10225/metadata.npz",
+      "group": "processed",
+      "bytes": 3287,
+      "sha256": "e5c4a72b5b8235dabbac77f8fd393aa590fbee230016424aab1920081f395c3c"
+    },
+    {
+      "path": "data/frozen_graph/families/f10225/visible.npz",
+      "group": "processed",
+      "bytes": 895585,
+      "sha256": "4b4b21b2e4f7b315a8f74861455694499d9a3b8a25935b85b2b98ccf08b331d0"
+    },
+    {
+      "path": "data/frozen_graph/families/f10226/metadata.npz",
+      "group": "processed",
+      "bytes": 3485,
+      "sha256": "79e65ced4ae296ad416192b6188cd20d679c9561388e1217e8482f072b538ff2"
+    },
+    {
+      "path": "data/frozen_graph/families/f10226/visible.npz",
+      "group": "processed",
+      "bytes": 981570,
+      "sha256": "5f9137136588b7cf4ed27276d43b1aa450891111a03ee9bd6606f5827da15a42"
+    },
+    {
+      "path": "data/frozen_graph/families/f10227/metadata.npz",
+      "group": "processed",
+      "bytes": 3311,
+      "sha256": "410205f1527be9bb230be9bb5f3e5dc891dba2986947b3ae44d8de396a0a7007"
+    },
+    {
+      "path": "data/frozen_graph/families/f10227/visible.npz",
+      "group": "processed",
+      "bytes": 914564,
+      "sha256": "5bb90059953052edd4d15ba1172737102ace301c3b31cda8aa2d0b55e117ecfb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10228/metadata.npz",
+      "group": "processed",
+      "bytes": 3319,
+      "sha256": "8623b53ec3142186a13f1398625e11bffa768e3ca40607d84e82cb349b959e49"
+    },
+    {
+      "path": "data/frozen_graph/families/f10228/visible.npz",
+      "group": "processed",
+      "bytes": 938213,
+      "sha256": "15eb2c666738b9eb6520593dcfe5f9940695afaaad6e10738133353f0ee9d366"
+    },
+    {
+      "path": "data/frozen_graph/families/f10229/metadata.npz",
+      "group": "processed",
+      "bytes": 3284,
+      "sha256": "6b218c008fa9290963655d63b282bd0d115f097f047b44bb4fb0bb418d574859"
+    },
+    {
+      "path": "data/frozen_graph/families/f10229/visible.npz",
+      "group": "processed",
+      "bytes": 863282,
+      "sha256": "10b9361192c39d18a1c78d08d6a0a908cb85f56ee851bccb2a67a9251847fad6"
+    },
+    {
+      "path": "data/frozen_graph/families/f10230/metadata.npz",
+      "group": "processed",
+      "bytes": 3253,
+      "sha256": "77f4b81801aedea8c46d96bc22679c6d04bba19ad4520801db89fa7b5cc20335"
+    },
+    {
+      "path": "data/frozen_graph/families/f10230/visible.npz",
+      "group": "processed",
+      "bytes": 867147,
+      "sha256": "c0e707a4c542bb87bc6b7d51421b08d849bc6a0d858afd1cb8608999d4ec6717"
+    },
+    {
+      "path": "data/frozen_graph/families/f10231/metadata.npz",
+      "group": "processed",
+      "bytes": 3427,
+      "sha256": "84db6d82c806123e3f620b45e3a2e15cf21be78f45110a4a04831fbdd647879f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10231/visible.npz",
+      "group": "processed",
+      "bytes": 980892,
+      "sha256": "492574168f064527353588996517dde048b81d2114d4f0cdbb819d9e45a68601"
+    },
+    {
+      "path": "data/frozen_graph/families/f10232/metadata.npz",
+      "group": "processed",
+      "bytes": 3307,
+      "sha256": "d25e7af9450c6626e57f281a878d7883be4e83497bdaf66ad00b34b7b765281b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10232/visible.npz",
+      "group": "processed",
+      "bytes": 931991,
+      "sha256": "b5146bdc2f2833663b517ab0d2c71eb3fbbf118be2e05d11dfe0cf69f22f7d42"
+    },
+    {
+      "path": "data/frozen_graph/families/f10233/metadata.npz",
+      "group": "processed",
+      "bytes": 3354,
+      "sha256": "c90253f28918445480f6c381f74c21fff027ac85f578fc138261533930115def"
+    },
+    {
+      "path": "data/frozen_graph/families/f10233/visible.npz",
+      "group": "processed",
+      "bytes": 910868,
+      "sha256": "2b2ba37a998537c3e5b7d420d3189226a5e630112b673f4d47ad64edc23714ce"
+    },
+    {
+      "path": "data/frozen_graph/families/f10234/metadata.npz",
+      "group": "processed",
+      "bytes": 3364,
+      "sha256": "e808f5b1dd84f6b27021f213370f13a54de0e721689d55b5baa59fdc40ad8436"
+    },
+    {
+      "path": "data/frozen_graph/families/f10234/visible.npz",
+      "group": "processed",
+      "bytes": 934444,
+      "sha256": "9d05ee3a936bde4fcb18eea89e2ec6f58026a318823a36e41db71473afa2f51f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10235/metadata.npz",
+      "group": "processed",
+      "bytes": 3413,
+      "sha256": "e8595f792d5885913c0e367f163627a0c8a9e5490f38b4f29fd7e9731a1be61f"
+    },
+    {
+      "path": "data/frozen_graph/families/f10235/visible.npz",
+      "group": "processed",
+      "bytes": 957192,
+      "sha256": "b7ada3c35d7a791d2a90291643a87dfb0cb4ce8c93deadc3c832fb88aec68d2d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10236/metadata.npz",
+      "group": "processed",
+      "bytes": 3315,
+      "sha256": "941f06fae4a033f84537e67e31a5938b5f8b466e6d7faf6bfa05d8e6f03631b1"
+    },
+    {
+      "path": "data/frozen_graph/families/f10236/visible.npz",
+      "group": "processed",
+      "bytes": 909873,
+      "sha256": "5a95d89ed7c64f2ce5f1d996d150af0646f1aced372d8051022cf09dff335fbd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10237/metadata.npz",
+      "group": "processed",
+      "bytes": 3354,
+      "sha256": "2a80ecc9abeca572110b1db9ebbbb3c239e259282bc92dd032ca094ea50deca3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10237/visible.npz",
+      "group": "processed",
+      "bytes": 948050,
+      "sha256": "7f9674cad135b2b65120c0b3758e2ae95e4750568512a2ecd0fa2abc0989df61"
+    },
+    {
+      "path": "data/frozen_graph/families/f10238/metadata.npz",
+      "group": "processed",
+      "bytes": 3241,
+      "sha256": "4dd82eeee0b78c812de15a08a247a4ab9a415d07408a847cea4720aacade47ab"
+    },
+    {
+      "path": "data/frozen_graph/families/f10238/visible.npz",
+      "group": "processed",
+      "bytes": 877979,
+      "sha256": "f51df15eedcbb5a7f7c86cb9d9b5dae717db11096a84f6c1f28bed3e1ac3833d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10239/metadata.npz",
+      "group": "processed",
+      "bytes": 3371,
+      "sha256": "d63b003b809db07330ab66ffe4c744a1cbc895accf4024fc8368f98520a652ae"
+    },
+    {
+      "path": "data/frozen_graph/families/f10239/visible.npz",
+      "group": "processed",
+      "bytes": 932370,
+      "sha256": "72a001c0199169c26994061b0e29b62970951d9d92c3c415e40d9c92968da3e8"
+    },
+    {
+      "path": "data/frozen_graph/families/f10240/metadata.npz",
+      "group": "processed",
+      "bytes": 3297,
+      "sha256": "113174b738e3c1c7938b227f5927e877893154b68db21c63a9ffe5196d328616"
+    },
+    {
+      "path": "data/frozen_graph/families/f10240/visible.npz",
+      "group": "processed",
+      "bytes": 914836,
+      "sha256": "af25b8d28245db6147d3b30049f61b608d427a8d179e15c8c7f2919350879d73"
+    },
+    {
+      "path": "data/frozen_graph/families/f10241/metadata.npz",
+      "group": "processed",
+      "bytes": 3277,
+      "sha256": "7d37da7e894c50d387b20960069e2477b3ef6433de8ac83920adf1ce90d597ad"
+    },
+    {
+      "path": "data/frozen_graph/families/f10241/visible.npz",
+      "group": "processed",
+      "bytes": 853316,
+      "sha256": "854814b6987a6327e4f195dc9be4376b5b13ebbfed342fbfdea8d5a6de98b28a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10242/metadata.npz",
+      "group": "processed",
+      "bytes": 3306,
+      "sha256": "c96bbba4c2abf3bdfc1c94ad3c14bfb988214199c7daa9bab898d587cb50a4df"
+    },
+    {
+      "path": "data/frozen_graph/families/f10242/visible.npz",
+      "group": "processed",
+      "bytes": 916224,
+      "sha256": "898fd68b853e3e77dfe3dfab7b03ce1e39be93f4c631e88193499e6803396b11"
+    },
+    {
+      "path": "data/frozen_graph/families/f10243/metadata.npz",
+      "group": "processed",
+      "bytes": 3278,
+      "sha256": "1b3432b9f7892cb87a694d7f014ac588775df573cd13fb08f1588c3b65955347"
+    },
+    {
+      "path": "data/frozen_graph/families/f10243/visible.npz",
+      "group": "processed",
+      "bytes": 879116,
+      "sha256": "a285402b02e2f2c6739e02e64ca1034faf26e8d71f9ee99d073977ce113492bf"
+    },
+    {
+      "path": "data/frozen_graph/families/f10244/metadata.npz",
+      "group": "processed",
+      "bytes": 3380,
+      "sha256": "4b7cee9fafce405d281d187b6870ba534f9830b3b68630b9d81dd2d6b19eb5a9"
+    },
+    {
+      "path": "data/frozen_graph/families/f10244/visible.npz",
+      "group": "processed",
+      "bytes": 914699,
+      "sha256": "f408e2e0bc68f01da08de271f938d6c51dcb91633e97e4c45da56846372ec5ab"
+    },
+    {
+      "path": "data/frozen_graph/families/f10245/metadata.npz",
+      "group": "processed",
+      "bytes": 3281,
+      "sha256": "04ff46f6c1b23cb93d56b8e37650d95c0b43b180fa962aa2eafc59ca3e13905d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10245/visible.npz",
+      "group": "processed",
+      "bytes": 877198,
+      "sha256": "ac7fdbfa15cdb94dc168b4f092b1ebf8a250d53d3e200402ad5a422963cf6c35"
+    },
+    {
+      "path": "data/frozen_graph/families/f10246/metadata.npz",
+      "group": "processed",
+      "bytes": 3320,
+      "sha256": "3ded4278c463254cbe2eabc3de985cd94930427e68d32fbf17a9260b885ebda4"
+    },
+    {
+      "path": "data/frozen_graph/families/f10246/visible.npz",
+      "group": "processed",
+      "bytes": 910218,
+      "sha256": "dca46d2dc7a086ca22d71151ecff7973c2dcb7476f6084367d02bf4413cc2e07"
+    },
+    {
+      "path": "data/frozen_graph/families/f10247/metadata.npz",
+      "group": "processed",
+      "bytes": 3242,
+      "sha256": "a55fe94830f71863218401c88e8a9e6fa1d64b08bddfd794af98f3bd1d7a8527"
+    },
+    {
+      "path": "data/frozen_graph/families/f10247/visible.npz",
+      "group": "processed",
+      "bytes": 881025,
+      "sha256": "c94e0f76365b912cbda026510520bff44af047388652b78be61d5739885f1c9a"
+    },
+    {
+      "path": "data/frozen_graph/families/f10248/metadata.npz",
+      "group": "processed",
+      "bytes": 3356,
+      "sha256": "49d60b5994d4ac8a1c34fac893c27a05bd9bc088da4bf322304de0e89827850b"
+    },
+    {
+      "path": "data/frozen_graph/families/f10248/visible.npz",
+      "group": "processed",
+      "bytes": 951312,
+      "sha256": "01fc5af79623dc37ba8a3936995eacef5cc889fa42fdc8987bc8679d8bb9170e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10249/metadata.npz",
+      "group": "processed",
+      "bytes": 3322,
+      "sha256": "c171ccbc58e3ef68a1ffa5bc0025b8d3f50af05576d69fb435be5c0e67532604"
+    },
+    {
+      "path": "data/frozen_graph/families/f10249/visible.npz",
+      "group": "processed",
+      "bytes": 928690,
+      "sha256": "77308abdefea85a096b017d921ad5ce7a470ca5cef6efaa310af56f93f07886e"
+    },
+    {
+      "path": "data/frozen_graph/families/f10250/metadata.npz",
+      "group": "processed",
+      "bytes": 3168,
+      "sha256": "dd8a614e7c062f63f8f8aa0587b7982cc16fc00a44c7e6a6850b23330ceca3b3"
+    },
+    {
+      "path": "data/frozen_graph/families/f10250/visible.npz",
+      "group": "processed",
+      "bytes": 860204,
+      "sha256": "92d20dfba60ecca2a32a6cdd6cc7ddd71c43d587e9fc98d596fade6740161008"
+    },
+    {
+      "path": "data/frozen_graph/families/f10251/metadata.npz",
+      "group": "processed",
+      "bytes": 3332,
+      "sha256": "62379d616db5c1c61665b061e300d8d89c1e94ff5885f903b014414916f3b4bb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10251/visible.npz",
+      "group": "processed",
+      "bytes": 899608,
+      "sha256": "f82d8bb2eb218481f7514fe50843c82b33e2dd42b834a49939466b896eb78293"
+    },
+    {
+      "path": "data/frozen_graph/families/f10252/metadata.npz",
+      "group": "processed",
+      "bytes": 3416,
+      "sha256": "c6b8262b796fdb835c8914852db0f9d7e2434be447988bdde222baa59e5135cb"
+    },
+    {
+      "path": "data/frozen_graph/families/f10252/visible.npz",
+      "group": "processed",
+      "bytes": 967349,
+      "sha256": "7070ba5f10ea66baab9adb91621eeaa6ff1a4fd475d3043527782d35991c1a10"
+    },
+    {
+      "path": "data/frozen_graph/families/f10253/metadata.npz",
+      "group": "processed",
+      "bytes": 3166,
+      "sha256": "c8ec677d081bb2114f0d0149fbdac03fab1546506bccebe8dc8a31dc1fd12d00"
+    },
+    {
+      "path": "data/frozen_graph/families/f10253/visible.npz",
+      "group": "processed",
+      "bytes": 825077,
+      "sha256": "89f55ee3d550ae52332ffe68f720e5850131fb34649d2b65ecec4164613c98bd"
+    },
+    {
+      "path": "data/frozen_graph/families/f10254/metadata.npz",
+      "group": "processed",
+      "bytes": 3309,
+      "sha256": "5867a6ebabf07c607f0cdd4ba7673ca76103d56252af883c2a06caea68d71606"
+    },
+    {
+      "path": "data/frozen_graph/families/f10254/visible.npz",
+      "group": "processed",
+      "bytes": 895682,
+      "sha256": "66d1490c298eba66e77dacf9cd6059d4d5b114b0774e9bf78147b828d7e5135d"
+    },
+    {
+      "path": "data/frozen_graph/families/f10255/metadata.npz",
+      "group": "processed",
+      "bytes": 3348,
+      "sha256": "fd1ac9346b1a62573d8021a11240dbdaea7775265da461dcd58d6994e3c24d21"
+    },
+    {
+      "path": "data/frozen_graph/families/f10255/visible.npz",
+      "group": "processed",
+      "bytes": 907388,
+      "sha256": "1138bdc6c5302fcfcbfe5add53a3560f4c853067f03c4d6e6d8d1112eec38126"
+    },
+    {
+      "path": "data/frozen_graph/family_allocation.json",
+      "group": "processed",
+      "bytes": 5493,
+      "sha256": "366d18d5f2c8fda8d5f1e4953d37a11e768514db4b7b990e17883cbade3cd377"
+    },
+    {
+      "path": "data/frozen_graph/graph_manifest.json",
+      "group": "processed",
+      "bytes": 4709,
+      "sha256": "a80d6d0ebe98c31475b25656ee2854dadef888b478e27ff8c6d1f9d71d86f8c0"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10012.npz",
+      "group": "processed",
+      "bytes": 2323,
+      "sha256": "3898b870898c58742cd91dd660dc130820ca29874be7c8ff0540430e65c1e414"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10013.npz",
+      "group": "processed",
+      "bytes": 2268,
+      "sha256": "341d0a9963172770127433f617c2d33b5c3b1a43bc3f1363758e0ddf7d491fa9"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10021.npz",
+      "group": "processed",
+      "bytes": 2338,
+      "sha256": "794e4f89d702f7a0afd740a8602f55510fd1d0a2ab5204cfd147f54981382af0"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10030.npz",
+      "group": "processed",
+      "bytes": 2413,
+      "sha256": "9ad435cc6362b8711c6f5c6b4bcca999b3fb5b9662561c96103b5927caa8fcb0"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10034.npz",
+      "group": "processed",
+      "bytes": 2340,
+      "sha256": "031d95b324a15bfc8d278f962a88c11eca44ce7884d4954606c6cebc4af8b343"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10043.npz",
+      "group": "processed",
+      "bytes": 2396,
+      "sha256": "6cc331002bbdb9a464ba7018803839dd1d92bea6e8ea512cb6bbe58c9570bfee"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10051.npz",
+      "group": "processed",
+      "bytes": 2367,
+      "sha256": "68013218d72165f50f9feec656b3d3d58bfc9933a38ac6a71342c1d46c3baa02"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10059.npz",
+      "group": "processed",
+      "bytes": 2345,
+      "sha256": "87b7d25a28d0647088e3e49e5c696de4f6304ce59eae44f29c659448e4b4af0d"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10086.npz",
+      "group": "processed",
+      "bytes": 2434,
+      "sha256": "245d6e9fc22a91eca1071d3b6e0b45afeaaa017638084d8f47fcee44488ff407"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10088.npz",
+      "group": "processed",
+      "bytes": 2301,
+      "sha256": "23af6742805f5e5a76489dd28195637fa78b8f294165d4a42dcd39db4627607e"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10092.npz",
+      "group": "processed",
+      "bytes": 2419,
+      "sha256": "6c703c56051fd88584fa8fd4da45dda50e22d3974243983e4b16d5f5d4442490"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10094.npz",
+      "group": "processed",
+      "bytes": 2442,
+      "sha256": "bf3720bde151a67616bfd578d148e9447b20cc9a02c56ae4c0a0e23d83fd1d29"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10104.npz",
+      "group": "processed",
+      "bytes": 2305,
+      "sha256": "5b541099faf89950fa789f4b25c2bddd92fc5e3dd81407538033a0622a91452e"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10109.npz",
+      "group": "processed",
+      "bytes": 2268,
+      "sha256": "403e91fdf1f44cdb497b807c105f508428348206fb7a868375fdc46d0d41aa1c"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10110.npz",
+      "group": "processed",
+      "bytes": 2377,
+      "sha256": "e9798f08786a7f709166068e1d9c64c56ed1941e8d650eae3f5bbf1288466e20"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10114.npz",
+      "group": "processed",
+      "bytes": 2320,
+      "sha256": "c8af9440ec04cfa845d53165a92872662c09b3672dc2d783b6ad4a6b68ab38f1"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10121.npz",
+      "group": "processed",
+      "bytes": 2389,
+      "sha256": "c615041969a9464c756f02a944644135d000bcf43a7f7de16679cf706be389c1"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10128.npz",
+      "group": "processed",
+      "bytes": 2349,
+      "sha256": "96d73715dd503fb393262b862c280e41d85fd2643e28667dc81405d4bc7184ce"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10130.npz",
+      "group": "processed",
+      "bytes": 2375,
+      "sha256": "08d119e59ed2194ec2d1000ca68fcdeac03d44034921e08ea6cf26636dde8f07"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10133.npz",
+      "group": "processed",
+      "bytes": 2267,
+      "sha256": "3081ea5c1896d38b1eaae3757c678ff6ca6310df83a7a2e1078450878a562633"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10135.npz",
+      "group": "processed",
+      "bytes": 2203,
+      "sha256": "0ef82ddc2a28e8e2ac1e1a43aaaaab3b3fe65c0c8deb7ab886ff0f30b7f7d68e"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10136.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "0cc0e5c9f0e618ecd210c36be943f4103fbd9f04d2bbdb9ab4608816048f8162"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10146.npz",
+      "group": "processed",
+      "bytes": 2340,
+      "sha256": "753b5e0f73122600667940640a8a8e0c1584017cfc6cf07c8f20ed72a66199be"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10147.npz",
+      "group": "processed",
+      "bytes": 2327,
+      "sha256": "25965b347799218594668756a595e04c6688d6feab6dba3c7259202657de8713"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10149.npz",
+      "group": "processed",
+      "bytes": 2406,
+      "sha256": "cb87c6ee160334163ef850cdd1652c75b1f3f17e75e13be588970bc6065bf859"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10150.npz",
+      "group": "processed",
+      "bytes": 2337,
+      "sha256": "b9ff38ab5df73e4009695d61be7d7efb060b2b767da5898a62b8c3f1ed559fe5"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10161.npz",
+      "group": "processed",
+      "bytes": 2267,
+      "sha256": "e50d81c81888f0f723120338b79d4aed47546636c0515dd1751b4dcbf085703e"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10165.npz",
+      "group": "processed",
+      "bytes": 2354,
+      "sha256": "49814361f49483d01279b1607234c83ffd4d93e2f84ab38049d5e67f99739919"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10167.npz",
+      "group": "processed",
+      "bytes": 2319,
+      "sha256": "d2a25c43f32d5af4d7658267f84bc562279607d6a424dbb933289b76e17f5f79"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10169.npz",
+      "group": "processed",
+      "bytes": 2366,
+      "sha256": "0b3c3a8f08dce62bd911eac2aa1a9e16817ada3d6f6847f1b8e97a7cc5acb444"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10171.npz",
+      "group": "processed",
+      "bytes": 2296,
+      "sha256": "c11aaf2b26968ffb39ccf1780f297e4aa5bf8e538f08404a9efeec0a59fe27fd"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10177.npz",
+      "group": "processed",
+      "bytes": 2296,
+      "sha256": "102866584b2db652acf027fddc76937bad7d845caa1016596113b08b3bb5beee"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10188.npz",
+      "group": "processed",
+      "bytes": 2352,
+      "sha256": "59623fbb11551e550405eb992895240975d15e3b6b3e0af3d8ba5a10e0214a77"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10196.npz",
+      "group": "processed",
+      "bytes": 2297,
+      "sha256": "e02969cc2a724ac707e2d631913143aba4b6a707a8711a6b34a7c74b58038d8f"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10203.npz",
+      "group": "processed",
+      "bytes": 2394,
+      "sha256": "229cfcca1b0dfb42f770adf82bcb696abe1522fa5983e38b27b3e3d949967f17"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10205.npz",
+      "group": "processed",
+      "bytes": 2287,
+      "sha256": "d1658b235663888d59a94d0925fa2d0e8d239cf1c96470c2eca66ea36d3199f5"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10208.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "a460305002428b674d639d5f67b74699fd6a5e2e160bddec250ac9fb45cb5a9e"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10209.npz",
+      "group": "processed",
+      "bytes": 2154,
+      "sha256": "b731e9b2d12154d5db30312fbc3e9407a5f8188beaf67f0f289f6f9481429743"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10210.npz",
+      "group": "processed",
+      "bytes": 2247,
+      "sha256": "5aa24daa4adcbb923a5e60941e599aba1eae3738a8f2599454f4ab5e1d5a3337"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10212.npz",
+      "group": "processed",
+      "bytes": 2307,
+      "sha256": "c5dd3a159a09890f1aba43b63b893da688465eac72a55b4b5d82960302e0508d"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10214.npz",
+      "group": "processed",
+      "bytes": 2447,
+      "sha256": "c74cb2f09430798cb247ad42c782b13504d1a913f37a786a85c3d389c566c52c"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10217.npz",
+      "group": "processed",
+      "bytes": 2300,
+      "sha256": "31f562b3b23e75c179acee844901e2775fe9eba59fd5c2eda206b0ed2617b145"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10220.npz",
+      "group": "processed",
+      "bytes": 2238,
+      "sha256": "ab36f4cc58b03c67217bc7758d4f9fec5156ad40eaa2f736a33eab5876a85d67"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10228.npz",
+      "group": "processed",
+      "bytes": 2334,
+      "sha256": "5c56654ce41a83e7b35b43c89ad8e82c0890f42b048ab8a6640d051c9e7e590f"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10232.npz",
+      "group": "processed",
+      "bytes": 2467,
+      "sha256": "ef7c5bd6febdd12fb2d025858c9ca68f5fa737b1da5b3c3132a8fe5458a27cf5"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10234.npz",
+      "group": "processed",
+      "bytes": 2410,
+      "sha256": "7358364228778622dccfb8e4fb9d39588290cde869020bb7c30033ff64e9df79"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10248.npz",
+      "group": "processed",
+      "bytes": 2372,
+      "sha256": "84902b606668f1c9d428b68aa9ee690d114acd3c8d235cf390f2635f597965a1"
+    },
+    {
+      "path": "data/frozen_graph/targets/test/f10253.npz",
+      "group": "processed",
+      "bytes": 2201,
+      "sha256": "25b9e5b2df770c482f84889378695ab92ed1acb655b51ab77cc0023d2bcc05f6"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10000.npz",
+      "group": "processed",
+      "bytes": 2363,
+      "sha256": "af93e98af33e1c101075370d86146a766bb3663ac228f569f73fb6142fed7373"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10001.npz",
+      "group": "processed",
+      "bytes": 2333,
+      "sha256": "629e25b05f58c3e92cad5e6e7746545085797a9383cdda2c5d4dcbe9c8265eb3"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10002.npz",
+      "group": "processed",
+      "bytes": 2421,
+      "sha256": "bf4f665401560cd9ea190368c0f7e237adae10c3740e75618b27ac8b7e5740c5"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10003.npz",
+      "group": "processed",
+      "bytes": 2462,
+      "sha256": "f5bb8ba8a01a973e49e83f016bbd199e555f9bb687437a8030f0c7aea3883ba6"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10004.npz",
+      "group": "processed",
+      "bytes": 2412,
+      "sha256": "e4a60a53f065486083f84220b84a5fea5f5681b8d762602b658f567ebb2148d6"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10006.npz",
+      "group": "processed",
+      "bytes": 2311,
+      "sha256": "5e52bf05f0556e4cc512b4d6173499f98c61ef18659647126d41a5d760c924b9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10007.npz",
+      "group": "processed",
+      "bytes": 2353,
+      "sha256": "5899c23c0b5f57a5f9a946571f68397dd80c97bd6cbd923207acfa8e5d65bb93"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10009.npz",
+      "group": "processed",
+      "bytes": 2385,
+      "sha256": "088cba59fd8e481d9553721755216bcb914aedde8a1fc33cb0a46e7b3794c9d2"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10010.npz",
+      "group": "processed",
+      "bytes": 2217,
+      "sha256": "456fd3c890ba8150bb92639d0bc726bf5d567fc3a49da21ea24bdc33ffe922cf"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10011.npz",
+      "group": "processed",
+      "bytes": 2398,
+      "sha256": "28e4d97820d550de723cbe0cc1bd4104ba0912aee125df3a46b51ac6765281c2"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10015.npz",
+      "group": "processed",
+      "bytes": 2356,
+      "sha256": "a532ec55cb29b60c77344026fb767c124eb73089a677ad37c3ff6a17d83445ff"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10016.npz",
+      "group": "processed",
+      "bytes": 2312,
+      "sha256": "015ceb264449b48a96a2bf682f8be4102a675c15c232979db0f61d8b1ee864ce"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10017.npz",
+      "group": "processed",
+      "bytes": 2301,
+      "sha256": "507738914e666ae4538070f613406d5715a7880983a35bca4057464247eda2a8"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10018.npz",
+      "group": "processed",
+      "bytes": 2330,
+      "sha256": "0df4e59a034db5ef92d6f7e0b16082532a280c4f5ed12cbf036cec47a1be7172"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10019.npz",
+      "group": "processed",
+      "bytes": 2284,
+      "sha256": "f0a29b025aeca5626945150adfa903e45f967c0608212d5b5646d1fb3e15f74e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10020.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "b9f2cf202c62d3c30d47280944e14b9a825c332474ad3e8a338fcedc9086c32c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10022.npz",
+      "group": "processed",
+      "bytes": 2395,
+      "sha256": "e307b29250371ef33e7cca5bcb99d8cf8310f263a941f24755ac937f7cd10e36"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10026.npz",
+      "group": "processed",
+      "bytes": 2368,
+      "sha256": "b81335531801d15698cd4a06604a019a121aeb67adf2a11c07bb35b94126540c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10027.npz",
+      "group": "processed",
+      "bytes": 2343,
+      "sha256": "8695ff8ddbcb16e5c86f0c50a67477c351071a01bc5c38a6d6feea8db828503e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10029.npz",
+      "group": "processed",
+      "bytes": 2249,
+      "sha256": "2e67bb09b4b80d380026805ae22d440ac3fbe035bb92d27f86d784253ae325da"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10031.npz",
+      "group": "processed",
+      "bytes": 2432,
+      "sha256": "ddcd14070f0029878b0b2a6b07e6bf6e9e1aed50b35efea1770f824b1f7757c9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10032.npz",
+      "group": "processed",
+      "bytes": 2175,
+      "sha256": "5838f7595161016a7daab7542d956742555807fb85f0292e57d3c2d21721eade"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10033.npz",
+      "group": "processed",
+      "bytes": 2330,
+      "sha256": "51eedf1356e822e6aa1539b551cd4e854268c10b6379680c610a9affd6c48523"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10035.npz",
+      "group": "processed",
+      "bytes": 2390,
+      "sha256": "59b942d22a2bc3acc8094eba1d93c01700403e546f7b2db0eb071289c327fec7"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10036.npz",
+      "group": "processed",
+      "bytes": 2403,
+      "sha256": "d33d43704388f08415d7e5e9aa76090d8316bdbe3caab2367d1093e6cb4a8e49"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10037.npz",
+      "group": "processed",
+      "bytes": 2265,
+      "sha256": "a3f8f6dc7cf36ed43879fbea1bacac8fb5a9fef67a15db3f84aca3cd3097157c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10038.npz",
+      "group": "processed",
+      "bytes": 2380,
+      "sha256": "0aeb1bb45a5f94a5e0dbf0dc44a8f57bea207e96e266f4f7a083fc4a8faafdda"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10039.npz",
+      "group": "processed",
+      "bytes": 2434,
+      "sha256": "f081a823f5f65f9666c5b7e888277fee54c0f07e9ca2c1447db005a1af005363"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10041.npz",
+      "group": "processed",
+      "bytes": 2293,
+      "sha256": "8702eb0c8e2b28b5b7d13ef270a90f46046137843ed3919f228dce28c9c7f942"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10042.npz",
+      "group": "processed",
+      "bytes": 2395,
+      "sha256": "841aaae5b4585a79d295e46c38d19172bf4a69ac18d76f29975afeab1ca14e76"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10044.npz",
+      "group": "processed",
+      "bytes": 2231,
+      "sha256": "b48b8731e241f33e5250ba153d141dc478cae0fa64c5b29b3031b6b251a7e5d9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10046.npz",
+      "group": "processed",
+      "bytes": 2361,
+      "sha256": "42375355c8a9ff2ccd0e5ef4b8097808e201feddb2db1bb05014fc64b4dd681e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10047.npz",
+      "group": "processed",
+      "bytes": 2310,
+      "sha256": "9845bd993c9f8e8d0e568978a151a28717d3be9b7f46e031ea3f8f43e1151ef1"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10048.npz",
+      "group": "processed",
+      "bytes": 2244,
+      "sha256": "cbcb5832e090ecba9a126201c58d82c1c8d1375b6b9b6a55570d27ba0344405c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10049.npz",
+      "group": "processed",
+      "bytes": 2309,
+      "sha256": "f09b20bcdaa265db741b62fb050110f5c55ab9fbad9266aad26e707833cb1d5e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10050.npz",
+      "group": "processed",
+      "bytes": 2334,
+      "sha256": "072d42575e4518a8163312481935a5cf2ec8c9dba64da90b1b66289cbb711172"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10052.npz",
+      "group": "processed",
+      "bytes": 2344,
+      "sha256": "336d3b6c21f714f3e0ea9108fd7efa4da03fd79543a419da7affd1794dbd700f"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10053.npz",
+      "group": "processed",
+      "bytes": 2310,
+      "sha256": "725ca91e9fc72cfd510850fe81dbe4f091c25f99f6fce648520dd96dae79a071"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10054.npz",
+      "group": "processed",
+      "bytes": 2371,
+      "sha256": "8780b16ceda32dccb4825c9f1b594762df8879924442329ba824a3e30c621177"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10055.npz",
+      "group": "processed",
+      "bytes": 2391,
+      "sha256": "a146e42aa57fd0dc78de5c37f2d059fd04c4c58b7977ca89c637ba7a82c7ce80"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10057.npz",
+      "group": "processed",
+      "bytes": 2286,
+      "sha256": "b9844e5ead87a793fa32bf03accfe83acce12439f4fef51805f6898a2abac3a5"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10058.npz",
+      "group": "processed",
+      "bytes": 2349,
+      "sha256": "ecd2eceb28dda0b8ef2e97bb89c7b2c316008b0706ce747f4693afd96c10a524"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10060.npz",
+      "group": "processed",
+      "bytes": 2343,
+      "sha256": "6bf8e1c4e26988b3efc6e43b2fb2126222967f6c9408df69fdcfbd2a5ae76393"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10062.npz",
+      "group": "processed",
+      "bytes": 2303,
+      "sha256": "ada1270ba3cd5d1a75511d1f2cd030ef1b4fb4e85b645f2221856f9849640349"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10063.npz",
+      "group": "processed",
+      "bytes": 2379,
+      "sha256": "085d082c00a8b974cc26f4ef24a57f14b65038189308002db489e9112916b7b4"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10064.npz",
+      "group": "processed",
+      "bytes": 2307,
+      "sha256": "c772b311a18c4be7c1bc5c039140d8d4f86fd3e0bb9f86ae06f94a7d972a34da"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10065.npz",
+      "group": "processed",
+      "bytes": 2339,
+      "sha256": "c510494ce9225b4d805047f1c6144b503968258abbffd6ce43a3799efe12d135"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10066.npz",
+      "group": "processed",
+      "bytes": 2279,
+      "sha256": "33a3213de096e8ef706170ff6d56a51a14ac4900aa78198a13bfc69fcbf6d310"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10067.npz",
+      "group": "processed",
+      "bytes": 2328,
+      "sha256": "25e04566d9374944fffcb7894a1497dcd778357098991acacd8ca9fad3e117f9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10068.npz",
+      "group": "processed",
+      "bytes": 2253,
+      "sha256": "58ccdec5ec01a5968433783ff3ce4b5f22fe981ea8e370bb2af00dc75d73cc2a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10069.npz",
+      "group": "processed",
+      "bytes": 2312,
+      "sha256": "4ceafac9403e3af8f709ad6e4ea2ae3960dd0748e18ff6b648e2e712ab29dc0e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10070.npz",
+      "group": "processed",
+      "bytes": 2388,
+      "sha256": "f95947ad9382d693177c941ad48da00f0873aaff3a5381a390714e94a0ac4103"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10071.npz",
+      "group": "processed",
+      "bytes": 2345,
+      "sha256": "118daeaa832512a44bf9f0a46453415473dd8722fe0a13a705086c66fc1e0c9f"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10072.npz",
+      "group": "processed",
+      "bytes": 2433,
+      "sha256": "dcd1eecf412bced25be2979bb120164be6525797e487f5741cba1b7cf79ea02c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10073.npz",
+      "group": "processed",
+      "bytes": 2322,
+      "sha256": "557fe7a9a44e6383108103c2e229443be34f7edb458de215d82e5f95cc0fae90"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10074.npz",
+      "group": "processed",
+      "bytes": 2433,
+      "sha256": "c9de197d0aa5775f5ee3b76024bad79744f41b8d954768a4cbdf71b5667c6ceb"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10075.npz",
+      "group": "processed",
+      "bytes": 2231,
+      "sha256": "d989819c6812f62288400eabbb290be77f2133220a1114454df9bedada0131f4"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10076.npz",
+      "group": "processed",
+      "bytes": 2306,
+      "sha256": "a1c440c2560b3332402141118a750f23c29d21d64bd49b9d0070f48bbd50bf2a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10077.npz",
+      "group": "processed",
+      "bytes": 2412,
+      "sha256": "26403aa48625dd18c3be4e095fe454e7387ab85416f4ad60c2eb1f3202660389"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10078.npz",
+      "group": "processed",
+      "bytes": 2323,
+      "sha256": "37212c039a6ac30b5a073e7ab9a27654c4cfe828bf306d34bfe22534c816c021"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10079.npz",
+      "group": "processed",
+      "bytes": 2299,
+      "sha256": "6b6cd5a3d8e059a50b9bd371b30aa1e4506df181d8e7ba59fd27f821a21b9839"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10080.npz",
+      "group": "processed",
+      "bytes": 2313,
+      "sha256": "32914146a36599e73445d763114f247182cb3c54dfa2f8c11cde26fc03d68ffd"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10081.npz",
+      "group": "processed",
+      "bytes": 2235,
+      "sha256": "e2573bca2a1313fe38fe5102974ec5eeabf68305c8166e4b7493f9e10782c2d3"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10083.npz",
+      "group": "processed",
+      "bytes": 2267,
+      "sha256": "5713ac4495640db9c2bf66a21a3fe61008ae17bf87a2388bacb2002f8e404678"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10085.npz",
+      "group": "processed",
+      "bytes": 2378,
+      "sha256": "5dc778da12cde5b0c46c0b7b7a46736f02b8238f3d9c384f1a9f2b00fe513d61"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10087.npz",
+      "group": "processed",
+      "bytes": 2219,
+      "sha256": "2d875aa33ee86d108dd7109ae4aaeb44662aac6539d4bcecdd9163c0a3360dc0"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10089.npz",
+      "group": "processed",
+      "bytes": 2414,
+      "sha256": "e3cc24bbde4e2b64c021f4af099cbfb9fc06d6944537cbb71bb1582e4690a54a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10090.npz",
+      "group": "processed",
+      "bytes": 2325,
+      "sha256": "f15ba7cbd3a22d4b91fa7f9bdf8eb826e1c86f687568d9bbd7bf85b810c86f6f"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10091.npz",
+      "group": "processed",
+      "bytes": 2326,
+      "sha256": "39ae1d0c9ed2179ff9ce392dc79b22d7b2cbb73f5c5d9a088dfea2964a9705a4"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10093.npz",
+      "group": "processed",
+      "bytes": 2321,
+      "sha256": "d294242f73a7a526fac91fab7ee618ce8ccc60f821158dc32b39f593597e43a8"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10096.npz",
+      "group": "processed",
+      "bytes": 2353,
+      "sha256": "d28eb24622fb50ae7e7ff19f91fe9af1cc87446ec5f605d1e16539edf327b349"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10097.npz",
+      "group": "processed",
+      "bytes": 2411,
+      "sha256": "fc8b70cedc6c7759e1b369f6dfa476a55c38e0cf60b256e9b7122c79da86fa9c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10098.npz",
+      "group": "processed",
+      "bytes": 2312,
+      "sha256": "bd452a64cd3c23e80f72a3dbd229112ea48ae8224034961a9040913d18d13b63"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10099.npz",
+      "group": "processed",
+      "bytes": 2279,
+      "sha256": "9454e14bcf87b5f5090c8021ec4675d5a375e70edbd49bb689bffdb701fd153e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10100.npz",
+      "group": "processed",
+      "bytes": 2490,
+      "sha256": "84b09622dc102ab23a7b0ad8b7c18debcc1e025338a513feca669f7195e6f522"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10101.npz",
+      "group": "processed",
+      "bytes": 2424,
+      "sha256": "fb45cfa90dd748dd368e83ed5f0c8ffcd569afc9b6fa987cb60e535e9fe3fd94"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10102.npz",
+      "group": "processed",
+      "bytes": 2301,
+      "sha256": "14ad0d30e55d033aff8f70a9a3c822fea91692b47c493f280fc589ae27c00efd"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10103.npz",
+      "group": "processed",
+      "bytes": 2354,
+      "sha256": "d7cc982b1f9f87169c6f6357584d60ef14081d315717cef917b8b485c1e36fdc"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10105.npz",
+      "group": "processed",
+      "bytes": 2364,
+      "sha256": "8715899e272aa98314aeb43a9ac0d7e631db201dafd52c765c3660d3c16493b4"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10106.npz",
+      "group": "processed",
+      "bytes": 2378,
+      "sha256": "f7c12a580830610da0a3f607c4b1dd8a604c8ea76271a11c570e048ae1187342"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10107.npz",
+      "group": "processed",
+      "bytes": 2336,
+      "sha256": "39648054b783b7c4de8b5b3d633c81d04eeec70db9eb987c73c5c1f3e65f4687"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10108.npz",
+      "group": "processed",
+      "bytes": 2211,
+      "sha256": "74a6b8eb23296ee03a478de78d6db79ec6110933d0e2f385040e95b3a87cf738"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10111.npz",
+      "group": "processed",
+      "bytes": 2382,
+      "sha256": "02d84a619763a9b5029a339afa7fb571964ca1a64d5bf3cf550bea94b626b9eb"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10112.npz",
+      "group": "processed",
+      "bytes": 2319,
+      "sha256": "deb895da094a0f604080d9f6ebe8dcf25d60d1a1a8a0e37ca6d116d497ac090e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10113.npz",
+      "group": "processed",
+      "bytes": 2358,
+      "sha256": "8b1291a056f246a535629cafc140a858ec9a30269b64d76fe778589a3b2d369d"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10115.npz",
+      "group": "processed",
+      "bytes": 2244,
+      "sha256": "b53e57b0713aeeab6ade2db94c9a8e510788746a8bba3cd9d00ad98619883a62"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10116.npz",
+      "group": "processed",
+      "bytes": 2388,
+      "sha256": "f42590cafccf7bcdb3cff7439961cd11b065d0630f671649185ee1eaaaaed5e6"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10117.npz",
+      "group": "processed",
+      "bytes": 2361,
+      "sha256": "7a9b0ec001ce7df8b1971619907732ee04078d999d9fbe3779c7016d78ee2bf0"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10118.npz",
+      "group": "processed",
+      "bytes": 2441,
+      "sha256": "9cf3bb995e1116772c3ce4dfa2a0a3e591a0ab6528a347686c214eb3ff746b31"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10119.npz",
+      "group": "processed",
+      "bytes": 2348,
+      "sha256": "4f865b08d26485a8c8405bd5828a73ee07f08bc88e9e4434063362e602f94161"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10120.npz",
+      "group": "processed",
+      "bytes": 2260,
+      "sha256": "458913ca30fe6eb16106630a2e38d03dff3e2d561e1cb0dc8a30ed75d65cf4e5"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10122.npz",
+      "group": "processed",
+      "bytes": 2388,
+      "sha256": "2d7f24a63ea52225f11c70509684444aeadd8f470dc77d7566cd7e5031e6a299"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10123.npz",
+      "group": "processed",
+      "bytes": 2258,
+      "sha256": "90573d1ae1e8b33546d5e07416b3651c6bec13fd9b6d48b1e64deffee0c054af"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10124.npz",
+      "group": "processed",
+      "bytes": 2476,
+      "sha256": "779ab0fb0b53c41c6e91b76b37283d070f93a30e2697b98f55552bdfc3835b5d"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10127.npz",
+      "group": "processed",
+      "bytes": 2462,
+      "sha256": "56506c873aa56d9a2470ba040166b1233d8f8398d60c1434e8594e23290fbef8"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10129.npz",
+      "group": "processed",
+      "bytes": 2289,
+      "sha256": "54468a6bd52e4ad31a5626690966a01b0769745900b1abb293a091662553086a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10131.npz",
+      "group": "processed",
+      "bytes": 2369,
+      "sha256": "819d13ebfda0c6389e1987f8aca5039dd96f0eed966436070ec9dc1caa93a8f3"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10137.npz",
+      "group": "processed",
+      "bytes": 2342,
+      "sha256": "8ded5102fd7e68c5602dc5d443fe8124f4d2c59ef95fc975e5e8274aa8f06404"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10138.npz",
+      "group": "processed",
+      "bytes": 2362,
+      "sha256": "e78af955e656a305655a1782fee4ea3c22807d847e45ab583eaf3454e83a6aff"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10139.npz",
+      "group": "processed",
+      "bytes": 2344,
+      "sha256": "4bd92a619ee67ece071819530e16587ddbc7e07601172cd157f1f24389a11b75"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10140.npz",
+      "group": "processed",
+      "bytes": 2361,
+      "sha256": "bce0722cb2ef41ad1b6e7a7db0eb75c4a066e95012b0796a1b78c3daf133a485"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10141.npz",
+      "group": "processed",
+      "bytes": 2328,
+      "sha256": "884767d3a47a657e3b6cb375eee18f50afc758918a9030ed9ea9327f886309fc"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10142.npz",
+      "group": "processed",
+      "bytes": 2331,
+      "sha256": "23fff139f4c3b50a1e0dac5630188895dcb3eba31590c81d6cbddc7c86129de5"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10143.npz",
+      "group": "processed",
+      "bytes": 2369,
+      "sha256": "9400b61fe5a47fc09da8b6aeab4aa14a5263dd629f9fba88c2a2d702121424ad"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10144.npz",
+      "group": "processed",
+      "bytes": 2250,
+      "sha256": "d2a3eb3b4ef1fb23497362008718810f8ee9dcd99a486f845aefb813ce626beb"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10145.npz",
+      "group": "processed",
+      "bytes": 2508,
+      "sha256": "5f5b3825bad0d8bbd31290a3273e6caec01360910ee11deef3fcee3b685f3a36"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10151.npz",
+      "group": "processed",
+      "bytes": 2310,
+      "sha256": "5acd5872c0235fc0d171749c91cf7b0b114d424f2554e10a6315991f5e561ce5"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10152.npz",
+      "group": "processed",
+      "bytes": 2321,
+      "sha256": "2f24ad7907cf631e0e90b6cbaef9e6cfa2b374211e27346620da6219d5c6c7cd"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10153.npz",
+      "group": "processed",
+      "bytes": 2307,
+      "sha256": "b12a5f522984a35bf9f00352011db8719285a09a81424ee3153073009384f391"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10154.npz",
+      "group": "processed",
+      "bytes": 2399,
+      "sha256": "e1d44497415e945aecab029f41e1d0133a1586ee8878aea4d0607419335c2ba8"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10155.npz",
+      "group": "processed",
+      "bytes": 2351,
+      "sha256": "ac2e56e73e6831307ef02d36438867766ead0b3f0cfcb11a038b860502fb0217"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10156.npz",
+      "group": "processed",
+      "bytes": 2346,
+      "sha256": "c5636d9d262c375f6ee762039df1c58e7c37f3090803ce1c17788206e3d380f7"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10158.npz",
+      "group": "processed",
+      "bytes": 2258,
+      "sha256": "6d5d956b3849ffd4eea791c92010e073aec343dff8afce0ceef78544260892ec"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10159.npz",
+      "group": "processed",
+      "bytes": 2313,
+      "sha256": "1ac0c642050bdaff39a70b90bfc3692722d3d762974c67f37fb453c626b5e168"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10160.npz",
+      "group": "processed",
+      "bytes": 2399,
+      "sha256": "68a72cd44360c48d9238b91b95347f0f69d98be08720c0d2d3b35ee61163c27b"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10162.npz",
+      "group": "processed",
+      "bytes": 2373,
+      "sha256": "dc60eac5612d20ffe00a5812128c86820f3bf324847688636bde78fb22976e02"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10164.npz",
+      "group": "processed",
+      "bytes": 2264,
+      "sha256": "6d2f1f475e9918263f308bc23e128f71405de50accf8ff74a835adc05302e070"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10170.npz",
+      "group": "processed",
+      "bytes": 2290,
+      "sha256": "536f70630cbbff5cb74a809ade01330d6a53749ef570efbd3a933551cbf85f23"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10172.npz",
+      "group": "processed",
+      "bytes": 2326,
+      "sha256": "a6f7cf2c71179d7eb5a27bcd2d25a69eefa3e797959abc965fea778126065d95"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10173.npz",
+      "group": "processed",
+      "bytes": 2366,
+      "sha256": "7e4a8234e3e2ae56501e4159032905dbdc8accb619cdac32e5f13fad805963e7"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10174.npz",
+      "group": "processed",
+      "bytes": 2404,
+      "sha256": "d05eb28b202cfd74eeaddb184fdaaddaf4ec467122fd2b293466b1ee817892f6"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10175.npz",
+      "group": "processed",
+      "bytes": 2397,
+      "sha256": "8444fb1028c0cad524fb9d698a56c406114d889946c23123dee39dbeb99ee173"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10176.npz",
+      "group": "processed",
+      "bytes": 2296,
+      "sha256": "064331f1522bb3d4f24eb21c087eda434d9f43e27beb471e16c95c5a150405f9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10178.npz",
+      "group": "processed",
+      "bytes": 2367,
+      "sha256": "087d7e483151fbe9e281c7cbc33601bfc73dbbf1dc1d36f5c355bf59e24010a9"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10179.npz",
+      "group": "processed",
+      "bytes": 2312,
+      "sha256": "3b56f552325f524725e67f3dba76c17cf2366795b3f5eba02ac9c77699ecb845"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10180.npz",
+      "group": "processed",
+      "bytes": 2438,
+      "sha256": "bf804d35726473ea2953d89b4688cb96d61a952330cf1633c7d8e38ac0f80003"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10181.npz",
+      "group": "processed",
+      "bytes": 2351,
+      "sha256": "decc9688b0dd19c184600979d063a55a25243579c23dd362ce370b2734427b17"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10182.npz",
+      "group": "processed",
+      "bytes": 2322,
+      "sha256": "2b30adffd8b5784a1fa80e5239bcc7b8c56c4545cd0fe9b547f2543a57586de0"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10183.npz",
+      "group": "processed",
+      "bytes": 2245,
+      "sha256": "da5745d5a7525521844a2494e9dca25f49784fffe5c42b2f46304a8eec5369cf"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10184.npz",
+      "group": "processed",
+      "bytes": 2343,
+      "sha256": "22211703bd800b7e1a6c7c90d11c389b89fa1b363ccd264a1463d814a934ef32"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10185.npz",
+      "group": "processed",
+      "bytes": 2348,
+      "sha256": "568fbb6385a8273009f340375bbdec6818bb517d2b8c68927f6f12f8b62ed5a1"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10186.npz",
+      "group": "processed",
+      "bytes": 2274,
+      "sha256": "30ef3145998c5a905a042179858b1a71c715e77ac2cd54a815bd7ed7eb52f488"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10189.npz",
+      "group": "processed",
+      "bytes": 2314,
+      "sha256": "a4c12444a93c6ca52070a364daddaab9098a242c70d2f6382b0c7cefab16e96b"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10190.npz",
+      "group": "processed",
+      "bytes": 2309,
+      "sha256": "f389f4430e15dd1b126c5c0b1fd7e3ba029ccf85c97423f634e4fbee778a427e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10191.npz",
+      "group": "processed",
+      "bytes": 2219,
+      "sha256": "184e3b13a0512f1fe92016f08f93c87c688c06038e35fc8a5b0e1d9fecceb9eb"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10192.npz",
+      "group": "processed",
+      "bytes": 2393,
+      "sha256": "b0e2cb790682ad152ab23a38f624c73d9ad91a637254f2378f8628a00705cfd0"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10193.npz",
+      "group": "processed",
+      "bytes": 2428,
+      "sha256": "640fcfc5636d143324adda648f1d20cbf7e127316b785d3525489fb9fbca2c03"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10194.npz",
+      "group": "processed",
+      "bytes": 2267,
+      "sha256": "37f2049263027a3b6789c390dbce20937354f123be72bd344f5b1c447838486d"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10195.npz",
+      "group": "processed",
+      "bytes": 2421,
+      "sha256": "95a55c6d529eaaa372f0a68ad7dfb4672e7ce765fbf7403f4f43f32ab1aa971f"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10197.npz",
+      "group": "processed",
+      "bytes": 2321,
+      "sha256": "4d3e259a6f922fe99e74f86b3567df22ee113a8cca9c38f1b07fab9f6d0f0624"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10198.npz",
+      "group": "processed",
+      "bytes": 2241,
+      "sha256": "1fa5e6d290bc480bcafa68afd65c33e87e40f6021ebd64525a9a58f2f3ed5d56"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10199.npz",
+      "group": "processed",
+      "bytes": 2359,
+      "sha256": "8f4eff5a6f2b6cf6cfea2dc2ee7089cddc1171314e9083f0895ef3adf6f7ae59"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10200.npz",
+      "group": "processed",
+      "bytes": 2313,
+      "sha256": "2b9b5bf7c1db29ea560058e15832b30cd33c6f0dbe3676f1d612b1c66d63e75a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10201.npz",
+      "group": "processed",
+      "bytes": 2255,
+      "sha256": "7fd5a8f9557370e4a37ea93797db90ad4f55d1103749503834ce5aaf25f11633"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10202.npz",
+      "group": "processed",
+      "bytes": 2415,
+      "sha256": "f2ae68a043bbab20d90535c0e3fdcd5166a3e00ad7dbb5b3b6c9ffa9bcc3a240"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10204.npz",
+      "group": "processed",
+      "bytes": 2329,
+      "sha256": "234f67102f5adf9d517617bea3450f18d297910fb30734f14d2ab63534763ad0"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10206.npz",
+      "group": "processed",
+      "bytes": 2360,
+      "sha256": "1a78d76fe408d7a6847ad0d241174396463467eedbe7c6fee7df58e5881d78a3"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10213.npz",
+      "group": "processed",
+      "bytes": 2308,
+      "sha256": "5854f99dce7ab538173d8f721f4e31107d041344dbda09fb096a185515785f18"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10219.npz",
+      "group": "processed",
+      "bytes": 2299,
+      "sha256": "278ff045f6cb91c7af34b9389ba3c344e6e82da5ab96dfcb544e7577e22f974b"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10221.npz",
+      "group": "processed",
+      "bytes": 2271,
+      "sha256": "1b7614fa7811a2265b674ccb69e244858b6e615df47abd0871e4e13630cead4d"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10223.npz",
+      "group": "processed",
+      "bytes": 2412,
+      "sha256": "f9cdd526483464a08cddb28f1ab0a90e1de311775496c00148c1b2551a69a2a4"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10224.npz",
+      "group": "processed",
+      "bytes": 2236,
+      "sha256": "63b1ba19d81be05a908eff1b7d693c6e5d1a61b0f70fd857792f17808fa8c9e2"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10225.npz",
+      "group": "processed",
+      "bytes": 2276,
+      "sha256": "099ef74d16edc76f43f8b1ea9e9bf6779818d53707f710366f3d4a48f594e7be"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10226.npz",
+      "group": "processed",
+      "bytes": 2498,
+      "sha256": "5d64fab9debc7fadbcdd8d3aa2e212e40b40b996a8ca5c86d26a40dc678c7ebf"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10227.npz",
+      "group": "processed",
+      "bytes": 2400,
+      "sha256": "1b9b9583d71d70990c91bf8fd5672d8fe8445972b02bd34c4169487c9ee6c564"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10229.npz",
+      "group": "processed",
+      "bytes": 2246,
+      "sha256": "31a894831994a09267938368b4ba00d7962b638797b9a6188220edc3383ea26a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10230.npz",
+      "group": "processed",
+      "bytes": 2342,
+      "sha256": "59c857e929e4517364519fdce1521965dbd041d72ae763fe363805ec8facb84b"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10231.npz",
+      "group": "processed",
+      "bytes": 2386,
+      "sha256": "6338ccf22302d961a77dff2ba0f8099608f7bb8474642e9391135aa1dfd799e1"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10233.npz",
+      "group": "processed",
+      "bytes": 2269,
+      "sha256": "6400240f8f319798bdde26930f71778e393f06724c1e973e19e2985fa68699f8"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10235.npz",
+      "group": "processed",
+      "bytes": 2449,
+      "sha256": "7e3e6931fc7d80a5894f5c88839ea6299e8ef1308ed0112db4eb6f3bf8fcf904"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10236.npz",
+      "group": "processed",
+      "bytes": 2413,
+      "sha256": "3772d363ac3de23a5e471890d288a0d155203282f8a2964bfdd63b26dd013b3c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10237.npz",
+      "group": "processed",
+      "bytes": 2440,
+      "sha256": "c073c4ef11a29720102ea85341941822a0a82686f3cd435209be8555a455f94a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10238.npz",
+      "group": "processed",
+      "bytes": 2312,
+      "sha256": "54f537593636914f4cbc79720dd6a411e09eb4d9fcfc775e22915358bb8d889e"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10239.npz",
+      "group": "processed",
+      "bytes": 2326,
+      "sha256": "ee720cb4a978c5013172b20cfd282d1a4964fc8c393b15030fe60c5ed5a79f8a"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10240.npz",
+      "group": "processed",
+      "bytes": 2386,
+      "sha256": "951a632f71c4f6bc054c26f9d9e9af8cda250204ffcda92d4165774f0a3ed849"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10241.npz",
+      "group": "processed",
+      "bytes": 2314,
+      "sha256": "759ff74b8f59f3942310f7cbe01f672a348df59bbd6dcc63b04d39edcd2bd212"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10242.npz",
+      "group": "processed",
+      "bytes": 2420,
+      "sha256": "938c0d6fbbe63c125c9c08b129bd96d0f121e9b0fbcd80c2979daa57131ba959"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10243.npz",
+      "group": "processed",
+      "bytes": 2275,
+      "sha256": "19c534cc2196bf33eef46b16546ecb94ba4dc99244adaa8ccf23201f93ac1e84"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10244.npz",
+      "group": "processed",
+      "bytes": 2288,
+      "sha256": "697024a7b28fdc041eeaf058f22b06d26a08b84c035af131856ab4d23a1a422d"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10245.npz",
+      "group": "processed",
+      "bytes": 2234,
+      "sha256": "c47d0809828875a7ff3ed0f55a8e68c038d1ac620f32bf5c93a747619680416b"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10246.npz",
+      "group": "processed",
+      "bytes": 2364,
+      "sha256": "a62e3a22f87af125e0cc3b48b1b72a2cc285689f6edb5c1fce1439afcf4ccf6c"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10247.npz",
+      "group": "processed",
+      "bytes": 2296,
+      "sha256": "2518a397010f0e39273e898f61d1f17af263f5b60422ee5f408dc397bfa09fb3"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10249.npz",
+      "group": "processed",
+      "bytes": 2397,
+      "sha256": "c2b925b84f65e3cf45d6f7b3babb0c663190d9fb2445e8fcb2ef7c300789dc35"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10250.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "c1ab7c041eb118df855b447930ebb4baf0992a34e3657f9114d2e60ec00ebf39"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10251.npz",
+      "group": "processed",
+      "bytes": 2381,
+      "sha256": "f73ee64123e8d0fd5d1fab4884693977247e6ef6ef5450b8558327b28f5f54ce"
+    },
+    {
+      "path": "data/frozen_graph/targets/train/f10255.npz",
+      "group": "processed",
+      "bytes": 2294,
+      "sha256": "4aad237666295d94375143b4cae2d1658debe31042200e3fa47dbaa7d5aedf0d"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10005.npz",
+      "group": "processed",
+      "bytes": 2409,
+      "sha256": "8a6b05bb6b3733c5a68fde5710e6ab4a68983a9ed8e74d9512855c1595b8e1d6"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10008.npz",
+      "group": "processed",
+      "bytes": 2241,
+      "sha256": "aa666c4fc94b08b8de78a7491d5b0dab9f978677e1f5f17b49b6367fc79dd65a"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10014.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "4b92c348e886edeb2e1c787934c703107ef34b141f243d5c454d8408140f294f"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10023.npz",
+      "group": "processed",
+      "bytes": 2437,
+      "sha256": "de79c80ca4743e94e81bb876ca895c9b3aff2396e779f052e48af216daff1ab5"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10024.npz",
+      "group": "processed",
+      "bytes": 2248,
+      "sha256": "6ace4d7b538edea7cee48814d932e1f2c90b5679f10004242ab5c9dc32a1d333"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10025.npz",
+      "group": "processed",
+      "bytes": 2360,
+      "sha256": "23496afe06fcdcfcc340a8c1af220106b01be08ad70a19ec60580c67e2c90c7e"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10028.npz",
+      "group": "processed",
+      "bytes": 2351,
+      "sha256": "12a1e775b4296d3d8b06553e67d87c903c164080000d8bcda0560293738fe509"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10040.npz",
+      "group": "processed",
+      "bytes": 2328,
+      "sha256": "8da4c2e71e393ee2f931eb158cbfe7b839e70ecbd434cc656ce62aea415def6a"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10045.npz",
+      "group": "processed",
+      "bytes": 2284,
+      "sha256": "571b569a940878efe7a210baf254239765f7b455d0023ec5e974fc3a92315489"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10056.npz",
+      "group": "processed",
+      "bytes": 2397,
+      "sha256": "8d364349d7a6134b3a152d000a13403566fd312eb34b7e76ab03e9217fc34d8e"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10061.npz",
+      "group": "processed",
+      "bytes": 2406,
+      "sha256": "0b8302a5cace4f992c461f1faa430e522a4bbbcba15b10a29d129df21c205eb1"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10082.npz",
+      "group": "processed",
+      "bytes": 2144,
+      "sha256": "0898c1709f8d484ac128ed5aa2f87c4dd91da9589f9f5b231980334a7f2e5473"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10084.npz",
+      "group": "processed",
+      "bytes": 2284,
+      "sha256": "8dc8658c12892402f01e8e6a0dd99cd428b753d6644a19870d1b162b62b4ccf5"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10095.npz",
+      "group": "processed",
+      "bytes": 2372,
+      "sha256": "2f86402efba23463caa3743833221f4f1e2ec4409572f28e2bfe3452cc61f42c"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10125.npz",
+      "group": "processed",
+      "bytes": 2341,
+      "sha256": "4a025ffae67ebf6c908e573c219dc15710020aa544dae19a17567873d77a42cc"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10126.npz",
+      "group": "processed",
+      "bytes": 2288,
+      "sha256": "a54c387fd8ef4991cd8463521fa0c3cd13670582b77a893611c4b7ae2b30403d"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10132.npz",
+      "group": "processed",
+      "bytes": 2336,
+      "sha256": "fbeda0b2ea82871526cb80b996fc2b82c816bdaed36f9834e374cef65420b938"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10134.npz",
+      "group": "processed",
+      "bytes": 2275,
+      "sha256": "3fe4345c179b30820c16f4bfafd65478a6c78aa7ee5165f51f08bf0440da19eb"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10148.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "30c326636893fdd6b74ec3a1925309f96692975999de13ecc1de44fa61f9af65"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10157.npz",
+      "group": "processed",
+      "bytes": 2345,
+      "sha256": "20f26c29b4881a3e77a2356ca1413e0f4788dca2be750017c190183420c70928"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10163.npz",
+      "group": "processed",
+      "bytes": 2290,
+      "sha256": "b615a48905469500756c48cff5035a05959dd615bfa2e39786b9e7512c5ab8d6"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10166.npz",
+      "group": "processed",
+      "bytes": 2391,
+      "sha256": "8f66e05af25ad18c6d6d1c7c323284c2537c742f6523c4dd6569cb2b9eb64d65"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10168.npz",
+      "group": "processed",
+      "bytes": 2389,
+      "sha256": "885d5d26bd9907f6e0f5e4d6856dc546c8596636a56d6c39752524fe78df3178"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10187.npz",
+      "group": "processed",
+      "bytes": 2291,
+      "sha256": "e23a04f254cba397e7dcb5ba9ecf14a824e22aae350c04d4e65439ffbff265f0"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10207.npz",
+      "group": "processed",
+      "bytes": 2315,
+      "sha256": "3b19a4f84031e03835c04a75fe8aa3a40e02f46fa88c8960d5ccc27401d0c224"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10211.npz",
+      "group": "processed",
+      "bytes": 2316,
+      "sha256": "67940f0f29bda9164af6fcff1e8834b6036df041d527a2b03c7599fcc6407a65"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10215.npz",
+      "group": "processed",
+      "bytes": 2413,
+      "sha256": "4584e5bd0375e0b1a2275724a525853884056c530452fb80ab3b51326bf8d6a9"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10216.npz",
+      "group": "processed",
+      "bytes": 2352,
+      "sha256": "985e755b45b063f033c2932d126d51711ee36f0f2948fc3b03d773eb0442de63"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10218.npz",
+      "group": "processed",
+      "bytes": 2293,
+      "sha256": "c38e06eb92593fa1c978506135d8bf9b81bc6bda76831aed7f40f7153ba3e051"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10222.npz",
+      "group": "processed",
+      "bytes": 2414,
+      "sha256": "c3de5d5cba53a99595f98dcfd1aaabfce5cd26f13c6195181ea9b2c3463a1549"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10252.npz",
+      "group": "processed",
+      "bytes": 2471,
+      "sha256": "2bd886f8f4332716f58f36a0c6c13f5e6a328ff6f2dc79becef2c2e01d0b10a2"
+    },
+    {
+      "path": "data/frozen_graph/targets/validation/f10254.npz",
+      "group": "processed",
+      "bytes": 2291,
+      "sha256": "e2b6c26226bfbec803d3539e6f3bd3dd0db3ca63ab78b74d007d17584e582b81"
+    },
+    {
+      "path": "artifacts/checkpoints/C-r8__seed42.pt",
+      "group": "weights",
+      "bytes": 558950,
+      "sha256": "c4f7e394dc568c023754ad57f0072d07bab33d3f297957a24014f5ceeafde274"
+    },
+    {
+      "path": "artifacts/reference_predictions/C-r8__seed42.parquet",
+      "group": "weights",
+      "bytes": 525649,
+      "sha256": "cc6b8975b055c4137e97a7635473bff7640d5472947c1b15c83a0654b8aa6e95"
+    },
+    {
+      "path": "artifacts/checkpoints/C-r8__seed43.pt",
+      "group": "weights",
+      "bytes": 558950,
+      "sha256": "d1c7b10146b53c79ac77a7b93f8340a0d14440eb39b8101de8a717a7c5e94a3f"
+    },
+    {
+      "path": "artifacts/reference_predictions/C-r8__seed43.parquet",
+      "group": "weights",
+      "bytes": 525689,
+      "sha256": "cd72d1195cc634b86c8ebbebc1266f0f0ec289f6a8e316e6938bdd4ddae7df1f"
+    },
+    {
+      "path": "artifacts/checkpoints/C-r8__seed44.pt",
+      "group": "weights",
+      "bytes": 558950,
+      "sha256": "56db0471a7adf4cfec133c6e6266f484aa5471cd92c38edcea57bb46ff045066"
+    },
+    {
+      "path": "artifacts/reference_predictions/C-r8__seed44.parquet",
+      "group": "weights",
+      "bytes": 525649,
+      "sha256": "4220bb92bbaf0f2d11ee5c5c18f923415c615f1fbb1f239224f5f9853ae107de"
+    },
+    {
+      "path": "artifacts/training/checkpoints/Correction__seed42.pt",
+      "group": "training",
+      "bytes": 1154388,
+      "sha256": "34d0e044e5b3640b200f2e689bea81cd3aa5cb9afd4540dbb52d93ddaac09477"
+    },
+    {
+      "path": "artifacts/training/checkpoints/Correction__seed43.pt",
+      "group": "training",
+      "bytes": 1154324,
+      "sha256": "129e5d31042f9df41f1015b3e8cabdf1b907b0a4b56b27f95777016f98640beb"
+    },
+    {
+      "path": "artifacts/training/checkpoints/Correction__seed44.pt",
+      "group": "training",
+      "bytes": 1154324,
+      "sha256": "9ba3d9b1ede2e887b7b527786101f02d8ae1ac138772296dcb7d85c92f4bb887"
+    },
+    {
+      "path": "artifacts/training/checkpoints/LightweightTransformer__seed42.pt",
+      "group": "training",
+      "bytes": 246381,
+      "sha256": "097f70e2e2f9cf1eaeb8a80f0bff9cc04a279f56eb907351e19e03f11d28f805"
+    },
+    {
+      "path": "artifacts/training/checkpoints/LightweightTransformer__seed43.pt",
+      "group": "training",
+      "bytes": 246381,
+      "sha256": "f58b3573e2ded8663b8f00147c064deb390ef53f603fe8d8f813dad52b5de137"
+    },
+    {
+      "path": "artifacts/training/checkpoints/LightweightTransformer__seed44.pt",
+      "group": "training",
+      "bytes": 246381,
+      "sha256": "2c90cded8848e9173418b239cd5358e6d2c539e84c3eab5c38dca971cd676c93"
+    },
+    {
+      "path": "artifacts/training/checkpoints/S21A-Lightweight-Graph__seed42.pt",
+      "group": "training",
+      "bytes": 1399298,
+      "sha256": "3bcd6e1b4ef92cad5f3079f66c64f226fafc5cb85a0bdaea490492e2d96f475c"
+    },
+    {
+      "path": "artifacts/training/checkpoints/S21A-Lightweight-Graph__seed43.pt",
+      "group": "training",
+      "bytes": 1399298,
+      "sha256": "376b2d6ded2ae860ce7bc2ae86d05b301d583d5c721d65438fddb004cf36df72"
+    },
+    {
+      "path": "artifacts/training/checkpoints/S21A-Lightweight-Graph__seed44.pt",
+      "group": "training",
+      "bytes": 1399298,
+      "sha256": "71eb447cd5587179ad952bdb7ff323e8878775283cf019290463fd72e83ba1d9"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold0_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "8bcbb9f737e6b0d71b14d00d0c933d8752b3bf15d0b84d7d64adae24b370df5f"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold0_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244781,
+      "sha256": "eae75ec58170c8ed350cec93ded4c44194cfafb7809f25a0de0329a3f76f7f24"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold1_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "bb33f47d4a8ce1be3ef41b88c75f08b5f6df6b9a48f945cf5aa59178f059ce0f"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold1_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244781,
+      "sha256": "4d916e58f8d02660eb96cdc4be9feffdfc95d0973233db395eb90c7f3147b58c"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold2_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "6426a0bb02dec3a639dc988783a5b04205a432bcc0c31d7acbb0c04f9ea7dc7a"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold2_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244781,
+      "sha256": "6520f823a6261cba4eb410672131297eaafbe8900c2241421b65d938f75fb3e0"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold3_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "81774ab3dfcb8d2c40ad4f3031a8cf476fa9ed335b18aeccc53a30be6dfa1dda"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold3_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244781,
+      "sha256": "49ebf9a50b3f9dd3e017c0f3345d3926b66c1bf2a7e0deb41d5cc5338eb5fc64"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold4_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "acfefcec76cc569ab278211af66a4b8973a2d22c155d647ed90c9991cd9d6749"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_fold4_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244781,
+      "sha256": "4552484d370ae354eab79ba59cf695f0dd697574119d313a97503776285b0edc"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold0_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "e0ffe2350a6b987716ce2c997af35b6353b79afed103fcf6be0fe961e6da9341"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold0_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 245485,
+      "sha256": "30baff62da12125bf6e0268fb1bcf9b04dee4d696460642623fea97f8472451f"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold1_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "5719a917e994ddddf04254dd5bea0f777b9083b73568c322d88b70531c2bda8c"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold1_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 245485,
+      "sha256": "3e82339e539579853603318d6be8dfa0aa5bf0a22a03d58b1cf2255d95b9c00d"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold2_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "627fdf22b4ad72e1ec241c49f7cb803572567200b295b1285084322b893ef0b4"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold2_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 245485,
+      "sha256": "865c06af2f38f62af8ea99fa2e91b452651aa42e05eb6c7dd7d558ae5b8fa9ff"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold3_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "53bc07be966618fa6534dd261a443eadfb6b19c630a941a3657d58a2b8c91be1"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold3_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 245485,
+      "sha256": "8f6d86b017dc0b279edb4e1f25ebae5501ac7b33366132a405abd66cc389215c"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold4_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "767a7a3f591c79363a537518f9808a5500d0b7b376b8867658a9a06a9bcffb6f"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_fold4_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 245485,
+      "sha256": "cab1d082f4419e30459c5cc503cb4bb27f3238df4f4cfbf126388b1f9cfb2a2e"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold0_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "d55232bab7ece1c99159986cd496327442a8aa2d4f52124875e1ff95392467db"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold0_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244717,
+      "sha256": "29ba15367fad8e72c8d9fc0f5734785927ee12cb3859a70779c01eaacef55406"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold1_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "c46eb2037908739cd3e330b6f03592e8d446d34c3e7dc4636675a374ff576c3f"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold1_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244717,
+      "sha256": "06f6c29d31ad6e751acb2c0448fc456237f7556445d295ca637597b5b9fb8a54"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold2_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "c64c5625e8f431ec6b7f1716b6b5752996d1cd4a678ceb41349ba4641f0fb73e"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold2_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244717,
+      "sha256": "0e1bc4d25136e9003e6e1e33ff825e13ff8195def88f951491e7b89bd5c339a0"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold3_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "551a94d2c64421d88682181c05a3e53dd215bec3639d6cf81bacf60777ee26a6"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold3_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244717,
+      "sha256": "9394dc662f1a896d15ba2ca1d8451d91aeb4afa9716f1e6d300f7c23c604c163"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold4_Correction.pt",
+      "group": "training",
+      "bytes": 1152660,
+      "sha256": "8a4cda3bc5b701b2403c983032f8f2b42401171bc00bf4f7d4b9baf90eebb412"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_fold4_LightweightTransformer.pt",
+      "group": "training",
+      "bytes": 244717,
+      "sha256": "ac111a80ae6720b5ceb462482fb9fe59c4434da0e9e9e423fd1314c4aec6186d"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed42_oof.npz",
+      "group": "training",
+      "bytes": 4314498,
+      "sha256": "dc076d66bbcf40d49957f2f0f06c74aec08cb63b8941d8624acb8b510ae1387d"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed43_oof.npz",
+      "group": "training",
+      "bytes": 4314498,
+      "sha256": "fbc6f02023b76349a3c35b9f184328d066b68d1e9b8df3ce82a6420f8d471190"
+    },
+    {
+      "path": "artifacts/training/crossfit/seed44_oof.npz",
+      "group": "training",
+      "bytes": 4314498,
+      "sha256": "433a2d821f06101b481c47288246cd9f5459f3ddc719905fd76fbb7d7ccee601"
+    }
+  ]
+}

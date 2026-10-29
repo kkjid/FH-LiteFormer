@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "version": "v1.0.0",
+  "checked_utc": "2026-10-29T10:44:12.365156+00:00",
+  "scope": "Final local release acceptance before publication; remote verification is recorded separately",
+  "environment": {
+    "python": "3.12.7",
+    "torch": "2.3.1+cpu",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "pyarrow": "16.1.0",
+    "isolated_venv": true,
+    "original_project_imports": false
+  },
+  "independent_new_venv": true,
+  "installed_package_source_files_verified": 28,
+  "stages": [
+    {
+      "name": "install_wheel",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "installed_package",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "pip_check",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "http_download_merge_extract",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "dataset_integrity",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "preprocessing",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "tests",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "parent_training_smoke",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "adaptation_smoke_parent",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "adaptation_frozen_parent",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "training_asset_lineage",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "checkpoint_replay",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "target_free_inference",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "tests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "dataset": {
+    "files": 771,
+    "bytes": 234172874,
+    "families": {
+      "train": 176,
+      "validation": 32,
+      "test": 48
+    }
+  },
+  "planned_public_assets": 819,
+  "all_offline_asset_members_verified": 17971,
+  "cpu_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cpu",
+    "torch_version": "2.3.1+cpu",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608821251305,
+        "rmse_h": 965.5653263064013,
+        "max_prediction_error_h": 0.004994428358713776
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3214422642062,
+        "rmse_h": 975.7613986398995,
+        "max_prediction_error_h": 0.006948769891096163
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.438171550322,
+        "rmse_h": 961.3460778930818,
+        "max_prediction_error_h": 0.006080173654481769
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5734986465528,
+      "rmse_h": 967.5576009464609
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "gpu_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cuda",
+    "torch_version": "2.3.1",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608196286778,
+        "rmse_h": 965.5652473314703,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3212948653594,
+        "rmse_h": 975.7612431364596,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.4380652537596,
+        "rmse_h": 961.3459536984523,
+        "max_prediction_error_h": 0.0
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5733932492657,
+      "rmse_h": 967.5574813887941
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "pointwise_predictions_checked": 70260,
+  "target_free_inference": {
+    "status": "PASS",
+    "endpoints": 23461,
+    "test_target_directory_absent_during_command": true
+  },
+  "model_asset_lineage": {
+    "status": "PASS",
+    "registered_files": 48,
+    "checkpoint_payloads": 42,
+    "fold_checkpoints": 30,
+    "oof_files": 3,
+    "oof_rows_per_seed": 43130,
+    "checkpoint_metadata_strings_scanned": 12345,
+    "all_folds_exclude_held_families": true,
+    "all_three_inherited_bases_and_gates_identical": true,
+    "third_party_data_or_model_assets_included": false
+  },
+  "history": {
+    "stages": 3,
+    "exact_historical_definitions": 23,
+    "unchanged_rc1_source_files": 28,
+    "original_three_commits_preserved": true,
+    "original_research_git_history_imported": false,
+    "historical_checkpoint_reproduction_claimed": false
+  },
+  "source_safety": {
+    "status": "PASS",
+    "reachable_commits_scanned": 6,
+    "unique_blobs": 58,
+    "flagged": []
+  },
+  "paper_method_alignment": {
+    "scope": "Method description and accepted implementation identity; no manuscript edit or new equation audit",
+    "reviewed": [
+      "24h causal input and 91 channels",
+      "same-type family-balanced preprocessing",
+      "DyT and degree-two 64-32-64 FFN",
+      "signed-power readout",
+      "FiLM and three graph layers",
+      "64x64 value-map rank8 and 6/4/1 dependency updates",
+      "within-window GRU correction and 17-input convex advantage gate",
+      "honest five-family crossfit and frozen base/gate adaptation"
+    ]
+  },
+  "full_training_from_scratch_executed": false,
+  "efficiency_remeasured": false,
+  "original_exposed_test_disclosure_retained": true
+}

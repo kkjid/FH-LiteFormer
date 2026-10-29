@@ -26,4 +26,11 @@ The accepted median batch-1 latency was 11.532837 ms (mean of three per-seed med
 
 ## Validation record
 
-`provenance/local_validation.json` is generated from the actual release checks. It distinguishes frozen-checkpoint replay, small training-stage diagnostics, full retraining and hardware efficiency. Full three-seed parent retraining has not been repeated for this release candidate. Publication, GitHub asset downloads and rights clearance remain incomplete while this is an offline candidate.
+`provenance/local_validation.json` preserves the original rc.1 offline checks.
+`provenance/release_validation.json` records the final local installation,
+integrity, checkpoint replay and stage diagnostics. The post-publication
+`provenance/public_download_validation.json` records checks from actual GitHub
+downloads. These records distinguish frozen-checkpoint replay, small
+training-stage diagnostics, full retraining and hardware efficiency. Full
+three-seed parent retraining and hardware efficiency remeasurement have not
+been repeated for this release.

@@ -2,15 +2,19 @@
 
 FH-LiteFormer estimates the current remaining useful life of a DC-link capacitor from a synchronized heterogeneous system history. This repository contains **C-r8**, the final compressed paper model, and the staged training recipe that produced its parent models.
 
-This is a local release candidate. Publication and the proposed license grants remain pending rights clearance. The adjacent `release-assets` directory contains the prepared data and checkpoints; no public download URL is asserted here.
+Version 1.0.0 reproduces the final frozen C-r8 checkpoints. The original offline candidate and its three commits are preserved. Code is licensed under MIT; the original processed simulation data and necessary model/OOF assets are licensed under CC BY 4.0, attributed to Jiajun Ma (2026).
 
 The model combines a 64-channel temporal encoder with DyT normalization, degree-two edge-function feed-forward layers and a signed-power readout; a condition-modulated, three-layer heterogeneous graph encoder; a within-window GRU correction expert; and an advantage-trained convex fusion gate. C-r8 contracts attention scores, prunes computations outside the target dependency cone, and factorizes relation value maps at rank 8. The complete deployed system stores 130,431 parameters.
 
+[Model evolution](MODEL_EVOLUTION.md) explains the original uncompressed architecture, the separately trained lightweight temporal parent, and the lossless and C-r8 deployment branches. Selected historical code and actual module diffs are supplied with verified source commit identities; their import commits use real import dates.
+
 ## Installation
 
-Python 3.12 was used for the release checks. Python 3.10–3.12 are supported by the package metadata; other Python versions have not been tested.
+Python 3.12 was used for the release checks. Package metadata permits Python 3.10–3.12; Python 3.10 and 3.11 have not been tested for this release.
 
 ```bash
+git clone https://github.com/kkjid/FH-LiteFormer.git
+cd FH-LiteFormer
 python -m venv .venv
 ```
 
@@ -25,23 +29,18 @@ The pinned PyPI installation supports CPU inference. The original measurements u
 
 ## Data and frozen checkpoints
 
-From this directory in the offline delivery, run:
+Download the required data and model assets from the versioned Release:
 
 ```bash
-python -m fh_liteformer.fetch --base-url ../release-assets --groups processed weights training --output .
+python -m fh_liteformer.fetch --base-url https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0 --groups processed weights training --output .
 python -m fh_liteformer.data --data data/frozen_graph
 ```
 
-The same downloader accepts an HTTP(S) Release assets directory once a release exists. It verifies every part, merges split archives, verifies the complete archive, and rejects unsafe extraction paths. Asset sizes and SHA-256 values are in `release-manifest.json`; per-file frozen hashes are preserved in `data/frozen_graph/data_hashes.json`.
+The downloader also accepts a local asset directory for offline use. It verifies every part, merges split archives, verifies the complete archive, and rejects unsafe extraction paths. Asset sizes and SHA-256 values are in `release-manifest.json`; [the per-file catalog](provenance/asset_files.json) also records every member's exact size and hash. The original frozen hashes remain in `data/frozen_graph/data_hashes.json`. [Asset scope](docs/ASSETS.md) distinguishes inference, staged training and optional simulation audit inputs.
 
 The processed dataset contains all 256 families and their original Train/Validation/Test allocation (176/32/48). Each family contains 32 layout/design/duty variants. Training and selection use layouts 0/3/5/6; layouts 1/2/4/7 remain held out. Labels are current-operating-policy **Reference RUL in synthetic hours**, with separate censoring information. They are distinct from the measured predictor channels.
 
-The optional supplement contains all synchronized raw observations and hidden simulator states for the same families. Hidden states are audit data and are excluded from every model input:
-
-```bash
-python -m fh_liteformer.fetch --base-url ../release-assets --groups supplement --output .
-python -m fh_liteformer.data --data data/frozen_graph --include-supplement
-```
+The original offline delivery also retains synchronized raw observations and hidden simulator states for optional simulation audits. They are unnecessary for training on the supplied windows or replaying predictions and are outside this public release.
 
 See [the data description](docs/DATASET.md) for fields, units, masks, topology and exclusions.
 
@@ -62,6 +61,8 @@ python -m pytest -q
 | 43 | 879.321295 | 975.761243 |
 | 44 | 861.438065 | 961.345954 |
 | Mean | **870.573393** | **967.557481** |
+
+The [local validation record](provenance/release_validation.json) documents 12 tests, all 70,260 pointwise predictions, target-free inference and training-stage smoke checks. Post-publication checks are recorded in [the public-download verification on main](https://github.com/kkjid/FH-LiteFormer/blob/main/provenance/public_download_validation.json).
 
 These are frozen-checkpoint results. C-r8 is a post-hoc checkpoint adaptation on a previously exposed Test set. The result is not independent confirmation, and the operational-policy synthetic hours have not been calibrated as field lifetime. C-r8 does not denote the historical CES S21-A, uncompressed S21A-Graph, or the graph-free gEOL adaptation.
 
@@ -95,6 +96,6 @@ Full retraining and hardware efficiency measurements are separate from checkpoin
 
 The manuscript is unpublished. Its author list, final bibliographic metadata and any later DOI must be supplied by the authors; no DOI is assigned in this repository. Until then, identify the model as FH-LiteFormer C-r8 and the data by the frozen identity recorded in `release-manifest.json`.
 
-The intended licenses are MIT for cleared original code and CC BY 4.0 for cleared original simulation data and C-r8 weights. The license grant and accurate copyright/attribution notices are pending rights confirmation; see [LICENSE](LICENSE). The training-parent archive also requires explicit clearance. Dependency packages retain their own licenses. No PatchTST source, NASA/CES raw data or Aalborg raw data are bundled.
+Copyright (c) 2026 Jiajun Ma. Original code and software documentation use the [MIT License](LICENSE). The original simulation dataset and frozen C-r8/parent/cross-fit/OOF assets use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with separate [dataset](LICENSES/DATA.md) and [model](LICENSES/MODELS.md) attribution scopes. The work title is “FH-LiteFormer synchronized simulation dataset and model assets”. `kkjid` is the GitHub account. Preserve the attribution, source and license information and indicate changes when reusing these assets. Dependency packages retain their own licenses. No PatchTST source, NASA/CES raw data or Aalborg raw data are bundled.
 
 External experiments use the [NASA PCoE repository](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) and [Aalborg gEOL dataset](https://vbn.aau.dk/en/datasets/power-cycling-test-dataset-geol-a-gradient-based-end-of-life-crit/). Obtain those data from their official sources and follow their applicable terms. The historical CES experiment had accidental pre-freeze label-byte access after development closed; subsequent formal evaluation used a separately frozen recovery protocol. Those targets must not be described as pristine untouched holdout data.

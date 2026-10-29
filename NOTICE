@@ -1,0 +1,20 @@
+FH-LiteFormer
+Copyright (c) 2026 Jiajun Ma
+Public attribution name: Jiajun Ma
+GitHub account: kkjid
+
+Original algorithm source, selected historical computational snapshots and
+accompanying software documentation: MIT License (see LICENSE).
+
+Original simulation data and model/OOF assets: CC BY 4.0, with separate file
+scopes and attribution in LICENSES/DATA.md and LICENSES/MODELS.md.
+Work title: FH-LiteFormer synchronized simulation dataset and model assets
+Creator / Licensor: Jiajun Ma (2026).
+Canonical project source: https://github.com/kkjid/FH-LiteFormer
+Versioned asset source: https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0
+
+kkjid is the GitHub account, not a substitute for the copyright holder's name.
+Third-party software and data retain their independent rights and terms.
+Third-party raw or processed datasets are not redistributed. No PatchTST or
+RevIN source is included. The offline raw/hidden simulator supplement is not
+part of this public release's license scope or uploaded assets.

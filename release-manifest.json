@@ -1,8 +1,7 @@
 {
-  "version": "v1.0.0-rc.1",
-  "status": "OFFLINE_CANDIDATE_RIGHTS_CLEARANCE_PENDING",
+  "version": "v1.0.0",
+  "status": "VERIFIED_RELEASE_ARTIFACTS",
   "created_utc": "2026-10-29T05:29:35.413379+00:00",
-  "published": false,
   "dataset_identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
   "groups": {
     "processed": {
@@ -19,7 +18,15 @@
           "bytes": 234772480,
           "sha256": "863ba6776969b4181f03fdfad4eee658e0b2dc136c4be158aa6fc5dc390aea71"
         }
-      ]
+      ],
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": "Jiajun Ma",
+      "copyright_year": 2026,
+      "github_account": "kkjid",
+      "work_title": "FH-LiteFormer synchronized simulation dataset and model assets",
+      "asset_category": "Synchronized Simulation Dataset",
+      "source_url": "https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0"
     },
     "weights": {
       "name": "weights",
@@ -35,7 +42,15 @@
           "bytes": 3266560,
           "sha256": "2d9346ae466fe960f17f1abb06d980cc0a1821414ca0de39568eb3b8f7a33012"
         }
-      ]
+      ],
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": "Jiajun Ma",
+      "copyright_year": 2026,
+      "github_account": "kkjid",
+      "work_title": "FH-LiteFormer synchronized simulation dataset and model assets",
+      "asset_category": "Model Assets",
+      "source_url": "https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0"
     },
     "training": {
       "name": "training",
@@ -51,36 +66,32 @@
           "bytes": 42352640,
           "sha256": "569fbb3aae4adc53832e1210796680bd24a709c1a7418aac68dfbaaf0a3bb678"
         }
-      ]
-    },
-    "supplement": {
-      "name": "supplement",
-      "prefixes": [
-        "data/frozen_graph"
       ],
-      "archive_sha256": "1b9a3a0cc6fd4a4d6228abef51fd959d58b8327cf84fa8f2f4b7650a3848958c",
-      "original_files": 17152,
-      "original_bytes": 2907806501,
-      "parts": [
-        {
-          "name": "fh-liteformer-supplement-v1.tar.part001",
-          "bytes": 1073741824,
-          "sha256": "082cba2bfd77f7c6c1979d3dff878d003320b3168d2c2d44bedd6dbe91e1bb52"
-        },
-        {
-          "name": "fh-liteformer-supplement-v1.tar.part002",
-          "bytes": 1073741824,
-          "sha256": "5b3a1b4ab447fc4b8fa6ed3818995898615f2787d7476a6ea48b7d405e78ed0f"
-        },
-        {
-          "name": "fh-liteformer-supplement-v1.tar.part003",
-          "bytes": 773496832,
-          "sha256": "f68890b90aa301037727486300bfb7a6e8eb076f58f93b93a91c7080930c4808"
-        }
-      ]
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": "Jiajun Ma",
+      "copyright_year": 2026,
+      "github_account": "kkjid",
+      "work_title": "FH-LiteFormer synchronized simulation dataset and model assets",
+      "asset_category": "Model Assets",
+      "source_url": "https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0"
     }
   },
-  "license_status": "Proposed MIT code and CC BY 4.0 original data/final weights; no grant before rights clearance",
-  "training_archive_license_status": "Separate distribution clearance required for frozen parents and OOF predictions",
-  "copyright_holder_confirmed": false
+  "license_status": "MIT original code; CC-BY-4.0 processed original data and necessary model/OOF assets",
+  "training_archive_license_status": "CC-BY-4.0; original same-source lineage verified",
+  "copyright_holder_confirmed": true,
+  "planned_public_groups": [
+    "processed",
+    "weights",
+    "training"
+  ],
+  "copyright_holder": "Jiajun Ma",
+  "copyright_year": 2026,
+  "source_url": "https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0",
+  "release_version_metadata_updated_utc": "2026-10-29T10:44:12.370443+00:00",
+  "offline_optional_supplement": {
+    "distributed": false,
+    "licensed_by_this_release": false,
+    "purpose": "Raw observations and hidden simulator states retained in the original offline candidate; unnecessary for packaged training/evaluation"
+  }
 }
