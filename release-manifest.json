@@ -1,0 +1,86 @@
+{
+  "version": "v1.0.0-rc.1",
+  "status": "OFFLINE_CANDIDATE_RIGHTS_CLEARANCE_PENDING",
+  "created_utc": "2026-10-29T05:29:35.413379+00:00",
+  "published": false,
+  "dataset_identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
+  "groups": {
+    "processed": {
+      "name": "processed",
+      "prefixes": [
+        "data/frozen_graph"
+      ],
+      "archive_sha256": "863ba6776969b4181f03fdfad4eee658e0b2dc136c4be158aa6fc5dc390aea71",
+      "original_files": 771,
+      "original_bytes": 234172874,
+      "parts": [
+        {
+          "name": "fh-liteformer-processed-v1.tar.part001",
+          "bytes": 234772480,
+          "sha256": "863ba6776969b4181f03fdfad4eee658e0b2dc136c4be158aa6fc5dc390aea71"
+        }
+      ]
+    },
+    "weights": {
+      "name": "weights",
+      "prefixes": [
+        "artifacts"
+      ],
+      "archive_sha256": "2d9346ae466fe960f17f1abb06d980cc0a1821414ca0de39568eb3b8f7a33012",
+      "original_files": 6,
+      "original_bytes": 3253837,
+      "parts": [
+        {
+          "name": "fh-liteformer-weights-v1.tar.part001",
+          "bytes": 3266560,
+          "sha256": "2d9346ae466fe960f17f1abb06d980cc0a1821414ca0de39568eb3b8f7a33012"
+        }
+      ]
+    },
+    "training": {
+      "name": "training",
+      "prefixes": [
+        "artifacts/training"
+      ],
+      "archive_sha256": "569fbb3aae4adc53832e1210796680bd24a709c1a7418aac68dfbaaf0a3bb678",
+      "original_files": 42,
+      "original_bytes": 42308382,
+      "parts": [
+        {
+          "name": "fh-liteformer-training-v1.tar.part001",
+          "bytes": 42352640,
+          "sha256": "569fbb3aae4adc53832e1210796680bd24a709c1a7418aac68dfbaaf0a3bb678"
+        }
+      ]
+    },
+    "supplement": {
+      "name": "supplement",
+      "prefixes": [
+        "data/frozen_graph"
+      ],
+      "archive_sha256": "1b9a3a0cc6fd4a4d6228abef51fd959d58b8327cf84fa8f2f4b7650a3848958c",
+      "original_files": 17152,
+      "original_bytes": 2907806501,
+      "parts": [
+        {
+          "name": "fh-liteformer-supplement-v1.tar.part001",
+          "bytes": 1073741824,
+          "sha256": "082cba2bfd77f7c6c1979d3dff878d003320b3168d2c2d44bedd6dbe91e1bb52"
+        },
+        {
+          "name": "fh-liteformer-supplement-v1.tar.part002",
+          "bytes": 1073741824,
+          "sha256": "5b3a1b4ab447fc4b8fa6ed3818995898615f2787d7476a6ea48b7d405e78ed0f"
+        },
+        {
+          "name": "fh-liteformer-supplement-v1.tar.part003",
+          "bytes": 773496832,
+          "sha256": "f68890b90aa301037727486300bfb7a6e8eb076f58f93b93a91c7080930c4808"
+        }
+      ]
+    }
+  },
+  "license_status": "Proposed MIT code and CC BY 4.0 original data/final weights; no grant before rights clearance",
+  "training_archive_license_status": "Separate distribution clearance required for frozen parents and OOF predictions",
+  "copyright_holder_confirmed": false
+}
