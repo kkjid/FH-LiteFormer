@@ -1,0 +1,147 @@
+{
+  "status": "OFFLINE_VALIDATED_RIGHTS_CLEARANCE_PENDING",
+  "checked_utc": "2026-10-29T05:44:56.057979+00:00",
+  "version": "v1.0.0-rc.1",
+  "installed_package_files_identical": 28,
+  "wheel_sha256": "453138a2ae44ca7a35efc0870f43959c7bd543c7ef2b072336618a9c9eb60e50",
+  "clean_environment": {
+    "python": "3.12.7",
+    "torch": "2.3.1+cpu",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "pyarrow": "16.1.0",
+    "system_site_packages": false,
+    "user_site_enabled": false,
+    "original_project_imports": false
+  },
+  "clean_directory_transport": "loopback HTTP, all four asset groups, genuine part downloads/merge/hash/extraction",
+  "dataset_verification": {
+    "status": "PASS",
+    "identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
+    "scope": "processed+supplement",
+    "files": 17923,
+    "bytes": 3141979375,
+    "split_families": {
+      "train": 176,
+      "validation": 32,
+      "test": 48
+    }
+  },
+  "gpu_frozen_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cuda",
+    "torch_version": "2.3.1",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608196286778,
+        "rmse_h": 965.5652473314703,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3212948653594,
+        "rmse_h": 975.7612431364596,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.4380652537596,
+        "rmse_h": 961.3459536984523,
+        "max_prediction_error_h": 0.0
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5733932492657,
+      "rmse_h": 967.5574813887941
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "clean_cpu_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cpu",
+    "torch_version": "2.3.1+cpu",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608821251305,
+        "rmse_h": 965.5653263064013,
+        "max_prediction_error_h": 0.004994428358713776
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3214422642062,
+        "rmse_h": 975.7613986398995,
+        "max_prediction_error_h": 0.006948769891096163
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.438171550322,
+        "rmse_h": 961.3460778930818,
+        "max_prediction_error_h": 0.006080173654481769
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5734986465528,
+      "rmse_h": 967.5576009464609
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "target_free_inference": {
+    "status": "PASS",
+    "endpoints": 23461,
+    "targets_read": false
+  },
+  "parent_stage_smoke": {
+    "status": "PASS",
+    "seed": 42,
+    "mode": "DIAGNOSTIC_SMOKE_ONLY",
+    "train_endpoints": 20,
+    "validation_endpoints": 4,
+    "stages": [
+      "temporal_parent",
+      "graph_correction_parent",
+      "five_training_family_crossfits",
+      "advantage_gate"
+    ],
+    "test_accessed": false
+  },
+  "adaptation_smoke": {
+    "status": "PASS",
+    "mode": "DIAGNOSTIC_SMOKE_ONLY",
+    "same_seed_parent": "diagnostic parent-stage output",
+    "frozen_base_and_gate_unchanged": true,
+    "test_accessed": false
+  },
+  "adaptation_from_distributed_frozen_parent_smoke": "PASS",
+  "tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "source_audit": {
+    "exact_reused_computational_symbols": 33,
+    "unresolved_globals": 0,
+    "private_project_imports": 0,
+    "text_scan": {
+      "files": 44,
+      "flagged_locations": [],
+      "status": "PASS"
+    },
+    "checkpoint_metadata_scan": {
+      "files": 42,
+      "flagged_locations": [],
+      "status": "PASS"
+    }
+  },
+  "full_three_seed_retraining_executed": false,
+  "hardware_efficiency_remeasured": false,
+  "public_github_download_verified": false,
+  "public_push_performed": false,
+  "release_uploaded": false
+}
