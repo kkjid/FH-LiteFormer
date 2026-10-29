@@ -1,0 +1,244 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-29T10:53:32.740043+00:00",
+  "repository_url": "https://github.com/kkjid/FH-LiteFormer",
+  "release_url": "https://github.com/kkjid/FH-LiteFormer/releases/tag/v1.0.0",
+  "public_visibility_confirmed": true,
+  "release_tag": "v1.0.0",
+  "release_commit": "b1870e0eae73cfe0be6c1046347b644b21c2ffb5",
+  "original_three_commits_preserved": true,
+  "public_release_files_checked": 13,
+  "files": [
+    {
+      "name": "asset-files.json",
+      "bytes": 171275,
+      "sha256": "ab173d0f5262f596738b583b68ce6ecf876e44ec6aea08f046831269927dd814",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/asset-files.json"
+    },
+    {
+      "name": "CC-BY-4.0.txt",
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/CC-BY-4.0.txt"
+    },
+    {
+      "name": "CODE_LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "11c1ea19ae954cced5bdb74dbd896e2dffaee54191a2045f85973fd28b1f51eb",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/CODE_LICENSE.txt"
+    },
+    {
+      "name": "DATA_LICENSE.md",
+      "bytes": 1719,
+      "sha256": "ba6a150022bc514652d9dd18165917ba3ad120f435d21d1e97c2e69caf0ac16f",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/DATA_LICENSE.md"
+    },
+    {
+      "name": "fh-liteformer-processed-v1.tar.part001",
+      "bytes": 234772480,
+      "sha256": "863ba6776969b4181f03fdfad4eee658e0b2dc136c4be158aa6fc5dc390aea71",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/fh-liteformer-processed-v1.tar.part001"
+    },
+    {
+      "name": "fh-liteformer-training-v1.tar.part001",
+      "bytes": 42352640,
+      "sha256": "569fbb3aae4adc53832e1210796680bd24a709c1a7418aac68dfbaaf0a3bb678",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/fh-liteformer-training-v1.tar.part001"
+    },
+    {
+      "name": "FH-LiteFormer-v1.0.0-source.zip",
+      "bytes": 132076,
+      "sha256": "43135710569df2085ab927f422dc661a06cf1c756ea3e00f6bd5318bbf5f9386",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/FH-LiteFormer-v1.0.0-source.zip"
+    },
+    {
+      "name": "fh-liteformer-weights-v1.tar.part001",
+      "bytes": 3266560,
+      "sha256": "2d9346ae466fe960f17f1abb06d980cc0a1821414ca0de39568eb3b8f7a33012",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/fh-liteformer-weights-v1.tar.part001"
+    },
+    {
+      "name": "fh_liteformer-1.0.0-py3-none-any.whl",
+      "bytes": 45427,
+      "sha256": "44e431bd0a4503de37921d8cdc3f5965819cb352adec9dd14221204c670293c1",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/fh_liteformer-1.0.0-py3-none-any.whl"
+    },
+    {
+      "name": "MODEL_LICENSE.md",
+      "bytes": 1695,
+      "sha256": "69c9a05347c712326cdf6931ea483352f5d81abf6f20e26df42a37ccade10814",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/MODEL_LICENSE.md"
+    },
+    {
+      "name": "NOTICE.txt",
+      "bytes": 1016,
+      "sha256": "c375e3f5240dbadd412cc50fa2e9563d48717f0598b5d7e05e2c7d2cc684c0c1",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/NOTICE.txt"
+    },
+    {
+      "name": "release-manifest.json",
+      "bytes": 3676,
+      "sha256": "271f31fe4114ffa89986e09e10bb34a22ef51f4b0d76baa1c4ff8036cd88e182",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/release-manifest.json"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 1089,
+      "sha256": "089f3b9772816c422ddad407ea9ac1d77a4da4f64ff7797efa59a64edd10cf5d",
+      "url": "https://github.com/kkjid/FH-LiteFormer/releases/download/v1.0.0/SHA256SUMS"
+    }
+  ],
+  "download_transport": "Actual public HTTPS GitHub Release URLs; no Authorization header for asset downloads; fresh cache",
+  "source_archive_files_identical_to_tag": 63,
+  "readme_editable_source_install": true,
+  "isolated_dependency_environment": "Fresh venv created for this release; package reinstalled from the genuine GitHub clone",
+  "steps": [
+    {
+      "name": "readme_source_install",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "source_import",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "pip_check",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "readme_public_fetch",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "dataset_integrity",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "preprocessing",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "training_asset_lineage",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "tests",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "checkpoint_replay",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "target_free_inference",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "train_help",
+      "status": "PASS",
+      "exit_code": 0
+    },
+    {
+      "name": "adapt_help",
+      "status": "PASS",
+      "exit_code": 0
+    }
+  ],
+  "tests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "pointwise_predictions_checked": 70260,
+  "cpu_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cpu",
+    "torch_version": "2.3.1+cpu",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608821251305,
+        "rmse_h": 965.5653263064013,
+        "max_prediction_error_h": 0.004994428358713776
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3214422642062,
+        "rmse_h": 975.7613986398995,
+        "max_prediction_error_h": 0.006948769891096163
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.438171550322,
+        "rmse_h": 961.3460778930818,
+        "max_prediction_error_h": 0.006080173654481769
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5734986465528,
+      "rmse_h": 967.5576009464609
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "target_free_inference": {
+    "endpoints": 23461,
+    "test_target_directory_absent": true
+  },
+  "public_data_and_model_members_verified": 819,
+  "original_data_and_checkpoint_bytes_retained": true,
+  "third_party_datasets_distributed": false,
+  "raw_hidden_supplement_uploaded": false,
+  "full_training_from_scratch_executed": false,
+  "efficiency_remeasured": false,
+  "gpu_checkpoint_replay": {
+    "status": "PASS",
+    "validation": "frozen_checkpoint_replay",
+    "device": "cuda",
+    "torch_version": "2.3.1",
+    "endpoints": 23420,
+    "families": 48,
+    "seed_results": [
+      {
+        "seed": 42,
+        "mae_h": 870.9608196286778,
+        "rmse_h": 965.5652473314703,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 43,
+        "mae_h": 879.3212948653594,
+        "rmse_h": 975.7612431364596,
+        "max_prediction_error_h": 0.0
+      },
+      {
+        "seed": 44,
+        "mae_h": 861.4380652537596,
+        "rmse_h": 961.3459536984523,
+        "max_prediction_error_h": 0.0
+      }
+    ],
+    "mean": {
+      "mae_h": 870.5733932492657,
+      "rmse_h": 967.5574813887941
+    },
+    "metric": "equal-family MAE; mean of within-family RMSE; then equal seed mean"
+  },
+  "gpu_package_source": "Wheel downloaded anonymously from the actual v1.0.0 GitHub Release",
+  "canonical_freeze_binding": {
+    "status": "PASS",
+    "model_and_prediction_files": 48,
+    "dataset_manifest_matches_accepted_freeze": true
+  }
+}
