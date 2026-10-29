@@ -1,0 +1,24 @@
+--- S21A-Graph:S21
++++ Lightweight:LightweightS21
+@@ -1,8 +1,14 @@
+-class S21(nn.Module):
+-    def __init__(self,c):
+-        super().__init__(); self.base=Temporal(c); self.expert=Correction(c); self.gate=Gate(c)
+-    def forward(self,b,components=False):
+-        base=self.base(b); expert,diag=self.expert(b,base,True)
+-        weight=self.gate(gate_features(b,base,expert,diag))
+-        learned=base+weight*(expert-base)
+-        return dict(base=base,correction=expert,fixed_50_50_blend=(base+expert)/2,learned_gate=learned,gate_weight=weight) if components else learned+class LightweightS21(nn.Module):
++    def __init__(self, c):
++        super().__init__()
++        self.base = LightweightTemporal(c)
++        self.expert = Correction(c)
++        self.gate = Gate(c)
++
++    def forward(self, b, components=False):
++        base = self.base(b)
++        expert, diag = self.expert(b, base, True)
++        weight = self.gate(gate_features(b, base, expert, diag))
++        learned = base + weight * (expert - base)
++        return dict(base=base, correction=expert, fixed_50_50_blend=(base + expert) / 2,
++                    learned_gate=learned, gate_weight=weight) if components else learned

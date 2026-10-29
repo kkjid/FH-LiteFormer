@@ -77,6 +77,82 @@
           "sha256": "913b73b188bd86f919c1df76b0a5b729ced54f58b597d0462bd35b3175fcf61c"
         }
       ]
+    },
+    {
+      "commit": "bbd68224f32d930e0ef43913899542c87e957a99",
+      "author_date": "2026-10-04T18:18:23+08:00",
+      "committer_date": "2026-10-04T18:18:23+08:00",
+      "stage": "lightweight_temporal",
+      "imported_utc": "2026-10-29T10:29:16.676539+00:00",
+      "validation_scope": "historical code snapshot; not an independently replayed historical checkpoint result",
+      "files": [
+        {
+          "source": "simulation/graph_lightweight/models.py",
+          "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+          "destination": "history/lightweight.py",
+          "snapshot_sha256": "366ecc40979ed71b31e280a246b0716ce96e71749fa405b6619a657452a4b027",
+          "symbols": [
+            {
+              "symbol": "DyT",
+              "source_fragment_sha256": "02d60498d4df8f9c3e45b264e8b0c5d2b9def7e0ecaf058ce795314ef0e3801c",
+              "first_line": 16,
+              "last_line": 24
+            },
+            {
+              "symbol": "EdgeKAN",
+              "source_fragment_sha256": "add8c7e8b1100a11e9bd5457c5d508441ff46015b510497727171a96b17d8554",
+              "first_line": 27,
+              "last_line": 38
+            },
+            {
+              "symbol": "KANFirst",
+              "source_fragment_sha256": "b3e2c6cb27978aea298b54cd4bffe1f833fc116e09a8ad58c7632a78aab4218c",
+              "first_line": 41,
+              "last_line": 48
+            },
+            {
+              "symbol": "identity_activation",
+              "source_fragment_sha256": "9bb26cb96fc47a82a860b6df1dfb9f6107669c433f643629a9e14043886ba96d",
+              "first_line": 51,
+              "last_line": 52
+            },
+            {
+              "symbol": "ShiftAddFunction",
+              "source_fragment_sha256": "1751a302bcf4ba7564c01727fe60b1fd2ee45d94d67752a0e465f30c2294dd6c",
+              "first_line": 55,
+              "last_line": 70
+            },
+            {
+              "symbol": "ShiftAddHead",
+              "source_fragment_sha256": "62241b5b28d0632c01baa1dc73620a75895a0a4abeeb7e3cc53cc45679066509",
+              "first_line": 73,
+              "last_line": 94
+            },
+            {
+              "symbol": "LightweightTemporal",
+              "source_fragment_sha256": "cb910577dcff4e1ce8dc9b764be916fe6f2395ffc71d94e0fa091c0d52b9dee3",
+              "first_line": 97,
+              "last_line": 112
+            },
+            {
+              "symbol": "LightweightS21",
+              "source_fragment_sha256": "4c3601990761b88522458639a9b2100ba51233220e84aed155671cbab2b054b7",
+              "first_line": 116,
+              "last_line": 129
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "docs/acceptance/S21A_LIGHTWEIGHT_GRAPH_SUPPLEMENTAL_V1.md",
+          "sha256": "49f347bad93de312a4f26c8c97ee05051b8d8cbcb9817108fcb6d78c3bac335f"
+        },
+        {
+          "source": "docs/provenance/graph_lightweight_v1/closeout.json",
+          "sha256": "07681a50c4ececc387f7269e76c210e837935f7abe238044d0ec14696f977570"
+        }
+      ]
     }
   ],
   "shared_dependencies": "fh_liteformer.models.common and fh_liteformer.topology are exact computational definitions already bound in provenance/source_lineage.json"
