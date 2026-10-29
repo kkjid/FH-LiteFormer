@@ -1,0 +1,15 @@
+License status: offline preparation; rights clearance pending.
+
+The proposed license for original FH-LiteFormer code is MIT.
+The proposed license for independently generated simulation data and the final
+C-r8 weights is Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+This file does not apply those grants before the relevant rights holders have
+approved the release. An accurate copyright notice and required attribution
+will be inserted after the actual rights holders and their authority have been
+confirmed. No person or institution is asserted to hold copyright by this file.
+
+The reference license texts are in LICENSES/. Third-party material and software
+dependencies retain their own terms. NASA, CES and Aalborg raw data are excluded
+from this prepared release. The frozen training-parent archive requires its own
+explicit distribution clearance alongside the final C-r8 checkpoints.

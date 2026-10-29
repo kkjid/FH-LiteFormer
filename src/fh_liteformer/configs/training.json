@@ -1,0 +1,48 @@
+{
+  "dataset_identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
+  "models": [
+    "S21A-Lightweight-Graph"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "width": 64,
+  "heads": 4,
+  "temporal_layers": 2,
+  "graph_layers": 3,
+  "feedforward": 128,
+  "dropout": 0.1,
+  "expert_width": 32,
+  "expert_layers": 1,
+  "gate_width": 8,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "maximum_epochs": 40,
+  "effective_batch_size": 512,
+  "physical_batch_size": 128,
+  "gradient_clip_norm": 1.0,
+  "smooth_l1_beta": 0.1,
+  "target_scale": "equal-training-family mean Reference RUL, hours",
+  "checkpoint_selection": "earliest strict minimum validation-family macro MAE, all 40 epochs",
+  "training_sampling": "uniform family, uniform endpoint within family, N draws per epoch",
+  "scaling": "equal training family and node type, valid timesteps only; masked channels remain zero",
+  "crossfit": {
+    "folds": 5,
+    "partition_seed": 2026100601,
+    "epoch_policy": "fixed selected full-parent epoch, no held-family selection",
+    "fold_scaling": "fitted only to the fold's training families",
+    "gate_supervision": "Stage21 advantage sign, BCE weighted by 0.02 + absolute scaled advantage"
+  },
+  "lightweight": {
+    "dyt": "gamma*tanh(alpha*x)+beta; four temporal LayerNorms replaced; alpha=0.5 scalar per norm; gamma=1 beta=0 per channel",
+    "kan_bottleneck": 32,
+    "kan": "two edge-function layers 64->32->64, phi=c1*tanh(x)+c2*(2*tanh(x)^2-1); output bias; no T0 edge coefficient (absorbed by output bias); no extra ReLU; original FFN dropout retained",
+    "kan_initialization": "independent Normal(0,1/sqrt(2*input_width)) coefficients; zero output biases",
+    "head": "signed power-of-two QAT with identity STE, exponents rounded log2(abs(master_weight)), bounded [-8,0], bias retained; independent ldexp+where+sum inference; no Linear or matmul in head",
+    "head_init": "uniform +/-1/sqrt(width) weights and bias, matching dense head marginal initialization",
+    "attention": "unchanged 64-wide four-head two-layer temporal attention and post-norm residual topology",
+    "postprocess": "same softplus nonnegative scaled RUL"
+  }
+}

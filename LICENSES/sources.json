@@ -1,0 +1,14 @@
+[
+  {
+    "file": "CC-BY-4.0.txt",
+    "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+    "reference_only": true
+  },
+  {
+    "file": "MIT-reference.txt",
+    "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "reference_only": true
+  }
+]

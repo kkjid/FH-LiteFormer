@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.pt -text
+*.npz -text
+*.parquet -text
+*.tar* -text
+*.zip -text

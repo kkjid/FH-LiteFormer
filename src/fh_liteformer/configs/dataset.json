@@ -1,0 +1,23 @@
+{
+  "freeze_identity": "GRAPH_NECESSITY_FORMAL_DATA_V1:formal_attempt002:1d09dedec9b7e872",
+  "dataset_hash_manifest_sha256": "1d09dedec9b7e872abfa0fb3939e0fc5486a3f6d734b1aee3a3c9ff9a00cc377",
+  "family_allocation_sha256": "366d18d5f2c8fda8d5f1e4953d37a11e768514db4b7b990e17883cbade3cd377",
+  "graph_manifest_sha256": "a80d6d0ebe98c31475b25656ee2854dadef888b478e27ff8c6d1f9d71d86f8c0",
+  "split_family_counts": {
+    "test": 48,
+    "train": 176,
+    "validation": 32
+  },
+  "fit_layouts": [
+    0,
+    3,
+    5,
+    6
+  ],
+  "heldout_layouts": [
+    1,
+    2,
+    4,
+    7
+  ]
+}

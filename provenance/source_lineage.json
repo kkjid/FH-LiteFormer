@@ -1,0 +1,312 @@
+{
+  "reference": "Accepted FH-LiteFormer C-r8 implementation",
+  "changes": [
+    "package imports",
+    "standalone paths",
+    "weights_only checkpoint loading",
+    "CPU/CUDA plumbing"
+  ],
+  "symbols": [
+    {
+      "source": "simulation/phase_e/interface.py",
+      "symbol": "TypeEncoder",
+      "destination": "src/fh_liteformer/models/common.py",
+      "source_file_sha256": "05593a64939ea1befa63e3bba34228fd7e0584e118a8d2ca74f0a18468055421",
+      "source_fragment_sha256": "afce3703c7c02a06983d74dc1749614083f8d120ce9d30c814839908f608459e"
+    },
+    {
+      "source": "simulation/phase_e/interface.py",
+      "symbol": "RelationParameters",
+      "destination": "src/fh_liteformer/models/common.py",
+      "source_file_sha256": "05593a64939ea1befa63e3bba34228fd7e0584e118a8d2ca74f0a18468055421",
+      "source_fragment_sha256": "690b203f5fbf424bad7894ec303baad5c98cbe6060318f9febf4cd0525c149c1"
+    },
+    {
+      "source": "simulation/phase_c/models.py",
+      "symbol": "ConditionFiLM",
+      "destination": "src/fh_liteformer/models/common.py",
+      "source_file_sha256": "d8b9439e86b3c243cdfa43b35bd095a1aa63fc78e3fa92c3823f5b80d5ede0c7",
+      "source_fragment_sha256": "ba745fb44d587ecac3cd42a73dc0f4777741810599b58e483a764d0202ef3ea5"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "last",
+      "destination": "src/fh_liteformer/models/common.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "ff7b3174244a435880fe512e107c3739d887194dff89cea0453f40bde3a0b806"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "Temporal",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "54624eb24c5b9b09b4fd812f13489662c6c3fb83c111322766a1fb9798009e75"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "DyT",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "400e5e0d855c8c4b1f3d6784e3b33d5dd59e932d1c416746c236e0b38aab71b4"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "EdgeKAN",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "0cd378dd62e8112a56df7bca9ed106a81910d489dbeb09ce6ffc2fdef9490eb8"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "KANFirst",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "15946d850315087b958b70bc6e3107bf6d1d95afbced82405c2a7682ab3c6ed2"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "identity_activation",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "2e126084a7ee2879d87845503fee7df869f4c592c4f11b90422a14e3e2ddfc2c"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "ShiftAddFunction",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "40308286a17cff674188d752d800f0b3e5777e8f1202fbc4268678a466d0475d"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "ShiftAddHead",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "b96e8d182df2fbd88f7d381cab7ce13117c4cc2031535aa1ebce41200a09d52a"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "LightweightTemporal",
+      "destination": "src/fh_liteformer/models/temporal.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "5c27e52dc5366a20e495f0455a3ae99b9c6410c66326feef4c9e6e3e90e21463"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "RelationLayer",
+      "destination": "src/fh_liteformer/models/graph.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "3bbc71605a15074669d42fd432b00894b1e4efa88d7b7c9bde739d74af5eb563"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "GraphEncoder",
+      "destination": "src/fh_liteformer/models/graph.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "3b27c202049ea6c0dce379fcb9bcc0b86ef02feb8710eee25faca244ad2fc15f"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "Correction",
+      "destination": "src/fh_liteformer/models/graph.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "0989d1ba1562a663e30600f892c6f61d371b3bd725f4a8e073eb539a46283c6b"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "gate_features",
+      "destination": "src/fh_liteformer/models/system.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "ff095647c14fb9223367f6aaa04c1fa0f94e07c713bfcc37c9713c2bd1a9d67e"
+    },
+    {
+      "source": "simulation/graph_benchmark/models.py",
+      "symbol": "Gate",
+      "destination": "src/fh_liteformer/models/system.py",
+      "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+      "source_fragment_sha256": "fad363ef1967941ff6613c8afbc99e822a40ff2847029a1c14d2d036b15039b2"
+    },
+    {
+      "source": "simulation/graph_lightweight/models.py",
+      "symbol": "LightweightS21",
+      "destination": "src/fh_liteformer/models/system.py",
+      "source_file_sha256": "f0591db0c5b372efc7ac5d2fe7604c2d873eb44e638a7ec6004fef5273d963eb",
+      "source_fragment_sha256": "2de15ef17c62d2ba8068b272054ba1d3a6730582d962e3004d598735ffc2eaa2"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/models.py",
+      "symbol": "dependency_analysis",
+      "destination": "src/fh_liteformer/models/compact.py",
+      "source_file_sha256": "a04e1ddd651feef7d509ab8e3e1b9b78c26cd18f72c72f435e64683a88293507",
+      "source_fragment_sha256": "d258a90a1137ba3c77cd883c4e314ce684de8fdb185d2dae3129d222b1e690e0"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/models.py",
+      "symbol": "SOURCE_NODES",
+      "destination": "src/fh_liteformer/models/compact.py",
+      "source_file_sha256": "a04e1ddd651feef7d509ab8e3e1b9b78c26cd18f72c72f435e64683a88293507",
+      "source_fragment_sha256": "f6a28162dea1d9a6af0f95d4dc4fbf9a923546b2bd5678d2d936e736a7db3f7f"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/models.py",
+      "symbol": "CompactLayer",
+      "destination": "src/fh_liteformer/models/compact.py",
+      "source_file_sha256": "a04e1ddd651feef7d509ab8e3e1b9b78c26cd18f72c72f435e64683a88293507",
+      "source_fragment_sha256": "8617dbf4c95d130d4f384ebb22fdec25e941e15c1f83de1a68d691126ede7498"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/models.py",
+      "symbol": "export",
+      "destination": "src/fh_liteformer/models/compact.py",
+      "source_file_sha256": "a04e1ddd651feef7d509ab8e3e1b9b78c26cd18f72c72f435e64683a88293507",
+      "source_fragment_sha256": "52344cb29b6241e7c78de929cdf9e96c2800551f710d0914d517833eafd59f0b"
+    },
+    {
+      "source": "simulation/graph_necessity/interface.py",
+      "symbol": "ROLES",
+      "destination": "src/fh_liteformer/topology.py",
+      "source_file_sha256": "16a1e0ec026b00a4d008ea627c75e638462e1e2eb18329073a7a6e396a3aef1d",
+      "source_fragment_sha256": "a2c7cbf30ddb399c06dc312db35fbfc9c986d519502ca2f23231b2b6b5438317"
+    },
+    {
+      "source": "simulation/graph_necessity/interface.py",
+      "symbol": "RELATIONS",
+      "destination": "src/fh_liteformer/topology.py",
+      "source_file_sha256": "16a1e0ec026b00a4d008ea627c75e638462e1e2eb18329073a7a6e396a3aef1d",
+      "source_fragment_sha256": "8d00fb3167d9cc09d054e1d286e34ec93d71ed7ffa755282f31ea3cc32ca7ca7"
+    },
+    {
+      "source": "simulation/graph_necessity/interface.py",
+      "symbol": "edges",
+      "destination": "src/fh_liteformer/topology.py",
+      "source_file_sha256": "16a1e0ec026b00a4d008ea627c75e638462e1e2eb18329073a7a6e396a3aef1d",
+      "source_fragment_sha256": "91a03a16fff19f962eebf6189fa607d8bc632ba6b52027b417948ded44889ebd"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/inference.py",
+      "symbol": "BatchedGraphEncoder",
+      "destination": "src/fh_liteformer/models/deployment.py",
+      "source_file_sha256": "a79d8aebc8203702944f337d4040c562e994d64dd7906c699dced5a4e93df064",
+      "source_fragment_sha256": "cc6275632aa9326e306cd4f6ccf87f1661d6c6693829d29a33ea4aa0d89deb48"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/inference.py",
+      "symbol": "StaticSealedHead",
+      "destination": "src/fh_liteformer/models/deployment.py",
+      "source_file_sha256": "a79d8aebc8203702944f337d4040c562e994d64dd7906c699dced5a4e93df064",
+      "source_fragment_sha256": "d9af922cc3c016554f2e9b88c791233865b82970f24d8c74fc6e0dd08c890000"
+    },
+    {
+      "source": "simulation/graph_deep_lightweight/inference.py",
+      "symbol": "optimize",
+      "destination": "src/fh_liteformer/models/deployment.py",
+      "source_file_sha256": "a79d8aebc8203702944f337d4040c562e994d64dd7906c699dced5a4e93df064",
+      "source_fragment_sha256": "7dc80675e8b37d37674e7c80b705d3a7026af94f24e275540e7d1b2d013dfae7"
+    },
+    {
+      "source": "simulation/graph_benchmark/data.py",
+      "symbol": "subset",
+      "destination": "src/fh_liteformer/data_math.py",
+      "source_file_sha256": "a88b1b4a05fb9a33958102b95a8969ba64f5a7b306f4243949b82bf791f9c850",
+      "source_fragment_sha256": "6d749a98b79c49b2a6e88ffeae4ad4f209b1744a674f3d331711627d2077c01f"
+    },
+    {
+      "source": "simulation/graph_benchmark/data.py",
+      "symbol": "family_weights",
+      "destination": "src/fh_liteformer/data_math.py",
+      "source_file_sha256": "a88b1b4a05fb9a33958102b95a8969ba64f5a7b306f4243949b82bf791f9c850",
+      "source_fragment_sha256": "8dd49635bd9b6c8d0a4c59378b4bab407819b59f471fe72d627b8bf802486616"
+    },
+    {
+      "source": "simulation/graph_benchmark/data.py",
+      "symbol": "fit_scaler",
+      "destination": "src/fh_liteformer/data_math.py",
+      "source_file_sha256": "a88b1b4a05fb9a33958102b95a8969ba64f5a7b306f4243949b82bf791f9c850",
+      "source_fragment_sha256": "6eb72393ec8cf2e8bfeb6d035c1776aa00c4e164c188b79be88281418bf82ad0"
+    },
+    {
+      "source": "simulation/graph_benchmark/data.py",
+      "symbol": "transform",
+      "destination": "src/fh_liteformer/data_math.py",
+      "source_file_sha256": "a88b1b4a05fb9a33958102b95a8969ba64f5a7b306f4243949b82bf791f9c850",
+      "source_fragment_sha256": "9b0fc85a9f7fcc232195709eb036ec5d3d8684583cd1172f9f48aab066c6fbf2"
+    },
+    {
+      "source": "simulation/graph_benchmark/data.py",
+      "symbol": "batch",
+      "destination": "src/fh_liteformer/data_math.py",
+      "source_file_sha256": "a88b1b4a05fb9a33958102b95a8969ba64f5a7b306f4243949b82bf791f9c850",
+      "source_fragment_sha256": "fe136493eb92ba9876702342660086d31d6b3c269075a24498a8caf81d386e56"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "seed_all",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "9e270ce3c562dc6934dc1990218800e1954de9e2930fb79048baef32c8245d78"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "atomic_torch",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "4632a79ece5aa83ebbf4bbac9a0b9353ecddd68836f257a855dfff4440110edb"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "macro",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "382dcb85c528e49cf5088361bc9778bfbb7cbe7e6a0d770ac5e67144ddfc387a"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "state",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "74a8b300206c04785b1f1977320e53e5907f2021f097fccb8b07d8ae98b2d0a0"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "predict",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "91d5a5359a38a2e0dcc1faa419da08e67b2ae235f1765a866b1397da2fc0128e"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "fit",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "a41287dab697aae3e5af5c1831908cb345cb0a4049783197cc1a97b3aee35d4a"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "store",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "efda8916dd36b61c47755d324d4c9b8fa397ca069eec9d967f9b1ee880728e2f"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "load_model",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "d842cb7dc6d7ead88a6a4232a83c6514fb51bb157cbfab339aab1bef19c8fc74"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "train_standard",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "a1544e6e4329c8aec694f13c86af73398ff6a75c301806db9364341663aecf75"
+    },
+    {
+      "source": "simulation/graph_lightweight/run.py",
+      "symbol": "train_s21",
+      "destination": "src/fh_liteformer/training_core.py",
+      "source_file_sha256": "d5dae89713a131849fff184c93ef6598de4ce3666a2f7af42c86e57f343484f8",
+      "source_fragment_sha256": "d74395760a376de3d80c35eb6326ad55406d248bcadb48e895df775c188138d1"
+    }
+  ]
+}

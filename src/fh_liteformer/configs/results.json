@@ -1,0 +1,23 @@
+{
+  "seeds": {
+    "42": {
+      "mae_h": 870.9608196286778,
+      "rmse_h": 965.5652473314703
+    },
+    "43": {
+      "mae_h": 879.3212948653594,
+      "rmse_h": 975.7612431364596
+    },
+    "44": {
+      "mae_h": 861.4380652537596,
+      "rmse_h": 961.3459536984523
+    }
+  },
+  "mean": {
+    "mae_h": 870.5733932492657,
+    "rmse_h": 967.5574813887941
+  },
+  "checkpoint_prediction_atol_h": 0.02,
+  "stored_arithmetic_atol_h": 1e-07,
+  "tolerance_basis": "Engineering FP32 checkpoint-replay tolerance in hours, consistent with the accepted parent replay check; no model-selection threshold"
+}

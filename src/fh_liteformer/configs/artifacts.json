@@ -1,0 +1,194 @@
+{
+  "checkpoints/C-r8__seed42.pt": {
+    "sha256": "c4f7e394dc568c023754ad57f0072d07bab33d3f297957a24014f5ceeafde274",
+    "bytes": 558950
+  },
+  "reference_predictions/C-r8__seed42.parquet": {
+    "sha256": "cc6b8975b055c4137e97a7635473bff7640d5472947c1b15c83a0654b8aa6e95",
+    "bytes": 525649
+  },
+  "checkpoints/C-r8__seed43.pt": {
+    "sha256": "d1c7b10146b53c79ac77a7b93f8340a0d14440eb39b8101de8a717a7c5e94a3f",
+    "bytes": 558950
+  },
+  "reference_predictions/C-r8__seed43.parquet": {
+    "sha256": "cd72d1195cc634b86c8ebbebc1266f0f0ec289f6a8e316e6938bdd4ddae7df1f",
+    "bytes": 525689
+  },
+  "checkpoints/C-r8__seed44.pt": {
+    "sha256": "56db0471a7adf4cfec133c6e6266f484aa5471cd92c38edcea57bb46ff045066",
+    "bytes": 558950
+  },
+  "reference_predictions/C-r8__seed44.parquet": {
+    "sha256": "4220bb92bbaf0f2d11ee5c5c18f923415c615f1fbb1f239224f5f9853ae107de",
+    "bytes": 525649
+  },
+  "training/checkpoints/Correction__seed42.pt": {
+    "sha256": "34d0e044e5b3640b200f2e689bea81cd3aa5cb9afd4540dbb52d93ddaac09477",
+    "bytes": 1154388
+  },
+  "training/checkpoints/Correction__seed43.pt": {
+    "sha256": "129e5d31042f9df41f1015b3e8cabdf1b907b0a4b56b27f95777016f98640beb",
+    "bytes": 1154324
+  },
+  "training/checkpoints/Correction__seed44.pt": {
+    "sha256": "9ba3d9b1ede2e887b7b527786101f02d8ae1ac138772296dcb7d85c92f4bb887",
+    "bytes": 1154324
+  },
+  "training/checkpoints/LightweightTransformer__seed42.pt": {
+    "sha256": "097f70e2e2f9cf1eaeb8a80f0bff9cc04a279f56eb907351e19e03f11d28f805",
+    "bytes": 246381
+  },
+  "training/checkpoints/LightweightTransformer__seed43.pt": {
+    "sha256": "f58b3573e2ded8663b8f00147c064deb390ef53f603fe8d8f813dad52b5de137",
+    "bytes": 246381
+  },
+  "training/checkpoints/LightweightTransformer__seed44.pt": {
+    "sha256": "2c90cded8848e9173418b239cd5358e6d2c539e84c3eab5c38dca971cd676c93",
+    "bytes": 246381
+  },
+  "training/checkpoints/S21A-Lightweight-Graph__seed42.pt": {
+    "sha256": "3bcd6e1b4ef92cad5f3079f66c64f226fafc5cb85a0bdaea490492e2d96f475c",
+    "bytes": 1399298
+  },
+  "training/checkpoints/S21A-Lightweight-Graph__seed43.pt": {
+    "sha256": "376b2d6ded2ae860ce7bc2ae86d05b301d583d5c721d65438fddb004cf36df72",
+    "bytes": 1399298
+  },
+  "training/checkpoints/S21A-Lightweight-Graph__seed44.pt": {
+    "sha256": "71eb447cd5587179ad952bdb7ff323e8878775283cf019290463fd72e83ba1d9",
+    "bytes": 1399298
+  },
+  "training/crossfit/seed42_fold0_Correction.pt": {
+    "sha256": "8bcbb9f737e6b0d71b14d00d0c933d8752b3bf15d0b84d7d64adae24b370df5f",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed42_fold0_LightweightTransformer.pt": {
+    "sha256": "eae75ec58170c8ed350cec93ded4c44194cfafb7809f25a0de0329a3f76f7f24",
+    "bytes": 244781
+  },
+  "training/crossfit/seed42_fold1_Correction.pt": {
+    "sha256": "bb33f47d4a8ce1be3ef41b88c75f08b5f6df6b9a48f945cf5aa59178f059ce0f",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed42_fold1_LightweightTransformer.pt": {
+    "sha256": "4d916e58f8d02660eb96cdc4be9feffdfc95d0973233db395eb90c7f3147b58c",
+    "bytes": 244781
+  },
+  "training/crossfit/seed42_fold2_Correction.pt": {
+    "sha256": "6426a0bb02dec3a639dc988783a5b04205a432bcc0c31d7acbb0c04f9ea7dc7a",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed42_fold2_LightweightTransformer.pt": {
+    "sha256": "6520f823a6261cba4eb410672131297eaafbe8900c2241421b65d938f75fb3e0",
+    "bytes": 244781
+  },
+  "training/crossfit/seed42_fold3_Correction.pt": {
+    "sha256": "81774ab3dfcb8d2c40ad4f3031a8cf476fa9ed335b18aeccc53a30be6dfa1dda",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed42_fold3_LightweightTransformer.pt": {
+    "sha256": "49ebf9a50b3f9dd3e017c0f3345d3926b66c1bf2a7e0deb41d5cc5338eb5fc64",
+    "bytes": 244781
+  },
+  "training/crossfit/seed42_fold4_Correction.pt": {
+    "sha256": "acfefcec76cc569ab278211af66a4b8973a2d22c155d647ed90c9991cd9d6749",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed42_fold4_LightweightTransformer.pt": {
+    "sha256": "4552484d370ae354eab79ba59cf695f0dd697574119d313a97503776285b0edc",
+    "bytes": 244781
+  },
+  "training/crossfit/seed43_fold0_Correction.pt": {
+    "sha256": "e0ffe2350a6b987716ce2c997af35b6353b79afed103fcf6be0fe961e6da9341",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed43_fold0_LightweightTransformer.pt": {
+    "sha256": "30baff62da12125bf6e0268fb1bcf9b04dee4d696460642623fea97f8472451f",
+    "bytes": 245485
+  },
+  "training/crossfit/seed43_fold1_Correction.pt": {
+    "sha256": "5719a917e994ddddf04254dd5bea0f777b9083b73568c322d88b70531c2bda8c",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed43_fold1_LightweightTransformer.pt": {
+    "sha256": "3e82339e539579853603318d6be8dfa0aa5bf0a22a03d58b1cf2255d95b9c00d",
+    "bytes": 245485
+  },
+  "training/crossfit/seed43_fold2_Correction.pt": {
+    "sha256": "627fdf22b4ad72e1ec241c49f7cb803572567200b295b1285084322b893ef0b4",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed43_fold2_LightweightTransformer.pt": {
+    "sha256": "865c06af2f38f62af8ea99fa2e91b452651aa42e05eb6c7dd7d558ae5b8fa9ff",
+    "bytes": 245485
+  },
+  "training/crossfit/seed43_fold3_Correction.pt": {
+    "sha256": "53bc07be966618fa6534dd261a443eadfb6b19c630a941a3657d58a2b8c91be1",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed43_fold3_LightweightTransformer.pt": {
+    "sha256": "8f6d86b017dc0b279edb4e1f25ebae5501ac7b33366132a405abd66cc389215c",
+    "bytes": 245485
+  },
+  "training/crossfit/seed43_fold4_Correction.pt": {
+    "sha256": "767a7a3f591c79363a537518f9808a5500d0b7b376b8867658a9a06a9bcffb6f",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed43_fold4_LightweightTransformer.pt": {
+    "sha256": "cab1d082f4419e30459c5cc503cb4bb27f3238df4f4cfbf126388b1f9cfb2a2e",
+    "bytes": 245485
+  },
+  "training/crossfit/seed44_fold0_Correction.pt": {
+    "sha256": "d55232bab7ece1c99159986cd496327442a8aa2d4f52124875e1ff95392467db",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed44_fold0_LightweightTransformer.pt": {
+    "sha256": "29ba15367fad8e72c8d9fc0f5734785927ee12cb3859a70779c01eaacef55406",
+    "bytes": 244717
+  },
+  "training/crossfit/seed44_fold1_Correction.pt": {
+    "sha256": "c46eb2037908739cd3e330b6f03592e8d446d34c3e7dc4636675a374ff576c3f",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed44_fold1_LightweightTransformer.pt": {
+    "sha256": "06f6c29d31ad6e751acb2c0448fc456237f7556445d295ca637597b5b9fb8a54",
+    "bytes": 244717
+  },
+  "training/crossfit/seed44_fold2_Correction.pt": {
+    "sha256": "c64c5625e8f431ec6b7f1716b6b5752996d1cd4a678ceb41349ba4641f0fb73e",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed44_fold2_LightweightTransformer.pt": {
+    "sha256": "0e1bc4d25136e9003e6e1e33ff825e13ff8195def88f951491e7b89bd5c339a0",
+    "bytes": 244717
+  },
+  "training/crossfit/seed44_fold3_Correction.pt": {
+    "sha256": "551a94d2c64421d88682181c05a3e53dd215bec3639d6cf81bacf60777ee26a6",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed44_fold3_LightweightTransformer.pt": {
+    "sha256": "9394dc662f1a896d15ba2ca1d8451d91aeb4afa9716f1e6d300f7c23c604c163",
+    "bytes": 244717
+  },
+  "training/crossfit/seed44_fold4_Correction.pt": {
+    "sha256": "8a4cda3bc5b701b2403c983032f8f2b42401171bc00bf4f7d4b9baf90eebb412",
+    "bytes": 1152660
+  },
+  "training/crossfit/seed44_fold4_LightweightTransformer.pt": {
+    "sha256": "ac111a80ae6720b5ceb462482fb9fe59c4434da0e9e9e423fd1314c4aec6186d",
+    "bytes": 244717
+  },
+  "training/crossfit/seed42_oof.npz": {
+    "sha256": "dc076d66bbcf40d49957f2f0f06c74aec08cb63b8941d8624acb8b510ae1387d",
+    "bytes": 4314498
+  },
+  "training/crossfit/seed43_oof.npz": {
+    "sha256": "fbc6f02023b76349a3c35b9f184328d066b68d1e9b8df3ce82a6420f8d471190",
+    "bytes": 4314498
+  },
+  "training/crossfit/seed44_oof.npz": {
+    "sha256": "433a2d821f06101b481c47288246cd9f5459f3ddc719905fd76fbb7d7ccee601",
+    "bytes": 4314498
+  }
+}

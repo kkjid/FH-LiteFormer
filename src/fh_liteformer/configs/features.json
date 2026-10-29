@@ -1,0 +1,72 @@
+{
+  "conditions": [
+    "load_current_a",
+    "duty_fraction",
+    "switching_frequency_hz",
+    "ambient_temperature_c",
+    "fan_command"
+  ],
+  "derived_health_proxy": "Measured capacitance divided by public2200uF, with reversible case-temperature compensation and fixed constant shift0.8; noisy proxy, never hidden D or endpoint EOL/time.",
+  "derived_stress_proxy": "present observed losses/rated paths/noisy airflow/current commands; no ageing or Reference continuation and no future measurement",
+  "edge_shape": "N,3,12 including relation codes",
+  "forbidden": [
+    "damage",
+    "path_truth",
+    "core_junction_truth",
+    "intrinsic_wear",
+    "future",
+    "RUL",
+    "EOL_event_or_time",
+    "family_ID",
+    "layout_ID",
+    "scenario_ID",
+    "split",
+    "absolute_age",
+    "full_sequence_length"
+  ],
+  "label_semantics": "point labels only where termination==1; pilot numeric field otherwise contains elapsed-to-exit lower bound and is never supervised. Formal export uses nullable Reference target, separate observed flag/lower bound/reason.",
+  "node_order": [
+    "C1",
+    "C2",
+    "Q1",
+    "Q2",
+    "H1",
+    "H2"
+  ],
+  "predictor_keys": [
+    "values",
+    "conditions",
+    "relative_time",
+    "padding_mask",
+    "feature_missing_mask",
+    "mounts"
+  ],
+  "target_index": 0,
+  "type_features": {
+    "C": [
+      "capacitance_estimate_f",
+      "esr_estimate_ohm",
+      "ripple_rms_a",
+      "case_temperature_c",
+      "branch_ballast_ohm",
+      "nominal_mount_r_k_w",
+      "nominal_case_ambient_g_w_k"
+    ],
+    "H": [
+      "temperature_c",
+      "airflow_estimate",
+      "fan_command",
+      "rated_sink_conductance_w_k",
+      "rated_sink_storage_j_k"
+    ],
+    "Q": [
+      "current_rms_a",
+      "rds_on_estimate_ohm",
+      "transition_time_estimate_s",
+      "case_temperature_c",
+      "duty_fraction"
+    ]
+  },
+  "values_shape": "N,T,6,7; masked type padding",
+  "window_h": 24
+}
