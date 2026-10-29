@@ -1,0 +1,83 @@
+{
+  "format_version": 1,
+  "import_policy": "Real import timestamps; no original Git history or author identities imported. Computational definitions are exact selected source fragments; imports and module docstrings are adapted.",
+  "stages": [
+    {
+      "commit": "04b1e3689f80cc9169eda2037a28a1b9521485d5",
+      "author_date": "2026-10-04T16:22:17+08:00",
+      "committer_date": "2026-10-04T16:22:17+08:00",
+      "stage": "s21a_graph",
+      "imported_utc": "2026-10-29T10:29:16.472836+00:00",
+      "validation_scope": "historical code snapshot; not an independently replayed historical checkpoint result",
+      "files": [
+        {
+          "source": "simulation/graph_benchmark/models.py",
+          "source_file_sha256": "909b5c2fe498180da15dee857dc519ad226a8810d5ed00337dfa85be8117b3e0",
+          "destination": "history/s21a_graph.py",
+          "snapshot_sha256": "89ab14a788d45a1ee08ffbf33a1427a8c8a45029b89bce12dbac42aaba44daa2",
+          "symbols": [
+            {
+              "symbol": "last",
+              "source_fragment_sha256": "397116916ee2cb660e955e3f518db954a74491085ff0380442e9f75ed267456a",
+              "first_line": 14,
+              "last_line": 14
+            },
+            {
+              "symbol": "Temporal",
+              "source_fragment_sha256": "eb1b84f7dd43ea1be8ebf113dd4054799c0d2dc90306861b70a7144e1c4c2665",
+              "first_line": 16,
+              "last_line": 27
+            },
+            {
+              "symbol": "RelationLayer",
+              "source_fragment_sha256": "595d97f335468216319bfdaa85b3b93ddf6c788a0a8a7e003588e8503dff000c",
+              "first_line": 60,
+              "last_line": 79
+            },
+            {
+              "symbol": "GraphEncoder",
+              "source_fragment_sha256": "ed59154bb326cac78a1d7a0a3fe1c6a64a342e60fea8fc3e15b7dcafa31551fc",
+              "first_line": 81,
+              "last_line": 102
+            },
+            {
+              "symbol": "Correction",
+              "source_fragment_sha256": "620633ad3f5ef37aee591770cc79cbf43427dd921b3c804446a1b94141972b08",
+              "first_line": 109,
+              "last_line": 126
+            },
+            {
+              "symbol": "gate_features",
+              "source_fragment_sha256": "56212bb496550dc9fc6ff08c029fe77951aaa863a5ee43d59aea909486c9c42f",
+              "first_line": 128,
+              "last_line": 133
+            },
+            {
+              "symbol": "Gate",
+              "source_fragment_sha256": "ee385d6d02335c86b95a270034f16e844ac2d49e30a1cd286503ebe60772425c",
+              "first_line": 135,
+              "last_line": 141
+            },
+            {
+              "symbol": "S21",
+              "source_fragment_sha256": "3f4ccefd56fbe35c834258e5ec03f09535fa464072258cf0b39c599643b25f04",
+              "first_line": 143,
+              "last_line": 150
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "docs/acceptance/GRAPH_NECESSITY_MODEL_BENCHMARK_V1.md",
+          "sha256": "bf7929eab88fd05e0c4692df5e7c94e3fbd573fa5bdc4053e2c944caebd4c917"
+        },
+        {
+          "source": "docs/provenance/graph_model_benchmark_v1/closeout.json",
+          "sha256": "913b73b188bd86f919c1df76b0a5b729ced54f58b597d0462bd35b3175fcf61c"
+        }
+      ]
+    }
+  ],
+  "shared_dependencies": "fh_liteformer.models.common and fh_liteformer.topology are exact computational definitions already bound in provenance/source_lineage.json"
+}
