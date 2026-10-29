@@ -153,6 +153,84 @@
           "sha256": "07681a50c4ececc387f7269e76c210e837935f7abe238044d0ec14696f977570"
         }
       ]
+    },
+    {
+      "commit": "9c02826b7f26809a39122c0e80aa97e8add86848",
+      "author_date": "2026-10-06T12:40:11+08:00",
+      "committer_date": "2026-10-06T12:40:11+08:00",
+      "stage": "compact_and_c_r8",
+      "imported_utc": "2026-10-29T10:29:16.878589+00:00",
+      "validation_scope": "historical code snapshot; not an independently replayed historical checkpoint result",
+      "files": [
+        {
+          "source": "simulation/graph_deep_lightweight/models.py",
+          "source_file_sha256": "a04e1ddd651feef7d509ab8e3e1b9b78c26cd18f72c72f435e64683a88293507",
+          "destination": "history/compact.py",
+          "snapshot_sha256": "c9ffa5901f59be0d62476214f7e4511746d254a6ff3eaccf1c1c3567d1d1bb80",
+          "symbols": [
+            {
+              "symbol": "dependency_analysis",
+              "source_fragment_sha256": "fd40b1390392416e80bae81b849ceb05064e20a4d63720f15f67df313aec05bf",
+              "first_line": 16,
+              "last_line": 36
+            },
+            {
+              "symbol": "SOURCE_NODES",
+              "source_fragment_sha256": "6550536c312b14c926731025569894198034b01d46fce0798bc5fa4ad5482a09",
+              "first_line": 39,
+              "last_line": 39
+            },
+            {
+              "symbol": "CompactLayer",
+              "source_fragment_sha256": "e37db1212ed4971bbbdbd03198830d18cb1014c1c4886ec5824cd423b76a1c68",
+              "first_line": 42,
+              "last_line": 111
+            },
+            {
+              "symbol": "export",
+              "source_fragment_sha256": "02c882b7e59c5d0b084d181c74787222980ae92338778df1f5dc003ee5da9f1d",
+              "first_line": 114,
+              "last_line": 119
+            }
+          ]
+        },
+        {
+          "source": "simulation/graph_deep_lightweight/inference.py",
+          "source_file_sha256": "a79d8aebc8203702944f337d4040c562e994d64dd7906c699dced5a4e93df064",
+          "destination": "history/deployment.py",
+          "snapshot_sha256": "fe80d1f098dc8d813fc98b81ac65cef6a8710109b4797fd39cc4d970c511b3bb",
+          "symbols": [
+            {
+              "symbol": "BatchedGraphEncoder",
+              "source_fragment_sha256": "01a74adea05b07ab653509655dab7737c081876b9b8ced6b24db2839a82cd74e",
+              "first_line": 10,
+              "last_line": 32
+            },
+            {
+              "symbol": "StaticSealedHead",
+              "source_fragment_sha256": "8b210fb093dfac3f49190e7943d812fc935be5afa9928ec55e4dabbdad0f0981",
+              "first_line": 35,
+              "last_line": 43
+            },
+            {
+              "symbol": "optimize",
+              "source_fragment_sha256": "6715bd9e5ce88e0ff80b474539168f9e4f9683ec08c032522f3377377dc68d35",
+              "first_line": 46,
+              "last_line": 55
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "source": "docs/acceptance/S21A_GRAPH_DEEP_LIGHTWEIGHT_POSTHOC_V1.md",
+          "sha256": "caeae6dece58aa97af9eea43e16e9cd7f143f1ca9ef35544bdc25903855dc87e"
+        },
+        {
+          "source": "docs/provenance/graph_deep_lightweight_v1/closeout.json",
+          "sha256": "5f074599fd2e3d5394fb7cfdc73f68123963608cb0a2d8e858c08bd73511a32a"
+        }
+      ]
     }
   ],
   "shared_dependencies": "fh_liteformer.models.common and fh_liteformer.topology are exact computational definitions already bound in provenance/source_lineage.json"
